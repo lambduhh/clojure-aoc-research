@@ -4,8 +4,10 @@
            :extra-paths ["test"]
            :requires ([clojure.test :as t]
                       [research.names-test]
-                      [research.clone-test])
-           :task (let [{:keys [fail error]} (t/run-tests 'research.names-test 'research.clone-test)]
+                      [research.clone-test]
+                      [research.puzzle-test]
+                      [research.inventory-test])
+           :task (let [{:keys [fail error]} (t/run-tests 'research.names-test 'research.clone-test 'research.puzzle-test 'research.inventory-test)]
                    (System/exit (if (zero? (+ fail error)) 0 1)))}
   collect {:doc "Download Thiago's pinned datasets and write data/repos.edn"
            :requires ([research.collect :as c])
@@ -15,4 +17,10 @@
            :task (apply c/-main *command-line-args*)}
   status  {:doc "Summarise the clone log"
            :requires ([research.clone :as c])
-           :task (c/print-status)}}}
+           :task (c/print-status)}
+  extract {:doc "Summarise every cloned repo into the cache (resumable). Flags: --force --jobs N"
+           :requires ([research.extract :as x])
+           :task (apply x/-main *command-line-args*)}
+  extract-summary {:doc "Counts across all extracted repos"
+                   :requires ([research.extract :as x])
+                   :task (x/summary)}}}
