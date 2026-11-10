@@ -1,0 +1,18 @@
+{:paths ["src"]
+ :tasks
+ {test    {:doc "Run the babashka tests"
+           :extra-paths ["test"]
+           :requires ([clojure.test :as t]
+                      [research.names-test]
+                      [research.clone-test])
+           :task (let [{:keys [fail error]} (t/run-tests 'research.names-test 'research.clone-test)]
+                   (System/exit (if (zero? (+ fail error)) 0 1)))}
+  collect {:doc "Download Thiago's pinned datasets and write data/repos.edn"
+           :requires ([research.collect :as c])
+           :task (c/-main)}
+  clone   {:doc "Shallow-clone every repo in data/repos.edn into the cache (resumable). Flags: --limit N --jobs N --retry-failed"
+           :requires ([research.clone :as c])
+           :task (apply c/-main *command-line-args*)}
+  status  {:doc "Summarise the clone log"
+           :requires ([research.clone :as c])
+           :task (c/print-status)}}}
