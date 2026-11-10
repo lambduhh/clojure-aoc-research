@@ -21,6 +21,11 @@
   extract {:doc "Summarise every cloned repo into the cache (resumable). Flags: --force --jobs N"
            :requires ([research.extract :as x])
            :task (apply x/-main *command-line-args*)}
+  after-clone {:doc "Run every stage after cloning, in order: extract, clj-kondo, core vars, Datomic load"
+               :task (do (run 'extract)
+                         (shell "clojure -M:kondo")
+                         (shell "clojure -M:core-vars")
+                         (shell "clojure -M:load --note full-run"))}
   extract-summary {:doc "Counts across all extracted repos"
                    :requires ([research.extract :as x])
                    :task (x/summary)}}}

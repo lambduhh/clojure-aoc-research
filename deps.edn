@@ -6,4 +6,5 @@
          com.datomic/local   {:mvn/version "1.0.301"}}
  :aliases
  {:kondo     {:main-opts ["-m" "research.kondo"]}
-  :core-vars {:main-opts ["-m" "research.core-vars"]}}}
+  :core-vars {:main-opts ["-m" "research.core-vars"]}
+  :load      {:jvm-opts ["-Xmx6g"] :main-opts ["-m" "research.load"]}}}
