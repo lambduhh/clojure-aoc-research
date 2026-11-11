@@ -9,8 +9,9 @@ ai_assisted: "Claude Opus 5.5 via Claude Code"
 session: 0a61cb0b
 tools: [babashka, clojure, Datomic Local, gh]
 agents_skills: []
-review_maturity: L1 (Human-directed)
-review_note: "Decisions are Jordan's; Claude drafted the text. Not yet read end to end by a human."
+review_maturity: L2 (Human-reviewed)
+review_note: "Viewed by lambduhh in PR #4 on 2026-11-11."
+reviewed_at: 2026-11-11
 ---
 
 # Pre-registration: lines of code across languages (questions 11–13)
