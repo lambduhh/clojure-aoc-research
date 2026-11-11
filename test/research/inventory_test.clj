@@ -45,6 +45,18 @@
       (inv/project-clj-deps (str "(defproject evil \"1\" :dependencies [[a ~(spit \"" marker "\" \"pwned\")]])"))
       (is (not (fs/exists? marker))))))
 
+(deftest mix-comments-are-ignored
+  (is (= [{:dep/coord "phoenix_live_view" :decl/version "~> 1.0.0-rc" :decl/scope :main}]
+         (inv/mix-exs-deps "  # TODO bump on release to {:phoenix_live_view, \"~> 1.0.0\"},\n  {:phoenix_live_view, \"~> 1.0.0-rc\", override: true}, # trailing\n"))))
+
+(deftest templates
+  (testing "same content (digits normalised) for 2+ days in one repo = template"
+    (let [files [{:file/path "src/day01.zig" :file/fingerprint "A" :puzzle/keys #{[2023 1]}}
+                 {:file/path "src/day02.zig" :file/fingerprint "A" :puzzle/keys #{[2023 2]}}
+                 {:file/path "src/day03.zig" :file/fingerprint "B" :puzzle/keys #{[2023 3]}}]]
+      (is (= [true true false] (map :file/template? (inv/mark-templates files))))))
+  (is (= (inv/fingerprint "pub fn main() void { day(1); }") (inv/fingerprint "pub fn main() void {\n  day(23); }"))))
+
 (deftest other-build-files
   (is (= [{:dep/coord "libgraph" :decl/version "~> 0.16" :decl/scope :main}]
          (inv/mix-exs-deps "defp deps do\n  [{:libgraph, \"~> 0.16\"}]\nend")))

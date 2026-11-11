@@ -15,7 +15,8 @@ This file is committed **before** any cross-language line-count comparison is co
 - **Population:** AoC-named repos created 2015–2025 whose primary language is Clojure, Elixir, OCaml or Zig. They come from [programming-language-vitality](https://github.com/thiagooak/programming-language-vitality/tree/916e0f55bd44afe55382c9925f05cf3e243abfc8) at commit `916e0f5` ([`data/repos.edn`](../data/repos.edn)).
 - **Unit:** a **solution**, meaning one repo's solution files for one puzzle `[year day]`, added together. Part 1 and part 2 in separate files count as one solution.
 - **Inclusion:**
-  - `:file/role :solution`;
+  - `:file/role :solution`, which excludes `:config`;
+  - not a template (`:file/template?` false; see amendment 1);
   - a mapped puzzle;
   - the file language matches the repo's dataset language.
 - **Exclusion:** solutions over 2,000 code lines, which are likely generated or copied in. The number excluded is reported for each language.
@@ -83,4 +84,23 @@ For each comparison language L (Elixir, OCaml and Zig, each tested separately):
 
 ## Deviations
 
-*None yet.*
+### Amendment 1 (2026-11-10, before any comparison)
+
+The first mapper-precision sample (seed 20261110, 160 files, two blind labellers) measured **84.2%** precision on mapped files (101/120). That's below the 95% gate, and it varied by language:
+
+| Language | Correct |
+|---|---|
+| Clojure | 28/30 |
+| Elixir | 29/30 |
+| OCaml | 25/30 |
+| Zig | 19/30 |
+
+The causes, each fixed with a test:
+
+1. A two-digit-year pattern read `day15` as `y15` (2015), so every day 15–25 got the wrong year, or none.
+2. Build and config files (`build.zig`, `mix.exs`, `.formatter.exs`) were classed as solutions. They now get role `:config`.
+3. Unfilled templates and stubs counted as solutions. Files whose digit-normalised content is shared across 2 or more puzzles in a repo are now `:file/template? true` and are **excluded** from questions 11–13. Templates are more common in Zig and Elixir repos, so leaving them in would have biased those comparisons.
+4. Missed day patterns (`5a`, `01_2`, `23.1`, `Day 5`, `10-factory`, `Q22`, `ex1`).
+5. Four-digit years now outrank two-digit years.
+
+The fixes were tuned on that sample, so precision is **re-measured on a fresh holdout sample** with a different seed before any comparison runs. Both measurements are reported.

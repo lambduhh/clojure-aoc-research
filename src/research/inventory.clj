@@ -207,9 +207,26 @@
                        x)))))
     (catch Exception _ ::unreadable)))
 
+(defn strip-elixir-comment
+  "Drop a # comment from one line: a # outside a string that doesn't start
+  string interpolation (#{)."
+  [line]
+  (let [n (count line)]
+    (loop [i 0 in-str? false]
+      (if (>= i n)
+        line
+        (let [c (.charAt ^String line i)]
+          (cond
+            (and in-str? (= c \\))                          (recur (+ i 2) in-str?)
+            (= c \")                                        (recur (inc i) (not in-str?))
+            (and (not in-str?) (= c \#)
+                 (not= \{ (when (< (inc i) n) (.charAt ^String line (inc i))))) (subs line 0 i)
+            :else                                           (recur (inc i) in-str?)))))))
+
 (defn mix-exs-deps [text]
-  (vec (for [[_ dep version] (re-seq #"\{\s*:(\w+)\s*,\s*\"([^\"]*)\"" text)]
-         {:dep/coord dep :decl/version version :decl/scope :main})))
+  (let [code (str/join "\n" (map strip-elixir-comment (str/split-lines text)))]
+    (vec (for [[_ dep version] (re-seq #"\{\s*:(\w+)\s*,\s*\"([^\"]*)\"" code)]
+           {:dep/coord dep :decl/version version :decl/scope :main}))))
 
 (defn zon-deps [text]
   (let [block (second (re-find #"(?s)\.dependencies\s*=\s*\.\{(.*)" text))]
@@ -246,6 +263,29 @@
            {:decl/source rel :decl/status :ok :decl/deps result}))))
 
 ;; ---------------------------------------------------------------------------
+;; Templates: generated or copied-in day files that were never filled in
+
+(defn fingerprint
+  "Content with every digit run replaced by 0 and whitespace collapsed, then
+  hashed. Templates that differ only by day number share a fingerprint."
+  [text]
+  (let [norm (-> text (str/replace #"\d+" "0") (str/replace #"\s+" " ") str/trim)
+        md   (java.security.MessageDigest/getInstance "SHA-1")]
+    (apply str (map #(format "%02x" (bit-and % 0xff)) (.digest md (.getBytes ^String norm "UTF-8"))))))
+
+(defn mark-templates
+  "A file is a template when its fingerprint is shared by files mapped to two
+  or more different puzzles in the same repo."
+  [files]
+  (let [puzzles-by-fp (reduce (fn [m {:file/keys [fingerprint] :puzzle/keys [keys]}]
+                                (if (and fingerprint (seq keys)) (update m fingerprint into keys) m))
+                              {} files)]
+    (mapv (fn [{:file/keys [fingerprint] :as f}]
+            (assoc f :file/template? (boolean (and fingerprint (seq (:puzzle/keys f))
+                                                   (> (count (get puzzles-by-fp fingerprint)) 1)))))
+          files)))
+
+;; ---------------------------------------------------------------------------
 ;; Walking a repo
 
 (defn- inside? [root p]
@@ -279,6 +319,7 @@
                         (merge {:file/path rel :file/lang lang :file/status :ok :file/bytes size
                                 :file/runtime (runtime ext text) :file/module ns-name}
                                (count-lines lang text)
+                               {:file/fingerprint (fingerprint text)}
                                (puzzle/map-file {:path rel :ns-name ns-name :repo-name repo-name
                                                  :created-at (:repo/created-at repo)})))))]
     {:repo/id             (:repo/id repo)
@@ -288,4 +329,4 @@
      :repo/editor-signals (present repo-dir editor-signals)
      :repo/java-version   (java-version repo-dir)
      :repo/declarations   (declarations repo-dir rels)
-     :repo/files          (vec sources)}))
+     :repo/files          (mark-templates (vec sources))}))

@@ -68,6 +68,7 @@
                             :file/repo "repo" :file/path path :file/lang (:file/lang f)
                             :file/status (:file/status f) :file/bytes (:file/bytes f)}
                      (:file/role f) (assoc :file/role (:file/role f))
+                     (some? (:file/template? f)) (assoc :file/template? (:file/template? f))
                      (:file/runtime f) (assoc :file/runtime (:file/runtime f))
                      (:file/module f) (assoc :file/module (:file/module f))
                      (:file/lines f) (assoc :file/lines (:file/lines f))
@@ -86,7 +87,7 @@
         decls    (for [{:decl/keys [status source deps]} (:repo/declarations extract)
                        :when (= :ok status)
                        {:dep/keys [coord] :decl/keys [version scope]} deps]
-                   (cond-> {:decl/key (str (name lang) ":" id "|" source "|" coord "|" (pr-str scope))
+                   (cond-> {:decl/key (str (name lang) ":" id "|" source "|" coord "|" (pr-str scope) "|" version)
                             :decl/repo "repo" :decl/dep (dep-ref coord) :decl/source source
                             :decl/scope (if (keyword? scope) scope (keyword (str scope)))}
                      version (assoc :decl/version version)))

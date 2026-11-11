@@ -45,6 +45,42 @@
   (are [path] (empty? (:puzzle/keys (mapped path)))
     "src/aoc2018/d3js.clj" "src/aoc2018/decode.clj" "src/aoc2018/someone.clj" "src/aoc2018/core.clj"))
 
+(deftest day-numbers-are-not-years
+  (testing "'day15' must not read as y15 = 2015 (found by the labelled sample)"
+    (are [path repo year day] (= #{[year day]} (:puzzle/keys (mapped path :repo-name repo)))
+      "src/main/day_20.clj"           "advent-2017"          2017 20
+      "src/advent_of_code/day20.clj"  "advent-2023-clojure"  2023 20
+      "day16/puzzle1.exs"             "advent_of_code_2018"  2018 16
+      "bin/Day15.ml"                  "AdventOfCode2023"     2023 15
+      "day15/solution.ml"             "aoc2024"              2024 15
+      "Day15/day15.zig"               "zig_aoc2020"          2020 15
+      "src/day16_2/main.zig"          "advent-of-code-2021"  2021 16
+      "src/day25.clj"                 "aoc-2018-clojure"     2018 25
+      "day25.zig"                     "advent-of-code-2021"  2021 25))
+  (testing "genuine two-digit years still work"
+    (are [path year] (= year (ffirst (:puzzle/keys (mapped path :repo-name "x"))))
+      "src/aoc22/day05.ml" 2022 "y2016/d03.ex" 2016 "year19/day01.clj" 2019 "src/advent17/day02.clj" 2017)))
+
+(deftest four-digit-years-beat-two-digit-years
+  (is (= #{[2020 21]} (:puzzle/keys (mapped "src/aoc21/a/21a.ml" :repo-name "aoc-2020")))))
+
+(deftest more-day-shapes
+  (are [path repo year day] (= #{[year day]} (:puzzle/keys (mapped path :repo-name repo)))
+    "5a.ex"                     "adventofcode2016"   2016 5
+    "2015/6b.zig"               "x"                  2015 6
+    "src/01_2.zig"              "adventofcode2020"   2020 1
+    "23.1/main.zig"             "aoc2023"            2023 23
+    "Day 5/src/parsing.zig"     "advent-of-code-2025" 2025 5
+    "10-factory/main.zig"       "AoC-2025"           2025 10
+    "lib/Q22/Q22.ex"            "aoc2021"            2021 22
+    "src/adventofcode_2019/ex1.clj" "aoc-2019"       2019 1))
+
+(deftest config-files
+  (are [path] (= :config (:file/role (mapped path)))
+    "11/build.zig" "2023-day3-zig/build.zig" "day1/mix.exs" "2021/elixir/apps/day5/.formatter.exs"
+    "day07/dune" "src/day02/project.clj" "build.zig.zon")
+  (is (empty? (:puzzle/keys (mapped "2023-day3-zig/build.zig"))) "config files don't map to a puzzle"))
+
 (deftest invalid-days
   (is (empty? (:puzzle/keys (mapped "src/aoc2021/day26.clj"))))
   (is (empty? (:puzzle/keys (mapped "src/aoc2025/day13.clj"))) "2025 had 12 days")
