@@ -1,6 +1,6 @@
 {:paths ["src"]
  ;; temper's OKF tools validate the docs/ bundle (lambduhh/temper, private).
- :deps  {io.github.lambduhh/temper {:git/sha "caa0f5d41cfb8adce8866494e282433f4f5d2a92"}}
+ :deps  {io.github.lambduhh/temper {:git/sha "217a37c6f644c4d634e3efb4f2c6e0123753f5cc"}}
  :tasks
  {test    {:doc "Run the babashka tests"
            :extra-paths ["test"]
