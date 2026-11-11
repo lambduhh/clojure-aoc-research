@@ -1,0 +1,163 @@
+;; Labels for mapper-sample.edn: two blind AI labellers (same model; agreed on all 160), pending Jordan's spot-check.
+[
+{:id 1, :label [2019 11], :label-solution? true, :confidence "high", :evidence "ns advent-of-code-2019.day11; intcode hull-painting robot"}
+{:id 2, :label [2016 14], :label-solution? true, :confidence "high", :evidence "ns aoc-2016.day14; MD5 stretched keys, triple/5-in-a-row"}
+{:id 3, :label [2025 5], :label-solution? true, :confidence "high", :evidence "dir 2025/, ns aoc.day05; fresh-ID ranges 'a-b'"}
+{:id 4, :label [2024 11], :label-solution? true, :confidence "high", :evidence "repo Advent-of-Code-2024, src/day11; stone split / *2024 rule"}
+{:id 5, :label [2020 16], :label-solution? true, :confidence "high", :evidence "dir aoc-2020-clojure, day16; ticket field rules 'a-b or c-d'"}
+{:id 6, :label [2015 3], :label-solution? true, :confidence "high", :evidence "ns advent-of-code-2015.day3; ^v<> house deliveries"}
+{:id 7, :label [2023 8], :label-solution? true, :confidence "high", :evidence "ns advent-of-code-2023.solutions.day8; L/R node network"}
+{:id 8, :label [2025 11], :label-solution? true, :confidence "high", :evidence "repo aoc-2025, dir day-11; count paths 'you' -> 'out'"}
+{:id 9, :label [2021 10], :label-solution? true, :confidence "high", :evidence "repo advent2021, day10; bracket syntax scoring 3/57/1197/25137"}
+{:id 10, :label [2022 14], :label-solution? true, :confidence "high", :evidence "repo aoc-2022, ns aoc.day14 (def day 14); rock path parsing"}
+{:id 11, :label [2015 16], :label-solution? true, :confidence "high", :evidence "ns adventofcode.2015.day16; Aunt Sue MFCSAM tape"}
+{:id 12, :label [2022 1], :label-solution? true, :confidence "high", :evidence "ns _2022.day-1; elf calories top three"}
+{:id 13, :label [2016 11], :label-solution? false, :confidence "medium", :evidence "repo advent-2016, src/day11.clj contains only pasted RTG puzzle text, no code"}
+{:id 14, :label [2020 19], :label-solution? true, :confidence "high", :evidence "ns adventofcode-2020.exercises.day-19.part-1; message rules"}
+{:id 15, :label [2020 1], :label-solution? true, :confidence "high", :evidence "dir year2020, day1; pairs/triples summing to 2020"}
+{:id 16, :label [2023 1], :label-solution? true, :confidence "high", :evidence "repo AdventOfCode2023, day1; calibration digits incl. spelled words"}
+{:id 17, :label [2022 14], :label-solution? true, :confidence "high", :evidence "repo advent-2022-clojure, day14; falling sand from 500,0"}
+{:id 18, :label [2020 5], :label-solution? true, :confidence "high", :evidence "ns aoc2020.day5; FBLR boarding pass seat IDs"}
+{:id 19, :label [2024 16], :label-solution? true, :confidence "high", :evidence "ns aoc2024.day16; S/E maze with turn cost 1000"}
+{:id 20, :label [2017 20], :label-solution? false, :confidence "medium", :evidence "repo advent-2017, day_20.clj is an empty stub (ns + empty comment)"}
+{:id 21, :label [2020 4], :label-solution? true, :confidence "high", :evidence "repo advent-of-code-2020, day4; passport byr/iyr/hgt validation"}
+{:id 22, :label [2015 11], :label-solution? true, :confidence "high", :evidence "repo created Dec 2015, day_11; password increment, no i/l/o"}
+{:id 23, :label [2020 9], :label-solution? true, :confidence "high", :evidence "dir 2020/, day09; XMAS 25-number preamble"}
+{:id 24, :label [2024 15], :label-solution? true, :confidence "high", :evidence "ns advent-of-code.2024.day-15; warehouse robot pushing boxes"}
+{:id 25, :label [2016 4], :label-solution? true, :confidence "high", :evidence "repo created Dec 2016, day_4; encrypted room names with checksum"}
+{:id 26, :label [2017 22], :label-solution? true, :confidence "high", :evidence "dir 2017/, ns aoc.day22; virus carrier clean/weakened/infected/flagged"}
+{:id 27, :label [2015 2], :label-solution? true, :confidence "high", :evidence "ns advent-of-code.dec-2015.day-02; wrapping paper LxWxH"}
+{:id 28, :label [2023 20], :label-solution? true, :confidence "high", :evidence "repo advent-2023-clojure, day20; broadcaster/flip-flop/conjunction modules"}
+{:id 29, :label [2016 12], :label-solution? true, :confidence "high", :evidence "ns aoc.2016.12; assembunny cpy/inc/dec/jnz"}
+{:id 30, :label [2018 4], :label-solution? true, :confidence "high", :evidence "path src/advent2018/4.clj; guard sleep records"}
+{:id 31, :label nil, :label-solution? false, :confidence "high", :evidence "core.clj runner requiring all day-01..25 namespaces"}
+{:id 32, :label nil, :label-solution? false, :confidence "high", :evidence "src/main.clj contains only empty ns with gen-class"}
+{:id 33, :label nil, :label-solution? false, :confidence "high", :evidence "project.clj build file"}
+{:id 34, :label nil, :label-solution? false, :confidence "high", :evidence "dev/user.clj for a Chestnut/figwheel web app, not AoC"}
+{:id 35, :label nil, :label-solution? false, :confidence "high", :evidence "project.clj build file"}
+{:id 36, :label [2019 1], :label-solution? true, :confidence "high", :evidence "repo aoc-2019, ex1.clj; fuel = floor(mass/3)-2, recursive"}
+{:id 37, :label nil, :label-solution? false, :confidence "high", :evidence "dev/user.clj REPL refresh setup"}
+{:id 38, :label [2015 11], :label-solution? true, :confidence "high", :evidence "ns aoc2015.aoc11; password increment with straight/pairs, no i/o/l"}
+{:id 39, :label nil, :label-solution? false, :confidence "high", :evidence "advent2015.core: shared input-fetch and parsing utilities"}
+{:id 40, :label [2018 25], :label-solution? true, :confidence "high", :evidence "repo aoc-2018-clojure, day25; 4D constellations within distance 3"}
+{:id 41, :label [2023 18], :label-solution? false, :confidence "medium", :evidence "untouched starter-template mix task d18.p2; Day18 module is empty stub"}
+{:id 42, :label [2019 8], :label-solution? false, :confidence "high", :evidence "lib/2019/day_08.ex empty part1/part2 stub"}
+{:id 43, :label [2025 4], :label-solution? true, :confidence "high", :evidence "module Aoc.Year2025.Day04; paper rolls '@' with <4 neighbors"}
+{:id 44, :label [2020 20], :label-solution? true, :confidence "high", :evidence "repo aoc_2020, Day20; tile edges + sea monster"}
+{:id 45, :label [2020 10], :label-solution? true, :confidence "high", :evidence "repo aoc_2020, dir 10/; joltage adapter chains"}
+{:id 46, :label [2023 6], :label-solution? true, :confidence "medium", :evidence "dir 2023/, mix task d06.p1 runner; Day06 module has real race solution"}
+{:id 47, :label [2018 16], :label-solution? true, :confidence "high", :evidence "repo advent_of_code_2018, day16/puzzle1.exs; samples matching >=3 opcodes"}
+{:id 48, :label [2022 8], :label-solution? true, :confidence "high", :evidence "repo 2022-advent-of-code, day_eight; tree grid 30373"}
+{:id 49, :label [2022 11], :label-solution? true, :confidence "high", :evidence "dir 2022-elixir_app/.../11, monkey_business; monkey inspections"}
+{:id 50, :label [2023 5], :label-solution? true, :confidence "high", :evidence "module AdventOfCode2023.Day5; seed-to-location maps"}
+{:id 51, :label [2020 23], :label-solution? false, :confidence "medium", :evidence "untouched starter-template mix task d23.p2; Day23 module is empty stub"}
+{:id 52, :label [2017 15], :label-solution? false, :confidence "medium", :evidence "dir 2017/, untouched template mix task d15.p2; Day15 module is empty stub"}
+{:id 53, :label [2024 1], :label-solution? true, :confidence "high", :evidence "module Aoc2024.Day01; two-list distance and similarity"}
+{:id 54, :label [2021 2], :label-solution? true, :confidence "high", :evidence "repo aoc-2021, day02/el_b.exs; horizontal*depth with aim"}
+{:id 55, :label [2022 7], :label-solution? true, :confidence "high", :evidence "repo advent-of-code-2022, Day07; cd/ls filesystem, 70000000/30000000"}
+{:id 56, :label [2023 5], :label-solution? true, :confidence "high", :evidence "repo advent2023, day5/main.ex; seed category range maps"}
+{:id 57, :label [2021 4], :label-solution? true, :confidence "high", :evidence "dir 2021/lib/day4, part 2; bingo last winning board"}
+{:id 58, :label [2023 4], :label-solution? false, :confidence "medium", :evidence "repo AoC23, untouched template mix task d04.p2; Day04 module is empty stub"}
+{:id 59, :label [2025 3], :label-solution? true, :confidence "high", :evidence "module Solutions.Y25.Day03; max joltage from battery digits"}
+{:id 60, :label [2023 2], :label-solution? true, :confidence "medium", :evidence "repo aoc_2023, mix task d02.p2 with inline 'Game N: ... red/green/blue' input; Day02 implemented"}
+{:id 61, :label [2016 3], :label-solution? true, :confidence "high", :evidence "lib/2016/day3.ex; valid triangles, column chunks of 3"}
+{:id 62, :label [2022 2], :label-solution? true, :confidence "medium", :evidence "mix task d02.p1 with Input.get!(2, 2022); Day02 implemented"}
+{:id 63, :label [2021 1], :label-solution? false, :confidence "medium", :evidence "repo aoc2021, day1/mix.exs project build file"}
+{:id 64, :label [2021 5], :label-solution? false, :confidence "medium", :evidence "2021/elixir/apps/day5/.formatter.exs formatter config"}
+{:id 65, :label [2022 2], :label-solution? true, :confidence "high", :evidence "dir aoc2022, day2.ex; rock-paper-scissors 'A X' scores"}
+{:id 66, :label [2021 7], :label-solution? true, :confidence "high", :evidence "repo aoc_2021, Day07; crab alignment fuel"}
+{:id 67, :label [2020 12], :label-solution? true, :confidence "high", :evidence "module Aoc.Y2020.Day12; ship navigation manhattan distance"}
+{:id 68, :label [2019 6], :label-solution? false, :confidence "medium", :evidence "day_six/orbit/.formatter.exs config; sibling orbit.ex says 'Day Six AoC 2019'"}
+{:id 69, :label [2022 5], :label-solution? true, :confidence "high", :evidence "repo advent-of-code-2022, day05/day0501.exs; crate stacks moves"}
+{:id 70, :label [2024 12], :label-solution? true, :confidence "high", :evidence "dir 2024/day12; garden regions area*perimeter/sides"}
+{:id 71, :label [2021 22], :label-solution? true, :confidence "high", :evidence "repo aoc2021, Q22; reactor reboot on/off cuboids"}
+{:id 72, :label nil, :label-solution? false, :confidence "high", :evidence "Utils.Math clamp/modulo shared utility"}
+{:id 73, :label nil, :label-solution? false, :confidence "high", :evidence "template mix task d13.p1 in 2025 repo; Day13 stub empty and 2025 has no day 13"}
+{:id 74, :label [2016 5], :label-solution? true, :confidence "high", :evidence "repo adventofcode2016, 5a.ex; MD5 '00000' door password"}
+{:id 75, :label nil, :label-solution? false, :confidence "high", :evidence "Advent2019 input-file helper module"}
+{:id 76, :label nil, :label-solution? false, :confidence "high", :evidence "config/test.exs config"}
+{:id 77, :label nil, :label-solution? false, :confidence "high", :evidence "mix task fetch: input/scaffold fetcher for all 2025 days"}
+{:id 78, :label [2022 25], :label-solution? false, :confidence "high", :evidence "repo advent-of-code-2022, day_25.ex empty part1/part2 stub"}
+{:id 79, :label nil, :label-solution? false, :confidence "high", :evidence "generated hello-world app module"}
+{:id 80, :label nil, :label-solution? false, :confidence "high", :evidence "config/config.exs session cookie config"}
+{:id 81, :label [2021 5], :label-solution? true, :confidence "high", :evidence "repo aoc21ocaml, lib/day5.ml; sample '0,9 -> 5,9' vent lines -> 2021 day 5"}
+{:id 82, :label [2020 5], :label-solution? true, :confidence "high", :evidence "repo aoc2020, d05/; F/B L/R boarding pass seat ids -> 2020 day 5"}
+{:id 83, :label [2023 15], :label-solution? true, :confidence "high", :evidence "repo AdventOfCode2023, Day15.ml; HASH (acc+ascii)*17 mod 256"}
+{:id 84, :label [2024 2], :label-solution? true, :confidence "high", :evidence "advent2024/lib/two.ml; safe reports with abs diff <= 3 -> 2024 day 2"}
+{:id 85, :label [2017 22], :label-solution? true, :confidence "high", :evidence "dir 2017/22/; virus carrier infections grid"}
+{:id 86, :label [2021 1], :label-solution? true, :confidence "high", :evidence "input path inputs/2021/day_1.txt; depth differences (sonar sweep)"}
+{:id 87, :label [2021 20], :label-solution? true, :confidence "high", :evidence "dir 2021/20/; image enhancement 3x3 neighbor index (trench map)"}
+{:id 88, :label [2022 2], :label-solution? true, :confidence "high", :evidence "repo aoc2022, day2/; rock-paper-scissors A/B/C X/Y/Z scoring"}
+{:id 89, :label [2022 6], :label-solution? true, :confidence "high", :evidence "repo aoc-2022, day6.ml; distinct window of 4/14 chars"}
+{:id 90, :label [2023 3], :label-solution? true, :confidence "high", :evidence "repo Advent_Code_2023, lib/day_3.ml; part numbers in schematic"}
+{:id 91, :label [2024 6], :label-solution? true, :confidence "high", :evidence "repo Advent-of-Code-2024, lib/day_6.ml, input/6.txt; guard direction/movement set"}
+{:id 92, :label [2025 12], :label-solution? true, :confidence "high", :evidence "file problem_2025_12.ml; parses # shapes and WxH regions"}
+{:id 93, :label [2017 17], :label-solution? true, :confidence "high", :evidence "repo adventofcode-2017, day17/problem02; spinlock"}
+{:id 94, :label [2024 15], :label-solution? true, :confidence "high", :evidence "repo aoc2024, day15/; pushing boxes in warehouse grid"}
+{:id 95, :label [2019 6], :label-solution? true, :confidence "high", :evidence "dir 2019/06/; COM orbit map"}
+{:id 96, :label [2022 11], :label-solution? true, :confidence "high", :evidence "repo 2022-advent-of-code, day11/; Monkey items/worry level"}
+{:id 97, :label [2022 4], :label-solution? true, :confidence "high", :evidence "repo aoc22_ocaml, bin/day4_2.ml; overlapping section ranges"}
+{:id 98, :label [2025 11], :label-solution? true, :confidence "high", :evidence "dir 25/day11p2.ml; path counts svr->fft/dac->out"}
+{:id 99, :label nil, :label-solution? false, :confidence "medium", :evidence "day19/part1.ml in 2021 repo is a boilerplate input-line counter, identical to day18/day20 part1.ml; no puzzle logic (nominally 2021 day 19)"}
+{:id 100, :label [2022 7], :label-solution? true, :confidence "high", :evidence "repo ocaml_advent_2022, bin/day7.ml; $ cd directory sizes"}
+{:id 101, :label [2019 11], :label-solution? true, :confidence "high", :evidence "dir 2019/11/; intcode robot color painting"}
+{:id 102, :label [2019 11], :label-solution? true, :confidence "high", :evidence "dir 2019/11/task1.ml; intcode hull painting robot"}
+{:id 103, :label [2022 3], :label-solution? true, :confidence "high", :evidence "repo aoc2022, day3/; rucksack halves priority"}
+{:id 104, :label [2023 7], :label-solution? true, :confidence "high", :evidence "dir 2023/bin/day07.ml; camel cards hand scoring"}
+{:id 105, :label [2025 2], :label-solution? true, :confidence "high", :evidence "repo advent-of-code-2025, days/day02; repeated-digit invalid IDs"}
+{:id 106, :label [2025 2], :label-solution? true, :confidence "high", :evidence "repo aoc2025, lib/day02.ml; ranges with repeated-substring invalid IDs"}
+{:id 107, :label [2019 3], :label-solution? true, :confidence "high", :evidence "repo aoc2019, 03/day3.ml; crossed wire paths R8,U5"}
+{:id 108, :label [2019 1], :label-solution? true, :confidence "high", :evidence "repo Advent-Of-Code-2019, bin/D1.ml; fuel mass/3-2"}
+{:id 109, :label [2022 9], :label-solution? true, :confidence "high", :evidence "repo advent_of_code_2022, src/day09pt2.ml; rope head/tail"}
+{:id 110, :label [2023 11], :label-solution? true, :confidence "high", :evidence "repo aoc-2023, days/day11.ml; galaxy expansion"}
+{:id 111, :label [2020 21], :label-solution? true, :confidence "high", :evidence "repo aoc-2020, src/aoc21/a/21a.ml; ingredients/allergens"}
+{:id 112, :label [2023 24], :label-solution? true, :confidence "high", :evidence "dir 2023/; file only defines/runs problem_24b (hailstone x,y,z @ vx,vy,vz)"}
+{:id 113, :label nil, :label-solution? false, :confidence "high", :evidence "hardcaml kernel parser interface (UART symbol types); shared infra"}
+{:id 114, :label nil, :label-solution? false, :confidence "high", :evidence "lib/parsers.ml generic Angstrom parser helpers"}
+{:id 115, :label nil, :label-solution? false, :confidence "high", :evidence "bin/control.ml runs infra Control.command; tooling"}
+{:id 116, :label nil, :label-solution? false, :confidence "high", :evidence "src/utils/map_utils.ml generic Map helpers"}
+{:id 117, :label nil, :label-solution? false, :confidence "high", :evidence "library root module re-exporting Parser/Utils"}
+{:id 118, :label nil, :label-solution? false, :confidence "high", :evidence "lib/aoc.ml only includes Core and utils modules"}
+{:id 119, :label nil, :label-solution? false, :confidence "medium", :evidence "bin/aoc1.ml placeholder that only prints 69; no puzzle logic (nominally 2024 day 1)"}
+{:id 120, :label nil, :label-solution? false, :confidence "high", :evidence "lib/mwlib.ml shared helper library (read_file, split_groups, product)"}
+{:id 121, :label [2022 4], :label-solution? true, :confidence "high", :evidence "src/2022/day04.zig; range containment/overlap pairs"}
+{:id 122, :label nil, :label-solution? false, :confidence "medium", :evidence "src/day19.zig is unmodified template with empty main; nominally 2019 day 19"}
+{:id 123, :label nil, :label-solution? false, :confidence "high", :evidence "11/build.zig is a build file (exe 'dayX'); nominally 2022 day 11"}
+{:id 124, :label [2020 15], :label-solution? true, :confidence "high", :evidence "repo zig_aoc2020, Day15/; memory game 2020th / 30000000th number"}
+{:id 125, :label [2023 19], :label-solution? true, :confidence "high", :evidence "repo aoc2023, src/day19.zig; workflows with rules < > (Aplenty)"}
+{:id 126, :label [2020 3], :label-solution? true, :confidence "high", :evidence "dir 2020/3/part1.zig; toboggan trees slope right 3"}
+{:id 127, :label nil, :label-solution? false, :confidence "high", :evidence "2023-day3-zig/build.zig is a zig init build file"}
+{:id 128, :label [2025 1], :label-solution? true, :confidence "high", :evidence "repo adventofcode2025, 01/main.zig; dial rotation mod 100 clicks"}
+{:id 129, :label [2019 3], :label-solution? true, :confidence "high", :evidence "dir 2019/d03.zig; wire points grid"}
+{:id 130, :label [2024 9], :label-solution? true, :confidence "high", :evidence "dir 2024/src/09/main.zig; entrypoint wiring day 9 parse/part_1/part_2"}
+{:id 131, :label [2023 1], :label-solution? true, :confidence "high", :evidence "dir 2023/src/day01.zig; digit words one..nine calibration"}
+{:id 132, :label [2024 5], :label-solution? true, :confidence "high", :evidence "repo aoc2024, src/day5.zig; page ordering"}
+{:id 133, :label [2019 15], :label-solution? true, :confidence "high", :evidence "repo aoc19, 15/part1.zig; intcode droid map oxygen"}
+{:id 134, :label nil, :label-solution? false, :confidence "medium", :evidence "advent2019/day25.zig is unimplemented stub (empty day25 fn); nominally 2019 day 25"}
+{:id 135, :label [2022 5], :label-solution? true, :confidence "high", :evidence "repo advent-2022, src/05.zig; crate stacks and moves"}
+{:id 136, :label [2025 9], :label-solution? true, :confidence "high", :evidence "repo AdventOfCode2025, src/day9.zig; red tile positions largest area"}
+{:id 137, :label [2024 13], :label-solution? true, :confidence "high", :evidence "puzzles/2024/2024-13-1.zig; button A/B tokens prize"}
+{:id 138, :label [2021 7], :label-solution? true, :confidence "high", :evidence "repo AOC2021, d7/; crab fuel alignment n(n+1)/2"}
+{:id 139, :label [2022 14], :label-solution? true, :confidence "high", :evidence "dir 2022/day-14/; rock/sand falling"}
+{:id 140, :label [2021 16], :label-solution? true, :confidence "high", :evidence "repo advent-of-code-2021, src/day16_2; hex packet decoder"}
+{:id 141, :label nil, :label-solution? false, :confidence "high", :evidence "unmodified generated template (partOne/partTwo return null); day16 does not exist in 2025"}
+{:id 142, :label [2024 5], :label-solution? true, :confidence "high", :evidence "src/2024/day5.zig; rules lhs|rhs page ordering"}
+{:id 143, :label nil, :label-solution? false, :confidence "medium", :evidence "src/day04.zig unmodified template with empty main; nominally 2021 day 4"}
+{:id 144, :label [2024 4], :label-solution? true, :confidence "high", :evidence "repo advent-of-code-2024, 04/; XMAS word search 8 directions"}
+{:id 145, :label nil, :label-solution? false, :confidence "medium", :evidence "src/day23.zig unmodified template with empty main; nominally 2023 day 23"}
+{:id 146, :label [2024 1], :label-solution? true, :confidence "high", :evidence "repo adventofcode-2024, 01.zig; prints 'Day 1: Historian Hysteria'"}
+{:id 147, :label nil, :label-solution? false, :confidence "high", :evidence "day1/src/root.zig is zig init boilerplate (add function test)"}
+{:id 148, :label [2025 1], :label-solution? true, :confidence "high", :evidence "repo aoc-2025, day_01.zig; L/R spins"}
+{:id 149, :label [2023 12], :label-solution? true, :confidence "high", :evidence "repo aoc-2023, days/12/part2.zig; memoized spring groups count"}
+{:id 150, :label [2023 7], :label-solution? true, :confidence "high", :evidence "repo AdventOfCode2023, day7/second.zig; camel card hand types"}
+{:id 151, :label [2025 5], :label-solution? true, :confidence "high", :evidence "repo advent-of-code-2025, 'Day 5/src/parsing.zig'; parses fresh ID ranges + IDs"}
+{:id 152, :label [2020 1], :label-solution? true, :confidence "high", :evidence "repo adventofcode2020, src/01_2.zig; three entries summing to 2020"}
+{:id 153, :label [2015 6], :label-solution? true, :confidence "high", :evidence "dir 2015/6b.zig; lights on/off/toggle instructions"}
+{:id 154, :label [2023 23], :label-solution? true, :confidence "high", :evidence "repo aoc2023, 23.1/main.zig; path/forest/slopes long walk"}
+{:id 155, :label nil, :label-solution? false, :confidence "high", :evidence "utils.zig generic file/line helpers"}
+{:id 156, :label nil, :label-solution? false, :confidence "high", :evidence "root main.zig is empty (0 lines)"}
+{:id 157, :label [2021 25], :label-solution? true, :confidence "high", :evidence "repo advent-of-code-2021, day25.zig; sea cucumbers > and v"}
+{:id 158, :label nil, :label-solution? false, :confidence "high", :evidence "src/utils.zig generic print/parse helpers"}
+{:id 159, :label [2025 10], :label-solution? true, :confidence "high", :evidence "repo AoC-2025, 10-factory/main.zig; indicator lights/buttons XOR"}
+{:id 160, :label nil, :label-solution? false, :confidence "high", :evidence "root build.zig iterating src subfolders; build file"}
+]

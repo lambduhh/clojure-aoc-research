@@ -1,0 +1,7 @@
+# The cache (datasets, clones, Datomic storage) lives outside the repo; see README.
+.cpcache/
+.nrepl-port
+.clj-kondo/.cache/
+.lsp/
+.calva/
+.DS_Store

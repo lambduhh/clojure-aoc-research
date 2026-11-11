@@ -1,0 +1,36 @@
+{:paths ["src"]
+ :tasks
+ {test    {:doc "Run the babashka tests"
+           :extra-paths ["test"]
+           :requires ([clojure.test :as t]
+                      [research.names-test]
+                      [research.clone-test]
+                      [research.puzzle-test]
+                      [research.inventory-test]
+                      [research.deps-test])
+           :task (let [{:keys [fail error]} (t/run-tests 'research.names-test 'research.clone-test 'research.puzzle-test 'research.inventory-test 'research.deps-test)]
+                   (System/exit (if (zero? (+ fail error)) 0 1)))}
+  collect {:doc "Download Thiago's pinned datasets and write data/repos.edn"
+           :requires ([research.collect :as c])
+           :task (c/-main)}
+  clone   {:doc "Shallow-clone every repo in data/repos.edn into the cache (resumable). Flags: --limit N --jobs N --retry-failed"
+           :requires ([research.clone :as c])
+           :task (apply c/-main *command-line-args*)}
+  status  {:doc "Summarise the clone log"
+           :requires ([research.clone :as c])
+           :task (c/print-status)}
+  extract {:doc "Summarise every cloned repo into the cache (resumable). Flags: --force --jobs N"
+           :requires ([research.extract :as x])
+           :task (apply x/-main *command-line-args*)}
+  test-jvm {:doc "Run the JVM tests (clj-kondo stage, Datomic loader)"
+            :task (shell "clojure" "-Sdeps" "{:aliases {:t {:extra-paths [\"test\"]}}}" "-M:t" "-e"
+                         "(require 'research.kondo-test 'research.load-test) (let [{:keys [fail error]} (clojure.test/run-tests 'research.kondo-test 'research.load-test)] (System/exit (if (zero? (+ fail error)) 0 1)))")}
+  after-clone {:doc "Rebuild everything after cloning: extract, clj-kondo, core vars, then a FRESH Datomic load. Pass a note, e.g. bb after-clone \"run 2\""
+               :task (let [note (or (first *command-line-args*) "full-run")]
+                       (run 'extract) ; resumable; use bb extract --force after code changes
+                       (shell "clojure -M:kondo")
+                       (shell "clojure -M:core-vars")
+                       (shell "clojure" "-M:load" "--fresh" "--note" note))}
+  extract-summary {:doc "Counts across all extracted repos"
+                   :requires ([research.extract :as x])
+                   :task (x/summary)}}}
