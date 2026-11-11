@@ -69,6 +69,16 @@ For each comparison language L (Elixir, OCaml and Zig, each tested separately):
 - Some solutions are golfed for brevity.
 - Since 2022, some solutions may be AI-written.
 - Zig is a systems language and verbose by design, so Clojure vs Zig is the least like-for-like comparison. Elixir, being dynamic and functional, is the closest peer.
+- **Clone funnel** (added 2026-11-10, after cloning and before any comparison). The 10 MB size cap skipped a larger share of OCaml and Zig repos than Clojure or Elixir repos:
+
+  | Language | Cap-skipped | Of listed | Missing | Failed | Cloned |
+  |---|---|---|---|---|---|
+  | Clojure | 12 | 3,512 (0.3%) | 10 | 1 | 3,489 |
+  | Elixir | 14 | 4,094 (0.3%) | 10 | 0 | 4,070 |
+  | OCaml | 41 | 1,426 (2.9%) | 4 | 0 | 1,381 |
+  | Zig | 55 | 1,928 (2.9%) | 12 | 0 | 1,861 |
+
+  If large repos differ systematically (e.g. monorepos covering several years), this biases OCaml and Zig more. A robustness check repeats question 11 on repos under 10 MB in every language, which is the same population, so it is reported as a caveat rather than an extra analysis.
 - Puzzle mapping depends on file paths. Mapping precision is measured on a hand-labelled sample before results are trusted, with a threshold of 95%.
 
 ## Deviations
