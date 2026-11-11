@@ -1,0 +1,203 @@
+;; Labels for holdout-sample.edn: two blind AI labellers using different methods (path-first, content-first), adjudicated where they disagreed. Pending Jordan's spot-check.
+[
+{:id 1, :label [2022 12], :solution? true, :template? false, :evidence "ns aoc2022.day12, URL 2022/day/12; hill-climb A* part1/part2"}
+{:id 2, :label [2022 17], :solution? true, :template? false, :evidence "src/adv2022/day17/sol.clj; falling-rock jet simulation"}
+{:id 3, :label [2023 7], :solution? true, :template? false, :evidence "repo aoc2023, day7/problem2.bb; camel cards with jokers"}
+{:id 4, :label [2019 5], :solution? true, :template? false, :evidence "repo advent-of-code-2019, day5.clj; intcode with input/output opcodes"}
+{:id 5, :label [2020 20], :solution? true, :template? false, :evidence "src/aoc/2020/20.clj; tile rotation/border jigsaw"}
+{:id 6, :label [2016 2], :solution? true, :template? false, :evidence "ns aoc2016.day2; bathroom keypad code (puzzle text plus code)"}
+{:id 7, :label [2025 6], :solution? true, :template? false, :evidence "repo advent-of-code-2025, 06/core.clj; cephalopod math worksheet part-1/part-2"}
+{:id 8, :label [2017 1], :solution? true, :template? false, :evidence "advent_2017/day_01.cljc; day-specific transducer used by day_01 part_1/part_2 solve"}
+{:id 9, :label [2017 21], :solution? true, :template? false, :evidence "src/aoc_2017/day21.clj; fractal art enhancement rules"}
+{:id 10, :label [2024 2], :solution? true, :template? false, :evidence "repo advent-of-code-2024, day_2.clj; safe/fixable reports"}
+{:id 11, :label [2018 1], :solution? true, :template? false, :evidence "repo advent-of-code-2018, day_1.clj; frequency sum and first repeat"}
+{:id 12, :label [2020 3], :solution? true, :template? false, :evidence "2020/03.bb; part-2 slope product driver that calls compiled 03.c"}
+{:id 13, :label [2022 8], :solution? true, :template? false, :evidence "year_2022/day_8.clj; tree visibility and scenic score"}
+{:id 14, :label [2018 19], :solution? true, :template? false, :evidence "advent_of_code_2018/day_19.clj 'Go With The Flow'; opcode implementations"}
+{:id 15, :label [2018 5], :solution? true, :template? false, :evidence "advent2018/day5.clj; polymer reaction and minimum length"}
+{:id 16, :label [2022 22], :solution? true, :template? false, :evidence "2022/day22.clj; monkey map board walk"}
+{:id 17, :label [2022 3], :solution? true, :template? false, :evidence "repo advent2022, day3.clj; rucksack priorities"}
+{:id 18, :label [2022 10], :solution? true, :template? false, :evidence "repo aoc2022-clojure, day10.clj; CRT signal strengths/drawing"}
+{:id 19, :label [2015 13], :solution? true, :template? false, :evidence "year_2015/day13.clj, docstring URL 2015/day/13; seating happiness"}
+{:id 20, :label [2022 3], :solution? true, :template? false, :evidence "repo advent-of-code-2022, twitch/day3pt1; rucksack shared items"}
+{:id 21, :label [2019 1], :solution? true, :template? false, :evidence "2019/src/day01; module fuel calculation"}
+{:id 22, :label [2023 9], :solution? true, :template? false, :evidence "repo Advent-of-Code-2023, day09/solution.clj; history extrapolation"}
+{:id 23, :label [2021 14], :solution? true, :template? false, :evidence "advent_of_code/2021/day14.clj; polymer pair insertion"}
+{:id 24, :label [2016 7], :solution? true, :template? false, :evidence "advent_2016/day7.clj; ABBA TLS / ABA SSL"}
+{:id 25, :label [2017 17], :solution? true, :template? false, :evidence "adventofcode/2017/day17.clj; spinlock buffer"}
+{:id 26, :label [2022 6], :solution? true, :template? false, :evidence "repo advent-of-code-2022, day06.clj; start-of-packet marker"}
+{:id 27, :label [2024 6], :solution? true, :template? false, :evidence "repo AdventOfCode2024Clj, day6/Guard.clj; guard patrol walk"}
+{:id 28, :label [2019 8], :solution? true, :template? false, :evidence "aoc2019/d8p2.clj; space image layer decoding"}
+{:id 29, :label [2020 1], :solution? true, :template? false, :evidence "repo adventofcode-20, day1.clj; expense report sum 2020"}
+{:id 30, :label [2023 8], :solution? true, :template? false, :evidence "repo adventofcode-2023, day8/b.clj; ghost network LCM"}
+{:id 31, :label nil, :solution? false, :template? false, :evidence "util/core.clj shared parsing/plotting helpers; no year in path"}
+{:id 32, :label nil, :solution? false, :template? false, :evidence "rob/2023/common.clj shared helper macros/functions"}
+{:id 33, :label [2017 10], :solution? true, :template? false, :evidence "2017/advent-10/core.clj; Knot Hash"}
+{:id 34, :label nil, :solution? false, :template? false, :evidence "multi-day file covering 2021 days 1-7, not one puzzle"}
+{:id 35, :label [2023 10], :solution? true, :template? false, :evidence "clojure/2023/src/adv/t10.clj; pipe maze tiles"}
+{:id 36, :label nil, :solution? false, :template? false, :evidence "gam/aoc.clj input download/fetch helper with 2022 URLs"}
+{:id 37, :label nil, :solution? false, :template? true, :evidence "generic day# template whose solve only pprints the file; not tied to any puzzle (repo is aoc2024, but the template has no target puzzle)"}
+{:id 38, :label [2022 4], :solution? true, :template? false, :evidence "repo AoC2022, advent4.clj; range subsume/overlap"}
+{:id 39, :label nil, :solution? false, :template? false, :evidence "advent_of_code_2020/utils.clj input reader helper"}
+{:id 40, :label nil, :solution? false, :template? false, :evidence "core.clj runner printing day1-5 solutions"}
+{:id 41, :label [2017 21], :solution? true, :template? false, :evidence "2017/clj day21.clj; fractal art enhance 5/18 iterations"}
+{:id 42, :label [2022 19], :solution? false, :template? true, :evidence "'Advent of Clerk: 2022: Day 19' header-only Clerk stub"}
+{:id 43, :label [2020 19], :solution? false, :template? true, :evidence "repo aoc-2020, day_19 identity part-1/part-2 stubs"}
+{:id 44, :label [2024 11], :solution? false, :template? true, :evidence "year2024/day11 data file with empty example/puzzle strings"}
+{:id 45, :label [2022 22], :solution? false, :template? true, :evidence "2022/22/problem_1.clj only reads input lines, no logic"}
+{:id 46, :label [2023 25], :solution? false, :template? true, :evidence "aoc/2023/day_25 Clerk header-only stub"}
+{:id 47, :label nil, :solution? false, :template? true, :evidence "nextjournal advent-of-clerk template repo; day_01 header-only, year-agnostic"}
+{:id 48, :label [2022 13], :solution? false, :template? true, :evidence "repo advent_of_code_2022, day_13 identity stubs"}
+{:id 49, :label [2023 24], :solution? false, :template? true, :evidence "2023/src day_24 identity stubs"}
+{:id 50, :label [2019 5], :solution? true, :template? false, :evidence "adventofcode2019/day05; runs shared intcode with inputs 1 and 5"}
+{:id 51, :label [2020 2], :solution? true, :template? false, :evidence "day02.ex password policy validation; no year in path, repo created 2020-12"}
+{:id 52, :label [2021 14], :solution? true, :template? false, :evidence "repo advent_of_code_2021, day_14.ex; polymer pair counts"}
+{:id 53, :label [2021 3], :solution? true, :template? false, :evidence "repo aoc2021, day3.exs; Binary Diagnostic URL 2021/day/3"}
+{:id 54, :label [2017 4], :solution? true, :template? false, :evidence "2017/04/code.exs header 'Advent of Code 2017, Day 4'; passphrases"}
+{:id 55, :label [2023 3], :solution? true, :template? false, :evidence "lib/y2023/day3.ex; part numbers in schematic"}
+{:id 56, :label [2023 8], :solution? true, :template? false, :evidence "2023/day8b.ex; ghost loop lengths LCM"}
+{:id 57, :label [2021 12], :solution? true, :template? false, :evidence "solution/year_2021/day_12.ex; cave path counting"}
+{:id 58, :label [2020 2], :solution? true, :template? false, :evidence "repo advent-of-code-2020, day2/part1.ex; password policy"}
+{:id 59, :label [2018 16], :solution? true, :template? false, :evidence "repo advent-of-code-2018-elixir, day_16_chronal_classification.ex"}
+{:id 60, :label [2024 1], :solution? true, :template? false, :evidence "repo AoC24, day_01.ex; sorted list distance/similarity"}
+{:id 61, :label [2024 14], :solution? true, :template? false, :evidence "repo aoc2024, days/day14.ex; robot quadrants and tree search"}
+{:id 62, :label [2022 1], :solution? true, :template? false, :evidence "repo aoc-2022, day_01.ex; calorie counting"}
+{:id 63, :label [2020 11], :solution? true, :template? false, :evidence "lib/y2020/day11.ex; seating system"}
+{:id 64, :label [2019 6], :solution? true, :template? false, :evidence "repo aoc-2019, day_06.ex; orbit map digraph"}
+{:id 65, :label [2022 4], :solution? true, :template? false, :evidence "repo adventofcode2022, day04/solve.exs; interval containment"}
+{:id 66, :label [2019 6], :solution? true, :template? false, :evidence "aoc_2019 day_06/orbit_set.ex; count_orbits and shortest_path used by Day06"}
+{:id 67, :label [2019 2], :solution? true, :template? false, :evidence "AdventOfCode2019.DayTwo; intcode add/multiply noun/verb"}
+{:id 68, :label [2023 11], :solution? true, :template? false, :evidence "moduledoc Cosmic Expansion URL 2023/day/11"}
+{:id 69, :label [2023 5], :solution? true, :template? false, :evidence "working almanac input parser written only for 2023 day 5, one module of a multi-file day solution (solver.exs/almanac.exs require it); not a shared utility"}
+{:id 70, :label [2020 9], :solution? true, :template? false, :evidence "repo advent-of-code-2020-elixir, day_09_encoding_error.ex"}
+{:id 71, :label [2016 5], :solution? true, :template? false, :evidence "05/doorcode.exs md5 door password with positions; repo created 2016-12"}
+{:id 72, :label [2024 17], :solution? true, :template? false, :evidence "solutions/2024/day17.ex; 3-bit computer opcodes"}
+{:id 73, :label [2016 1], :solution? true, :template? false, :evidence "lib/aoc_2016/day1.ex; taxicab distance via GenServer"}
+{:id 74, :label [2021 1], :solution? true, :template? false, :evidence "repo aoc_2021, day_one.ex; sonar sweep increases"}
+{:id 75, :label [2024 7], :solution? true, :template? false, :evidence "working Day7 equation input parser used by Part1/Part2 (sample 190: 10 19); module of a multi-file day solution"}
+{:id 76, :label [2024 24], :solution? true, :template? false, :evidence "repo aoc2024, day24.exs; logic gate wires part 1 (part 2 empty)"}
+{:id 77, :label [2021 5], :solution? false, :template? false, :evidence "aoc2021/day5/point.ex generic point struct, no puzzle logic"}
+{:id 78, :label [2022 1], :solution? true, :template? false, :evidence "elixir/lib/2022/1.ex 'aoc 2022, 1'; top calorie groups"}
+{:id 79, :label [2021 11], :solution? true, :template? false, :evidence "repo advent2021, apps/day11; octopus flashes"}
+{:id 80, :label [2022 16], :solution? true, :template? false, :evidence "2022/Elixir day_16.ex; valve pressure part1 (part2 empty)"}
+{:id 81, :label nil, :solution? false, :template? false, :evidence "adventure-game web app place macro; not AoC"}
+{:id 82, :label [2015 4], :solution? true, :template? false, :evidence "repo adventofcode-2015, adventcoints-4; md5 00000 mining"}
+{:id 83, :label [2021 2], :solution? true, :template? false, :evidence "Aoc.Dive moduledoc 'day 2'; forward/down/up with aim; repo created 2021-12"}
+{:id 84, :label [2022 7], :solution? true, :template? false, :evidence "repo advent-of-code-2022, no_space_left_on_device parser computing dir sizes"}
+{:id 85, :label nil, :solution? false, :template? false, :evidence "AdventOfCode2020 run_day dispatcher"}
+{:id 86, :label nil, :solution? false, :template? false, :evidence "AOC runner over days 1..25 in 2018 repo"}
+{:id 87, :label [2021 4], :solution? true, :template? false, :evidence "repo aoc2021, aoc04.exs; bingo boards"}
+{:id 88, :label [2016 7], :solution? true, :template? false, :evidence "day_7.ex IPv7 ABBA supernet/hypernet; no year in path"}
+{:id 89, :label [2023 7], :solution? true, :template? false, :evidence "apps/advent7a camel cards hand/bid ranking; repo created 2023-12"}
+{:id 90, :label nil, :solution? false, :template? false, :evidence "submit helper from the starter; takes year/day as parameters so it serves no specific puzzle (repo's day files solve 2015)"}
+{:id 91, :label [2024 3], :solution? false, :template? true, :evidence "repo advent-of-code-elixir-2024, day_03 empty part fns"}
+{:id 92, :label [2022 17], :solution? false, :template? true, :evidence "years/2022/day_17.ex returns \"TBD\""}
+{:id 93, :label [2020 14], :solution? false, :template? true, :evidence "starter day_14 empty; same repo's day_01 solves 2020 d1"}
+{:id 94, :label [2025 11], :solution? false, :template? true, :evidence "AdventOfCode2025 Day11 only inspects sample input"}
+{:id 95, :label [2019 11], :solution? false, :template? true, :evidence "AdventOfCode2019.Day11 empty part fns"}
+{:id 96, :label [2023 2], :solution? false, :template? true, :evidence "2023/02/part2 main.ex Application wrapper calling Advent.eval"}
+{:id 97, :label [2021 20], :solution? false, :template? true, :evidence "repo aoc-2021-elixir, day_20 empty part fns"}
+{:id 98, :label [2024 8], :solution? false, :template? true, :evidence "repo advent-of-code-2024, day8 returns :unimplemented"}
+{:id 99, :label [2021 18], :solution? false, :template? true, :evidence "repo AdventOfCode2021Elixir, day_18 empty part fns"}
+{:id 100, :label [2021 8], :solution? false, :template? true, :evidence "repo aoc-21ex, day_08 empty part fns"}
+{:id 101, :label [2015 13], :solution? true, :template? false, :evidence "filename problem_2015_13; seating happiness permutations"}
+{:id 102, :label [2025 6], :solution? true, :template? false, :evidence "repo aoc2025, day6.ml; column +/* worksheet problems"}
+{:id 103, :label [2024 14], :solution? true, :template? false, :evidence "advent-2024 bin/day14.ml; robot p=/v= quadrants, tree search"}
+{:id 104, :label [2023 20], :solution? true, :template? false, :evidence "aoc_2023/day20 path; flip-flop/conjunction pulse modules"}
+{:id 105, :label [2023 3], :solution? true, :template? false, :evidence "2023/03 path; part numbers adjacent to symbols, gear ratios"}
+{:id 106, :label [2023 3], :solution? true, :template? false, :evidence "aoc2023 repo, 03/part1.ml; numbers adjacent to symbols"}
+{:id 107, :label [2023 11], :solution? true, :template? false, :evidence "lib/year2023/day11.ml; galaxy expansion distances"}
+{:id 108, :label [2024 17], :solution? true, :template? false, :evidence "advent_of_code_2024 day_17; 3-bit computer adv/bxl opcodes"}
+{:id 109, :label [2023 1], :solution? true, :template? false, :evidence "2023/day01 path; calibration digits incl. spelled words"}
+{:id 110, :label [2025 9], :solution? true, :template? false, :evidence "filename problem_2025_09; largest rectangle from red tile coords"}
+{:id 111, :label [2025 3], :solution? true, :template? false, :evidence "aoc2025 bin/day3.ml; battery joltage max two digits"}
+{:id 112, :label [2020 1], :solution? true, :template? false, :evidence "aoc2020 1/e2.ml; three entries summing to 2020"}
+{:id 113, :label [2018 2], :solution? true, :template? false, :evidence "y2018/src/day02.ml with adventofcode.com/2018/day/2 link; box ID checksum"}
+{:id 114, :label [2023 15], :solution? true, :template? false, :evidence "bin/day15.ml in yearless repo; HASH *17 mod 256 lens boxes is 2023 day 15 (test data matches)"}
+{:id 115, :label [2023 14], :solution? true, :template? false, :evidence "2023/aoc_ocaml/bin/d14.ml; rolling rocks O load, spin cycle"}
+{:id 116, :label [2023 6], :solution? true, :template? false, :evidence "2023/day6/main.ml; boat race time/record quadratic"}
+{:id 117, :label [2022 4], :solution? true, :template? false, :evidence "d04 lib aoc2022d04.ml; range cover/contain parsing used by p1/p2 (day-specific lib)"}
+{:id 118, :label [2023 22], :solution? true, :template? false, :evidence "lib/day22.ml with year=2023 day=22; falling sand bricks"}
+{:id 119, :label [2017 17], :solution? true, :template? false, :evidence "lib/y2017/day17.ml; spinlock 2017 / 50M insertions"}
+{:id 120, :label [2023 2], :solution? true, :template? false, :evidence "aoc2023 bin/02/first.ml; cube game red/green/blue"}
+{:id 121, :label [2025 8], :solution? true, :template? false, :evidence "filename problem_2025_08; 3D points union-find circuits"}
+{:id 122, :label [2024 7], :solution? true, :template? false, :evidence "aoc2024 lib/day07.ml; +,*,|| operator equations"}
+{:id 123, :label [2021 13], :solution? true, :template? false, :evidence "adventofcode2021 day13/main.ml; transparent paper folding"}
+{:id 124, :label [2022 6], :solution? true, :template? false, :evidence "aoc2022 src/day6b.ml; start-of-message 14 unique chars"}
+{:id 125, :label [2016 8], :solution? true, :template? false, :evidence "AdventOfCode2016 ocaml/day8.ml; 50x6 screen rect/rotate"}
+{:id 126, :label [2024 6], :solution? true, :template? false, :evidence "aoc_2024 lib/day_6.ml; guard patrol with obstacles"}
+{:id 127, :label [2017 18], :solution? true, :template? false, :evidence "2017/18/a.ml; snd/rcv/jgz duet instructions"}
+{:id 128, :label [2023 18], :solution? true, :template? false, :evidence "2023/bin/day18.ml; lagoon dig plan shoelace"}
+{:id 129, :label [2023 18], :solution? true, :template? false, :evidence "aoc/days/day18.ml (repo created Nov 2023); dig plan with hex instructions"}
+{:id 130, :label [2020 8], :solution? true, :template? false, :evidence "2020/day_08/main.ml; nop/acc/jmp handheld"}
+{:id 131, :label nil, :solution? false, :template? true, :evidence "lib/math.ml add/sub with hello-world expect test; scaffold placeholder"}
+{:id 132, :label nil, :solution? false, :template? false, :evidence "ocaml_utils/lin_alg.ml; shared linear algebra utility"}
+{:id 133, :label nil, :solution? false, :template? false, :evidence "bin/main.ml multi-day dispatcher for Day1..Day9"}
+{:id 134, :label [2019 18], :solution? true, :template? false, :evidence "solutions/aoc2019/s18.ml; keys/doors grid graph"}
+{:id 135, :label nil, :solution? false, :template? false, :evidence "lib/lib.ml generic print/split helpers"}
+{:id 136, :label nil, :solution? false, :template? false, :evidence "examples/modules.ml OCaml tutorial on modules"}
+{:id 137, :label nil, :solution? false, :template? false, :evidence "aoc2023 bin/main.ml multi-day CLI dispatcher"}
+{:id 138, :label nil, :solution? false, :template? true, :evidence "2023/bin/main.ml prints Hello, World! only"}
+{:id 139, :label [2024 13], :solution? false, :template? true, :evidence "lib/day13.ml empty template; repo .year=2024, day1.md is 2024 day 1"}
+{:id 140, :label nil, :solution? false, :template? false, :evidence "auto_setup input downloader utility"}
+{:id 141, :label [2023 13], :solution? false, :template? true, :evidence "adventofcode2023 day13/bin/main.ml; runner calling Day13 lib"}
+{:id 142, :label [2024 20], :solution? false, :template? true, :evidence "2024/src/days/day20.ml; part_1/part_2 failwith TODO"}
+{:id 143, :label [2024 13], :solution? false, :template? true, :evidence "advent-of-code-2024 lib/day13.ml; empty unit template"}
+{:id 144, :label [2020 1], :solution? false, :template? true, :evidence "2020/day_01/import.ml; only opens Core/Async"}
+{:id 145, :label [2019 10], :solution? false, :template? true, :evidence "2019/10/import.ml; only opens Core/Async"}
+{:id 146, :label [2020 25], :solution? false, :template? true, :evidence "2020/day_25/import.ml; imports and composition helpers only"}
+{:id 147, :label [2023 13], :solution? false, :template? true, :evidence "advent-of-code-2023 day13/src/main.ml; Runner.Make wrapper"}
+{:id 148, :label [2023 3], :solution? false, :template? true, :evidence "aoc23/lib/day3.ml; unit read/p1/p2 stubs"}
+{:id 149, :label [2022 18], :solution? false, :template? true, :evidence "aoc2022 bin/day18_exe.ml; wrapper calling Day18 part1/part2"}
+{:id 150, :label [2023 24], :solution? false, :template? true, :evidence "aoc23/lib/day24.ml; unit read/p1/p2 stubs"}
+{:id 151, :label [2021 2], :solution? true, :template? false, :evidence "aoc2021-zig 2/part1.zig; forward/down/up submarine"}
+{:id 152, :label [2022 2], :solution? true, :template? false, :evidence "2022/day02/impl.zig; rock-paper-scissors A-C/X-Z score table"}
+{:id 153, :label [2024 12], :solution? false, :template? false, :evidence "2024 d12 garden regions WIP: sample input only, floods only the first region, perimeter never summed, returns placeholder 99 for both parts"}
+{:id 154, :label [2024 4], :solution? true, :template? false, :evidence "aoc-2024-zig src/04-2.zig; Ceres Search X-MAS"}
+{:id 155, :label [2024 3], :solution? true, :template? false, :evidence "aoc2024 day03_mull-it-over.zig; mul/do/don't"}
+{:id 156, :label [2024 9], :solution? true, :template? false, :evidence "adventofcode-2024 day09/src/part1.zig; disk compaction checksum"}
+{:id 157, :label [2023 9], :solution? true, :template? false, :evidence "2023/day09/main.zig; sequence difference extrapolation"}
+{:id 158, :label [2023 13], :solution? true, :template? false, :evidence "advent-of-code-23 src/day13.zig; mirror symmetry with smudges"}
+{:id 159, :label [2020 9], :solution? true, :template? false, :evidence "2020/src/09.zig; preamble sum validity (encoding error)"}
+{:id 160, :label [2024 22], :solution? true, :template? false, :evidence "adventofcode2024 day22/part2.zig; monkey price-change sequences trie"}
+{:id 161, :label [2025 6], :solution? true, :template? false, :evidence "aoc2025 src/day06.zig; column * / + worksheet"}
+{:id 162, :label [2021 11], :solution? true, :template? false, :evidence "AoC2021 src/day11.zig; 10x10 octopus flashes"}
+{:id 163, :label [2025 6], :solution? true, :template? false, :evidence "aoc2025 src/day6.zig; worksheet test input with * + row"}
+{:id 164, :label [2025 4], :solution? true, :template? false, :evidence "aoc25 04/main.zig; removing grid cells by neighbour count"}
+{:id 165, :label [2024 7], :solution? false, :template? false, :evidence "2024 day 7 part-2 WIP that does not compile: generate_combinations never returns, [][]u8 assigned to [][]bool, runtime 3 ** len; no concat operator"}
+{:id 166, :label [2025 3], :solution? true, :template? false, :evidence "aoc-2025 src/day03.zig; max digit selection per line"}
+{:id 167, :label [2023 21], :solution? true, :template? false, :evidence "AdventOfCode2023/src/day21; garden steps from S"}
+{:id 168, :label [2024 7], :solution? true, :template? false, :evidence "advent-of-code-2024 day07; Add/Multiply/Concat ops"}
+{:id 169, :label [2024 7], :solution? true, :template? false, :evidence "advent_of_code_2024 src/day_7.zig; multiply/add/concat operands"}
+{:id 170, :label [2023 8], :solution? true, :template? false, :evidence "aoc-2023 day8/src/part2.zig with 2023/day/8 link; node L/R cycles"}
+{:id 171, :label [2025 7], :solution? true, :template? false, :evidence "advent_of_code_2025 07-1; beam splitting at ^ from S"}
+{:id 172, :label [2023 11], :solution? true, :template? false, :evidence "ZigAoC2023 src/d11q2.zig; galaxy empty rows/cols expansion"}
+{:id 173, :label [2025 2], :solution? true, :template? false, :evidence "25/02/main2.zig; repeated-pattern invalid IDs in ranges"}
+{:id 174, :label [2016 11], :solution? true, :template? false, :evidence "2016/src/day11.zig; generators/microchips floors"}
+{:id 175, :label [2019 1], :solution? true, :template? false, :evidence "AdventOfCode2019 01/one.zig; fuel = mass/3 - 2"}
+{:id 176, :label [2025 6], :solution? true, :template? false, :evidence "aoc2025 src/d6.zig; columns with + / * operators"}
+{:id 177, :label [2024 11], :solution? true, :template? false, :evidence "adventofcode-2024 day11/src/solution.zig; stones blink *2024 split"}
+{:id 178, :label [2025 9], :solution? true, :template? false, :evidence "advent-of_code-2025 day9/main.zig; rectangle areas from points"}
+{:id 179, :label [2023 12], :solution? true, :template? false, :evidence "adventofcode2023 12.zig; spring arrangements with unfold x5"}
+{:id 180, :label [2023 6], :solution? true, :template? false, :evidence "2023/6/1.zig; Time/Distance race counts"}
+{:id 181, :label nil, :solution? false, :template? false, :evidence "working generator tooling that fills template.zig into day01-25 using MD5 hashes; it is a build utility, not an unfilled template"}
+{:id 182, :label [2017 11], :solution? true, :template? false, :evidence "2017/src/11-01.zig; hex grid n/ne/se direction reduction"}
+{:id 183, :label nil, :solution? false, :template? false, :evidence "zig-impl/src/main.zig; multi-day CLI dispatcher"}
+{:id 184, :label nil, :solution? false, :template? false, :evidence "C-interop add/hello experiment (setup commit); unrelated to any puzzle and not an unfilled template"}
+{:id 185, :label [2017 16], :solution? true, :template? false, :evidence "2017/src/16-02.zig; dance moves s/x/p, 1e9 iterations"}
+{:id 186, :label [2024 1], :solution? false, :template? true, :evidence "aoc24_zig aoc1/src/root.zig; zig init add() boilerplate"}
+{:id 187, :label nil, :solution? false, :template? false, :evidence "src/main.zig calling day1..day19 part1/part2"}
+{:id 188, :label nil, :solution? false, :template? false, :evidence "lib/spice.zig vendored thread-pool library"}
+{:id 189, :label nil, :solution? false, :template? false, :evidence "src/range.zig generic Range(T) utility (imported by day5)"}
+{:id 190, :label [2023 1], :solution? false, :template? true, :evidence "2023/zig/src/main.zig; runner calling one.zig partOne/partTwo, prints Day 1"}
+{:id 191, :label [2023 9], :solution? false, :template? true, :evidence "aoc-2023 day9/src/main.zig; wrapper dispatching part1/part2"}
+{:id 192, :label [2021 20], :solution? false, :template? true, :evidence "Zig_AoC_2021 src/day20.zig; empty main"}
+{:id 193, :label [2023 6], :solution? false, :template? true, :evidence "advent2023 src/day06.zig; generated template, empty main"}
+{:id 194, :label [2022 17], :solution? false, :template? true, :evidence "2022/src/Day17.zig; empty main"}
+{:id 195, :label [2025 12], :solution? false, :template? true, :evidence "adventofcode2025 day12zig part2.zig; TODO: Implement solution"}
+{:id 196, :label [2024 3], :solution? false, :template? true, :evidence "advent-of-code-2024-zig src/day03.zig; a/b return blank, generated template"}
+{:id 197, :label [2021 21], :solution? false, :template? true, :evidence "unmodified upstream Zig AoC template day21 with an empty main; year inferred only from the single Initial commit dated 2021-12-01, nothing in the content"}
+{:id 198, :label [2022 9], :solution? false, :template? true, :evidence "aoc2022_zig src/day09.zig; empty main template"}
+{:id 199, :label [2024 3], :solution? true, :template? false, :evidence "in 2024/10/ but identical to 2024/3/src/main.zig; mul/do/don't is day 3"}
+{:id 200, :label [2021 24], :solution? false, :template? true, :evidence "AOC2021 src/day24.zig; empty main template"}
+]

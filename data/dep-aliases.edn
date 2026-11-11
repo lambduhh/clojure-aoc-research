@@ -1,0 +1,68 @@
+;; Old dependency coordinate -> the coordinate the same library goes by now.
+;; research.load stores the right-hand side as :dep/canonical-coord; the
+;; declared :dep/coord is never rewritten. Keyed by ecosystem, so an alias
+;; never applies to a same-named package elsewhere.
+;;
+;; Rules for adding a pair:
+;; - cite a source saying the library moved or was renamed (a commit-pinned
+;;   README/CHANGELOG line, or the commit that changed the coordinate);
+;; - for git deps, whose lib name is a free label, also check that the
+;;   declarations in the clones point at the same :git/url;
+;; - no chains: a canonical coordinate is never itself a key.
+;;
+;; Not added, for lack of a source that names both coordinates:
+;; com.cemerick/piggieback, io.aviso/pretty, spyscope/spyscope,
+;; org.clojure/tools.deps.alpha (its README says "superseded", not renamed).
+{:maven
+ {;; README diff at https://github.com/weavejester/medley/commit/ada753eb45685b2db63f01ec304cea6bc4cfb299
+  ;; (Release 1.5.0): medley/medley {:mvn/version "1.4.0"} -> dev.weavejester/medley {:mvn/version "1.5.0"}
+  "medley/medley" "dev.weavejester/medley"
+
+  ;; README diff at https://github.com/cognitect-labs/test-runner/commit/aa1c6383bdbe51a5a69cb943bc9aaf782340468a
+  ;; ("change recommended lib name"): same :git/url, lib name com.cognitect/test-runner ->
+  ;; io.github.cognitect-labs/test-runner. Every com.cognitect/test-runner declaration in
+  ;; the clones (72 entries) points at github.com/cognitect-labs/test-runner.
+  "com.cognitect/test-runner" "io.github.cognitect-labs/test-runner"
+
+  ;; README history of github.com/clj-commons/digest: `[digest "1.4.10"]` until
+  ;; https://github.com/clj-commons/digest/commit/a230d0d48d4f5b6d1a626fce9470ac496a774c49, then
+  ;; org.clj-commons/digest from https://github.com/clj-commons/digest/commit/5d960d0dd321458b0f52ffc6e5c1e294a1618a03
+  "digest/digest" "org.clj-commons/digest"
+
+  ;; https://github.com/clojure/tools.nrepl/blob/294659b5a0/README.md#L3: "This project's development
+  ;; moved to a new nrepl/nrepl repository ... after version 0.2.13"; Clojars coordinate nrepl/nrepl.
+  "org.clojure/tools.nrepl" "nrepl/nrepl"
+
+  ;; README diff at https://github.com/weavejester/cljfmt/commit/22200947fcb2d2289640e7b2545de0c5feaa7e84
+  ;; (Release 0.10.0): cljfmt/cljfmt -> dev.weavejester/cljfmt
+  "cljfmt/cljfmt" "dev.weavejester/cljfmt"
+
+  ;; README diff at https://github.com/clj-commons/claypoole/commit/2efec76f5c1764a08e40f2231845b614ca1982ea:
+  ;; Clojars badge com.climate/claypoole -> org.clj-commons/claypoole
+  "com.climate/claypoole" "org.clj-commons/claypoole"
+
+  ;; https://github.com/clj-commons/hickory/blob/be903a67a6/CHANGELOG.md#L40:
+  ;; "Move to clj-commons: `org.clj-commons/hickory`"
+  "hickory/hickory" "org.clj-commons/hickory"
+
+  ;; https://github.com/seancorfield/depstar/blob/6b1a75a9bc/CHANGELOG.md#L52:
+  ;; "Change coordinates to `com.github.seancorfield/depstar`"
+  "seancorfield/depstar" "com.github.seancorfield/depstar"
+
+  ;; https://github.com/seancorfield/next-jdbc/blob/f3ef9c1e83/README.md#L29-L30:
+  ;; "Older versions of `next.jdbc` were published under the `seancorfield` group ID"
+  "seancorfield/next.jdbc" "com.github.seancorfield/next.jdbc"
+
+  ;; https://github.com/hyperfiddle/rcf/blob/929e383602/README.md#L44:
+  ;; "maven group-id renamed from `hyperfiddle` to `com.hyperfiddle`"
+  "hyperfiddle/rcf" "com.hyperfiddle/rcf"
+
+  ;; Git dep. https://github.com/athos/clj-check/blob/d997df866b/README.md#L12 names it
+  ;; io.github.athos/clj-check; the athos/clj-check declarations in the clones use
+  ;; :git/url https://github.com/athos/clj-check.git, the same repo.
+  "athos/clj-check" "io.github.athos/clj-check"
+
+  ;; Git dep. https://github.com/clojure/spec-alpha2/blob/efbeb200b9/README.md#L27-L32 names it
+  ;; org.clojure/alpha.spec with :git/url https://github.com/clojure/spec-alpha2.git; the
+  ;; org.clojure/spec-alpha2 declaration in the clones uses that :git/url.
+  "org.clojure/spec-alpha2" "org.clojure/alpha.spec"}}
