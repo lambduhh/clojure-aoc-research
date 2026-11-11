@@ -1,3 +1,27 @@
+---
+type: Research
+title: "Mapper precision on the holdout sample (2026-11-10)"
+description: "Included-file precision 115/120 (95.8%), template-detector precision and missed solutions, by language, scored against blind labels."
+tags: [advent-of-code, results]
+created: 2026-11-10
+modified: 2026-11-11
+source: "analysis: scoring script for data/labels/holdout-sample.edn (see docs/prereg/lines-of-code.md, amendment 3)"
+ai_assisted: "Claude Opus 5.5 via Claude Code"
+session: 0a61cb0b
+tools: [babashka, clojure, Datomic Local]
+agents_skills: []
+review_maturity: L2 (Human-reviewed)
+review_note: "Viewed by lambduhh in PR #4 on 2026-11-11."
+reviewed_at: 2026-11-11
+---
+
+# Mapper precision on the holdout sample (2026-11-10)
+
+Included-file precision 115/120 (95.8%), template-detector precision and missed solutions, by language, scored against blind labels.
+
+Produced by: analysis: scoring script for data/labels/holdout-sample.edn (see docs/prereg/lines-of-code.md, amendment 3).
+
+```text
 disagreements between labellers: 9 | unresolved: 0
 
 == INCLUDED (what Q11-13 use): real solution AND correct puzzle
@@ -38,3 +62,4 @@ disagreements between labellers: 9 | unresolved: 0
     MISSED: :ocaml solutions/aoc2019/s18.ml | label [2019 18] | solutions/aoc2019/s18.ml; keys/doors grid graph
     MISSED: :zig 2017/src/11-01.zig | label [2017 11] | 2017/src/11-01.zig; hex grid n/ne/se direction reduction
     MISSED: :zig 2017/src/16-02.zig | label [2017 16] | 2017/src/16-02.zig; dance moves s/x/p, 1e9 iterations
+```
