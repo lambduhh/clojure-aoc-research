@@ -8,16 +8,30 @@
             [clojure.string :as str]
             [research.cache :as cache]))
 
-(def seed 20261110)
-(def per-lang {:mapped 30 :unmapped 10})
+(def default-seed 20261110)
+(def per-lang
+  ;; :included = exactly what questions 11-13 use (mapped :solution, not a template)
+  {:included 30 :unmapped 10 :template 10})
 
-(defn- seeded-shuffle [xs]
+(defn stratum [{:keys [mapper]}]
+  (let [{:puzzle/keys [keys] :file/keys [role template?]} mapper]
+    (cond
+      template?                                 :template
+      (and (= :solution role) (seq keys))       :included
+      (empty? keys)                             :unmapped)))
+
+(defn- seeded-shuffle [seed xs]
   (let [al (java.util.ArrayList. ^java.util.Collection xs)]
-    (java.util.Collections/shuffle al (java.util.Random. seed))
+    (java.util.Collections/shuffle al (java.util.Random. (long seed)))
     (vec al)))
 
-(defn -main [& _]
-  (let [repos (into {} (map (juxt :repo/id identity)) (edn/read-string (slurp "data/repos.edn")))
+(defn -main
+  "Flags: --seed N (default 20261110), --out PATH (default data/labels/mapper-sample.edn)."
+  [& args]
+  (let [opt   (fn [flag] (second (drop-while #(not= flag %) args)))
+        seed  (or (some-> (opt "--seed") parse-long) default-seed)
+        out   (or (opt "--out") "data/labels/mapper-sample.edn")
+        repos (into {} (map (juxt :repo/id identity)) (edn/read-string (slurp "data/repos.edn")))
         rows  (for [f (fs/glob (cache/path "extract") "*/*.edn")
                     :let [doc (edn/read-string {:default tagged-literal} (slurp (str f)))]
                     :when (= :ok (:extract/status doc))
@@ -28,20 +42,20 @@
                  :repo/full-name (get-in repos [(:repo/id doc) :repo/full-name])
                  :repo/created-at (get-in repos [(:repo/id doc) :repo/created-at])
                  :file/path (:file/path file)
-                 :mapper (select-keys file [:puzzle/keys :puzzle/source :file/role])})
-        pick  (fn [lang mapped? n]
+                 :mapper (select-keys file [:puzzle/keys :puzzle/source :file/role :file/template? :file/promoted-from])})
+        pick  (fn [lang s n]
                 (->> rows
-                     (filter #(and (= lang (:repo/lang %)) (= mapped? (boolean (seq (get-in % [:mapper :puzzle/keys]))))))
+                     (filter #(and (= lang (:repo/lang %)) (= s (stratum %))))
                      (sort-by (juxt :repo/id :file/path))
-                     seeded-shuffle
+                     (seeded-shuffle seed)
                      (take n)))
         sample (vec (map-indexed (fn [i r] (assoc r :sample/id (inc i)))
                                  (for [lang [:clojure :elixir :ocaml :zig]
-                                       [mapped? n] [[true (:mapped per-lang)] [false (:unmapped per-lang)]]
-                                       r (pick lang mapped? n)]
-                                   r)))]
-    (spit "data/labels/mapper-sample.edn"
+                                       [s n] per-lang
+                                       r (pick lang s n)]
+                                   (assoc r :sample/stratum s))))]
+    (spit out
           (str ";; Mapper precision sample, seed " seed ". Labels are in mapper-labels.edn.\n[\n"
                (str/join "\n" (map pr-str sample)) "\n]\n"))
-    (println (count sample) "files ->" "data/labels/mapper-sample.edn"
-             (frequencies (map (juxt :repo/lang (comp boolean seq :puzzle/keys :mapper)) sample)))))
+    (println (count sample) "files ->" out
+             (frequencies (map (juxt :repo/lang :sample/stratum) sample)))))
