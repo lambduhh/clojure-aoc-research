@@ -96,3 +96,108 @@
     "src/aoc2021/day07.clj"            :solution)
   (testing "tests still map to their puzzle"
     (is (= #{[2021 7]} (:puzzle/keys (mapped "test/aoc2021/day07_test.clj"))))))
+
+;; ---------------------------------------------------------------------------
+;; Adversarial-review findings (mapping-and-counting). Paths below are real
+;; paths from the extracted repos unless noted.
+
+(defn- keys-of [path & more] (:puzzle/keys (apply mapped path more)))
+
+(deftest part-numbers-defer-to-the-day   ; finding 3
+  (testing "a part number in the file name yields to a day in a directory"
+    (are [path repo year day] (= #{[year day]} (keys-of path :repo-name repo))
+      "2015/07/one.clj"                      "x"                    2015 7
+      "2020/15/two.clj"                      "x"                    2020 15
+      "src/advent_of_code/day5/1.clj"        "aoc-2019"             2019 5
+      "2019/22/1.exs"                        "x"                    2019 22
+      "d05/q02.exs"                          "aoc-2018"             2018 5
+      "day3/ex1.exs"                         "aoc-2018"             2018 3
+      "day3/q1.ml"                           "aoc-2018"             2018 3
+      "2023/8/2.zig"                         "x"                    2023 8
+      "day05/1.clj"                          "aoc-2018"             2018 5
+      "2022/19/1_factory.exs"                "x"                    2022 19
+      "15/1_wrong.zig"                       "adventofcode-2022"    2022 15
+      "16/1.ex"                              "AOC_2022"             2022 16))
+  (testing "a part number in a directory yields to a day further up"
+    (are [path repo year day] (= #{[year day]} (keys-of path :repo-name repo))
+      "10/1/program.exs"                                   "adventofcode_2021" 2021 10
+      "2023/02/1/cube_conundrum/lib/cube_conundrum.ex"     "advent-of-code"    2023 2
+      "src/y15/13/1.clj"                                   "aoc2024"           2015 13
+      "src/y15/1/2.clj"                                    "aoc2024"           2015 1))
+  (testing "a strong day pattern anywhere beats a weak one in the file name"
+    ;; 225424618: day2/3.exs defines ProgramAlarm, which is 2019 day 2.
+    (is (= #{[2019 2]} (keys-of "day2/3.exs" :repo-name "adventofcode-2019"))))
+  (testing "still days, not parts"
+    (are [path repo year day] (= #{[year day]} (keys-of path :repo-name repo))
+      "day16/puzzle1.exs"         "advent_of_code_2018"  2018 16  ; precision study
+      "2015/6b.zig"               "x"                    2015 6
+      "src/aoc/23/03.clj"         "x"                    2023 3   ; not a part number
+      "src/aoc/15/01.clj"         "x"                    2015 1   ; zero-padded: a day
+      "24/day/01.zig"             "x"                    2024 1
+      "19/day17p2.ml"             "x"                    2019 17  ; the file's own strong day
+      "src/adventofcode_2019/ex1.clj" "aoc-2019"         2019 1   ; nothing above to defer to
+      "25/1-Secret-Entrance/solution.exs" "aoc"          2025 1)))  ; 'N-name' directory is a day
+
+(deftest bare-two-digit-year-directories   ; finding 5
+  (testing "15..25 is a year when a different segment supplies the day"
+    (are [path year day] (= #{[year day]} (keys-of path :repo-name "aoc" :created-at "2025-11-17T00:00:00Z"))
+      "16/10-Balance-Bots/solution.exs"  2016 10
+      "23/src/day09.zig"                 2023 9
+      "24/src/solutions/day09.zig"       2024 9
+      "23/old_solutions/09/src/main.zig" 2023 9
+      "19/day1.ml"                       2019 1
+      "19/d7/aoc.ml"                     2019 7)
+    (is (= :path (:puzzle/source (mapped "19/day1.ml" :repo-name "aoc")))))
+  (testing "not when the directory is itself the day"
+    (are [path repo year day] (= #{[year day]} (keys-of path :repo-name repo))
+      "lib/16/parser.ex"        "advent-of-code-2021"   2021 16
+      "15/1.exs"                "AOC-2024"              2024 15
+      "lib/days/15/fifteen.ex"  "advent_of_code_2021"   2021 15
+      "15/15.zig"               "advent-of-zig-2024"    2024 15)))
+
+(deftest deepest-four-digit-year-wins   ; finding 6
+  (are [path year day] (= #{[year day]} (keys-of path))
+    "pre2021Work/2020/src/main/clojure/day_1.clj"  2020 1
+    "src/advent_2021/2024/day1.clj"                2024 1
+    "2020-2021/lib/2021/1.ex"                      2021 1
+    "archive2017-2019/2018/day01/day1.exs"         2018 1))
+
+(deftest explicit-two-digit-years   ; finding 7
+  (testing "y15/ and year19/ name a year outright, so they beat a repo-name year"
+    (are [path repo year day] (= #{[year day]} (keys-of path :repo-name repo))
+      "src/y15/1/1.clj"     "aoc2024"              2015 1
+      "year19/day01.clj"    "advent-of-code-2024"  2019 1
+      "lib/y16/day05.ex"    "advent-of-code-2024"  2016 5))
+  (testing "aoc21/ and advent17/ may be days, so a repo-name year still wins"
+    (are [path repo year day] (= #{[year day]} (keys-of path :repo-name repo))
+      "src/aoc21/a/21a.ml"       "aoc-2020"               2020 21
+      "src/advent17/day02.clj"   "advent-of-code-2020"    2020 2))
+  (testing "a 4-digit path year still beats y15/"
+    (is (= #{[2016 3]} (keys-of "2016/y15/day03.clj")))))
+
+(deftest test-file-names   ; finding 8
+  (are [path] (= :test (:file/role (mapped path :repo-name "aoc-2021")))
+    "day1/tests.ml" "day10/test.ml" "2021/day08/test.exs" "2015/day_01/tests.exs"
+    "src/day_2/puzzle_one_tests.clj" "test_day1.ml" "day3/test_day3a.ml"
+    "day3/test-code.exs" "day02/2-tests.ex" "day04/solution_tests.exs" "day05/Test.ml")
+  (testing "names that merely contain 'test' are not tests"
+    (are [path] (= :solution (:file/role (mapped path :repo-name "aoc-2021")))
+      "day07/testing.clj" "day07/contest.clj" "day07/latest.ml")))
+
+(deftest runner-and-config-files   ; finding 9
+  (testing "Elixir mix tasks are runners, not solutions"
+    (are [path] (= :runner (:file/role (mapped path :repo-name "aoc-2022")))
+      "lib/mix/tasks/d07.p1.ex" "lib/mix/tasks/d07.ex" "apps/aoc/lib/mix/tasks/d01.ex"
+      "2022/01/calorie_counting/lib/mix/tasks/count.ex" "lib/mix/task/day01.p1.ex"
+      "lib/aoc/mix/tasks/day05.ex")
+    (is (= #{[2022 7]} (keys-of "lib/mix/tasks/d07.p1.ex" :repo-name "aoc-2022"))
+        "runners still record their puzzle"))
+  (testing "tests of mix tasks are tests; other lib/mix files are not runners"
+    (is (= :test (:file/role (mapped "test/mix/tasks/solve_test.exs" :repo-name "aoc-2022"))))
+    (is (= :solution (:file/role (mapped "2023/03/1/gear_ratios/lib/mix/solve.ex")))))
+  (testing "Elixir config scripts"
+    (are [path] (= :config (:file/role (mapped path)))
+      "day11/dumbo_octopus/config/dev.exs" "day11/dumbo_octopus/config/runtime.exs"
+      "day11/dumbo_octopus/config/test.exs" "2020/day1/.iex.exs" "day_2/.credo.exs"))
+  (is (= :solution (:file/role (mapped "src/config/day01.clj" :repo-name "aoc-2021")))
+      "only .exs scripts under config/ are config"))
