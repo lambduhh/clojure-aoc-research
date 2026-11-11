@@ -15,7 +15,7 @@
                 (let [rs (per-lang l)
                       by-owner (group-by :owner_login rs)
                       newcomers (set (for [[o os] by-owner
-                                           :let [first-r (first (sort-by d10 os))]
+                                           :let [first-r (first (sort-by (juxt :created_at :id) os))] ; full timestamp, then id: deterministic
                                            :when (and o (names/aoc-repo? (:full_name first-r))
                                                       (not (neg? (compare (d10 first-r) start)))
                                                       (not (pos? (compare (d10 first-r) end))))]
