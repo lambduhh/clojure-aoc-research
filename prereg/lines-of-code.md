@@ -78,7 +78,7 @@ For each comparison language L (Elixir, OCaml and Zig, each tested separately):
   | OCaml | 41 | 1,426 (2.9%) | 4 | 0 | 1,381 |
   | Zig | 55 | 1,928 (2.9%) | 12 | 0 | 1,861 |
 
-  If large repos differ systematically (e.g. monorepos covering several years), this biases OCaml and Zig more. A robustness check repeats question 11 on repos under 10 MB in every language, which is the same population, so it is reported as a caveat rather than an extra analysis.
+  If large repos differ systematically (e.g. monorepos covering several years), this biases OCaml and Zig more. Every analysed repo is under the cap, so the comparison is like-for-like for repos of that size. Who the cap excludes is reported as a caveat; there is no extra analysis.
 - Puzzle mapping depends on file paths. Mapping precision is measured on a hand-labelled sample before results are trusted, with a threshold of 95%.
 
 ## Deviations
