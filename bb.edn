@@ -1,6 +1,6 @@
 {:paths ["src"]
  ;; temper's OKF tools validate the docs/ bundle (lambduhh/temper, private).
- :deps  {io.github.lambduhh/temper {:git/sha "2b77a4de31b7019d96546198365288b0c0f80045"}}
+ :deps  {io.github.lambduhh/temper {:git/sha "caa0f5d41cfb8adce8866494e282433f4f5d2a92"}}
  :tasks
  {test    {:doc "Run the babashka tests"
            :extra-paths ["test"]
@@ -39,6 +39,9 @@
   docs:links    {:doc "Check docs/ links and anchors (temper.okf.links)"
                  :requires ([temper.okf.links])
                  :task (apply temper.okf.links/-main *command-line-args*)}
+  docs:mark-viewed {:doc "Raise docs you marked Viewed in PR <n> to L2. Args: <pr> [--dry-run] [--commit [--push]]"
+                    :requires ([temper.okf.review])
+                    :task (apply temper.okf.review/-main *command-line-args*)}
   docs:check    {:doc "Run every docs check; fails if any fails"
                  :depends [docs:validate docs:links]}
   results:wrap {:doc "Wrap stdin as docs/results/<name>.md with frontmatter. Flags: --name --title --description --source"
