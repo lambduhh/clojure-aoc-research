@@ -363,3 +363,21 @@
             (str "java-version: 21\n" (apply str (repeat (inc inv/max-file-bytes) " "))))
       (is (nil? (inv/java-version dir)))
       (finally (fs/delete-tree dir)))))
+
+(deftest promote-orphans
+  (let [f (fn [path role ks & {:as m}] (merge {:file/path path :file/role role :puzzle/keys ks :file/template? false} m))
+        files [(f "lib/day01.ex" :solution #{[2020 1]})
+               (f "lib/mix/tasks/d01.ex" :runner #{[2020 1]})          ; solved elsewhere: stays :runner
+               (f "lib/mix/tasks/day13/day13.ex" :runner #{[2019 13]})  ; sole file: promoted
+               (f "day_5/test.exs" :test #{[2021 5]})                   ; sole file: promoted
+               (f "test/day06_test.exs" :test #{[2021 6]})              ; runner exists: runner wins
+               (f "lib/mix/tasks/d06.ex" :runner #{[2021 6]})
+               (f "lib/mix/tasks/d07.ex" :runner #{[2021 7]} :file/template? true)] ; templates never promoted
+        out (into {} (map (juxt :file/path identity)) (inv/promote-orphans files))]
+    (is (= :runner (:file/role (out "lib/mix/tasks/d01.ex"))))
+    (is (= [:solution :runner] ((juxt :file/role :file/promoted-from) (out "lib/mix/tasks/day13/day13.ex"))))
+    (is (= [:solution :test] ((juxt :file/role :file/promoted-from) (out "day_5/test.exs"))))
+    (is (= :test (:file/role (out "test/day06_test.exs"))))
+    (is (= :solution (:file/role (out "lib/mix/tasks/d06.ex"))))
+    (is (= :runner (:file/role (out "lib/mix/tasks/d07.ex"))))
+    (is (nil? (:file/promoted-from (out "lib/day01.ex"))))))

@@ -673,6 +673,28 @@
                                                    (> (count (get puzzles-by-fp fingerprint)) 1)))))
           files)))
 
+(defn promote-orphans
+  "Some solvers keep a puzzle's only code in a mix task (:runner) or a file
+  named like a test. When a puzzle has no non-template :solution file in the
+  repo, promote its :runner files to :solution, or its :test files when it has
+  no runner either. :file/promoted-from records the original role so queries
+  can include or exclude promoted files. Templates are never promoted.
+  Needs the whole repo's files: a per-file mapper can't see siblings."
+  [files]
+  (let [puzzles-with (fn [role] (into #{} (for [f files
+                                                :when (and (= role (:file/role f)) (not (:file/template? f)))
+                                                k (:puzzle/keys f)]
+                                            k)))
+        solved  (puzzles-with :solution)
+        runners (puzzles-with :runner)]
+    (mapv (fn [{:file/keys [role template?] :as f}]
+            (let [ks (:puzzle/keys f)]
+              (if (and (seq ks) (not template?) (not-any? solved ks)
+                       (or (= role :runner) (and (= role :test) (not-any? runners ks))))
+                (assoc f :file/role :solution :file/promoted-from role)
+                f)))
+          files)))
+
 ;; ---------------------------------------------------------------------------
 ;; Walking a repo
 
@@ -768,4 +790,4 @@
      :repo/editor-signals (present repo-dir editor-signals)
      :repo/java-version   (java-version repo-dir)
      :repo/declarations   (deps/declarations repo-dir rels)
-     :repo/files          (mark-templates sources)}))
+     :repo/files          (promote-orphans (mark-templates sources))}))

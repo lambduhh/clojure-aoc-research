@@ -55,6 +55,8 @@
    (attr :file/path :string)
    (attr :file/lang :keyword)
    (attr :file/role :keyword {:doc ":solution, :test, :util, :config or :runner (Elixir mix tasks)"})
+   (attr :file/promoted-from :keyword {:doc "Original role (:runner or :test) of a file promoted to :solution because its puzzle had no other solution file in the repo."})
+   (attr :file/fingerprint :string {:doc "SHA-1 of the content with digits normalised; a fingerprint shared by many repos marks generated boilerplate."})
    (attr :file/template? :boolean {:doc "Same content (digits normalised) as files for other puzzles in the repo: a generated or copied-in template."})
    (attr :file/status :keyword {:doc ":ok, :too-large or :symlink. Only :ok files have line counts."})
    (attr :file/bytes :long)

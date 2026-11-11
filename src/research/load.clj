@@ -158,6 +158,8 @@
                              :file/status (:file/status f) :file/bytes (:file/bytes f)
                              :file/role (:file/role f)
                              :file/template? (:file/template? f)
+                             :file/promoted-from (:file/promoted-from f)
+                             :file/fingerprint (:file/fingerprint f)
                              :file/runtime (:file/runtime f)
                              :file/module (:file/module f)
                              :file/lines (:file/lines f)

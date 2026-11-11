@@ -22,11 +22,15 @@
   extract {:doc "Summarise every cloned repo into the cache (resumable). Flags: --force --jobs N"
            :requires ([research.extract :as x])
            :task (apply x/-main *command-line-args*)}
-  after-clone {:doc "Run every stage after cloning, in order: extract, clj-kondo, core vars, Datomic load"
-               :task (do (run 'extract)
-                         (shell "clojure -M:kondo")
-                         (shell "clojure -M:core-vars")
-                         (shell "clojure -M:load --note full-run"))}
+  test-jvm {:doc "Run the JVM tests (clj-kondo stage, Datomic loader)"
+            :task (shell "clojure" "-Sdeps" "{:aliases {:t {:extra-paths [\"test\"]}}}" "-M:t" "-e"
+                         "(require 'research.kondo-test 'research.load-test) (let [{:keys [fail error]} (clojure.test/run-tests 'research.kondo-test 'research.load-test)] (System/exit (if (zero? (+ fail error)) 0 1)))")}
+  after-clone {:doc "Rebuild everything after cloning: extract, clj-kondo, core vars, then a FRESH Datomic load. Pass a note, e.g. bb after-clone \"run 2\""
+               :task (let [note (or (first *command-line-args*) "full-run")]
+                       (run 'extract) ; resumable; use bb extract --force after code changes
+                       (shell "clojure -M:kondo")
+                       (shell "clojure -M:core-vars")
+                       (shell "clojure" "-M:load" "--fresh" "--note" note))}
   extract-summary {:doc "Counts across all extracted repos"
                    :requires ([research.extract :as x])
                    :task (x/summary)}}}
