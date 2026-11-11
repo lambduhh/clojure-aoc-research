@@ -2,7 +2,7 @@
 
 # clojure-aoc-research
 
-What Clojure Advent of Code solvers actually use, compared with solvers in Elixir, OCaml and Zig. It covers dependencies, function calls, line counts, how far people get, and whether old repos still work. Built with Clojure, babashka and Datomic.
+What Clojure Advent of Code solvers actually use, compared with solvers in Elixir, OCaml and Zig. It covers dependencies, var references, line counts, how far people get, and whether old repos still work. Built with Clojure, babashka and Datomic.
 
 Repo lists come from Thiago Carvalho's [programming-language-vitality](https://github.com/thiagooak/programming-language-vitality/tree/916e0f55bd44afe55382c9925f05cf3e243abfc8) datasets, pinned to commit `916e0f5`. No Advent of Code puzzle text or inputs are stored in this repo.
 
@@ -12,9 +12,15 @@ Repo lists come from Thiago Carvalho's [programming-language-vitality](https://g
 |---|---|---|
 | 1. Collect | `bb collect` | `data/repos.edn`: AoC-named repos created 2015–2025, deduplicated; `data/datasets.edn`: dataset URLs and SHA-256 hashes |
 | 2. Clone | `bb clone` | Shallow clones in the cache, plus `clone-log.edn` there (one EDN map per attempt). Resumable |
-| 3. Extract | *(in progress)* | Per file: language, puzzle (year and day), requires, function calls (Clojure, via clj-kondo), line and token counts |
-| 4. Load | *(planned)* | Datomic Local, on disk |
-| 5. Query | *(planned)* | Datalog queries, one per research question |
+| 3. Extract | `bb extract` | Per repo, in the cache. For each file: language, role, puzzle (year and day), whether it's a template, and line counts (code, docs, inline tests). For the repo: build files, AI files, editor signals, Java version, declared deps |
+| 3b. Var references | `clojure -M:kondo` | Clojure only, via clj-kondo's static analysis: required namespaces and references to each var per file. Special forms, refers, imports and `(comment)` forms are excluded |
+| 3c. Core var versions | `clojure -M:core-vars` | `data/core-vars.edn`: when each core var was added |
+| 4. Load | `clojure -M:load --fresh` | Datomic Local on disk, one transaction per repo, each pointing at its run. `--fresh` rebuilds; loading into a populated database is refused |
+| 5. Query | `research.queries` | Datalog, one query per research question |
+
+Run everything after cloning with `bb after-clone "<note>"`. Tests: `bb test` (babashka) and `bb test-jvm` (clj-kondo stage and loader).
+
+**Checks before results are trusted:** the puzzle mapper's precision is measured on hand-labelled samples ([`data/labels/`](data/labels)), and the line-count comparison is pre-registered in [`prereg/lines-of-code.md`](prereg/lines-of-code.md).
 
 `bb status` summarises the clone log. `bb test` runs the tests. `bb tasks` lists all tasks.
 
