@@ -40,7 +40,7 @@ For each comparison language L (Elixir, OCaml and Zig, each tested separately):
   - the geometric mean of `r`, i.e. `exp(mean(log r))`, with a 95% bootstrap confidence interval that resamples puzzles (10,000 resamples, fixed seed);
   - the share of eligible puzzles with `r < 1`;
   - the distribution of `log r`, shown as a chart.
-- **Also reported:** the same analysis using the **minimum** per language instead of the median. The minimum is "the shortest solution anyone wrote", close to what the language makes possible. The median is "what solvers typically write". The median is primary.
+- **Also reported:** the same analysis using the **minimum** per language instead of the median, computed on equal-size subsamples (see amendment 2). The minimum is "the shortest solution anyone wrote", close to what the language makes possible. The median is "what solvers typically write". The median is primary.
 - **H1 (Clojure vs L):** Clojure solutions are shorter.
   - **Test:** Wilcoxon signed-rank on `log r` across eligible puzzles, two-sided.
   - **Effect size:** Cohen's d on `log r`.
@@ -104,3 +104,16 @@ The causes, each fixed with a test:
 5. Four-digit years now outrank two-digit years.
 
 The fixes were tuned on that sample, so precision is **re-measured on a fresh holdout sample** with a different seed before any comparison runs. Both measurements are reported.
+
+### Amendment 2 (2026-11-10, before any comparison)
+
+An independent code review (four reviewers, each checked by a skeptic) confirmed several defects that bias the measures by language. The fixes are listed in the repo's commit history. Two changes concern this plan directly:
+
+1. **The minimum is biased by sample size.** The minimum of *n* solutions shrinks as *n* grows, so a language with more solutions per puzzle gets a shorter minimum by chance alone. Stubs dominate it too. The minimum is therefore computed on **equal-size subsamples**: for each puzzle, draw 10 solutions per language, take each language's minimum, repeat 1,000 times with a fixed seed, and use the median of those minima. Templates and stubs are already excluded (amendment 1).
+2. **The primary measure isn't computed yet.** `cloc` isn't installed on the analysis machine. Until it is, only the robustness counts exist. No comparison will be reported as primary until `cloc` runs.
+
+The review also made the pipeline's own count comparable across languages:
+- inline tests (Zig `test` blocks, OCaml `let%test`) are excluded, as separate test files already were for Clojure and Elixir;
+- documentation is excluded in every language;
+- string-aware comment stripping for OCaml;
+- symlink placeholders are excluded.

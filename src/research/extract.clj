@@ -40,7 +40,7 @@
 
 (defn summary []
   (let [files (fs/glob (cache/path "extract") "**.edn")
-        docs  (map #(edn/read-string (slurp (str %))) files)
+        docs  (map #(edn/read-string {:default tagged-literal} (slurp (str %))) files)
         sfiles (mapcat :repo/files docs)
         sol   (filter #(= :solution (:file/role %)) sfiles)]
     (println "repos:" (count docs) (frequencies (map :extract/status docs)))

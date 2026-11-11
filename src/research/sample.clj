@@ -19,7 +19,7 @@
 (defn -main [& _]
   (let [repos (into {} (map (juxt :repo/id identity)) (edn/read-string (slurp "data/repos.edn")))
         rows  (for [f (fs/glob (cache/path "extract") "*/*.edn")
-                    :let [doc (edn/read-string (slurp (str f)))]
+                    :let [doc (edn/read-string {:default tagged-literal} (slurp (str f)))]
                     :when (= :ok (:extract/status doc))
                     file (:repo/files doc)
                     :when (and (= :ok (:file/status file)) (= (:file/lang file) (:repo/lang doc))
