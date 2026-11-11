@@ -5,3 +5,6 @@
 .lsp/
 .calva/
 .DS_Store
+
+# Working notes (plans, handoffs): local history, never committed.
+notes/
