@@ -1,13 +1,9 @@
 [
-#:repo{:id 30047087, :lang :clojure, :full-name "jobez/component-adventures", :created-at "2015-01-29T23:44:48Z", :pushed-at "2015-01-30T19:34:36Z", :size-kb 124, :stars 0, :archived? false}
-#:repo{:id 43387019, :lang :clojure, :full-name "mikepjb/adventure-game", :created-at "2015-09-29T18:43:24Z", :pushed-at "2015-10-02T18:41:03Z", :size-kb 123, :stars 0, :archived? false}
-#:repo{:id 45293455, :lang :clojure, :full-name "kouphax/adventure.txt", :created-at "2015-10-31T07:48:58Z", :pushed-at "2015-11-07T12:26:02Z", :size-kb 132, :stars 0, :archived? false}
 #:repo{:id 47169813, :lang :clojure, :full-name "Rijir/Advent", :created-at "2015-12-01T06:17:45Z", :pushed-at "2017-12-25T23:03:45Z", :size-kb 92, :stars 0, :archived? false}
 #:repo{:id 47191550, :lang :clojure, :full-name "rhietala/adventofcode2015", :created-at "2015-12-01T13:33:32Z", :pushed-at "2015-12-10T15:17:24Z", :size-kb 43, :stars 0, :archived? false}
 #:repo{:id 47195186, :lang :clojure, :full-name "bendlas/adventofcode", :created-at "2015-12-01T14:37:41Z", :pushed-at "2016-03-08T15:18:41Z", :size-kb 9, :stars 0, :archived? false}
 #:repo{:id 47207392, :lang :clojure, :full-name "Olical/advent-of-code", :created-at "2015-12-01T17:54:39Z", :pushed-at "2025-04-24T12:28:06Z", :size-kb 417, :stars 3, :archived? false}
 #:repo{:id 47224066, :lang :clojure, :full-name "slester/advent2015", :created-at "2015-12-01T23:31:45Z", :pushed-at "2016-01-14T18:22:53Z", :size-kb 74, :stars 0, :archived? false}
-#:repo{:id 47247870, :lang :clojure, :full-name "dahuang37/cs296-adventure-game", :created-at "2015-12-02T08:34:21Z", :pushed-at "2015-12-21T22:09:36Z", :size-kb 38, :stars 0, :archived? false}
 #:repo{:id 47264223, :lang :clojure, :full-name "bobwilliams/adventofcode", :created-at "2015-12-02T13:53:58Z", :pushed-at "2015-12-29T18:27:37Z", :size-kb 48, :stars 0, :archived? false}
 #:repo{:id 47268016, :lang :clojure, :full-name "ZacharyThomas/AdventOfCode", :created-at "2015-12-02T14:57:18Z", :pushed-at "2015-12-16T04:58:50Z", :size-kb 42, :stars 3, :archived? false}
 #:repo{:id 47306777, :lang :clojure, :full-name "spalladino/adventofcode-clj", :created-at "2015-12-03T04:04:40Z", :pushed-at "2015-12-29T21:24:45Z", :size-kb 90, :stars 0, :archived? false}
@@ -32,7 +28,6 @@
 #:repo{:id 47524793, :lang :clojure, :full-name "hallfox/advent-code", :created-at "2015-12-07T02:36:09Z", :pushed-at "2015-12-09T01:38:55Z", :size-kb 9, :stars 0, :archived? false}
 #:repo{:id 47600545, :lang :clojure, :full-name "ultimapanzer/adventofcode", :created-at "2015-12-08T05:26:44Z", :pushed-at "2015-12-08T05:40:32Z", :size-kb 2, :stars 0, :archived? false}
 #:repo{:id 47604459, :lang :clojure, :full-name "favrik/adventofcode", :created-at "2015-12-08T06:54:37Z", :pushed-at "2017-03-25T01:05:29Z", :size-kb 24, :stars 0, :archived? false}
-#:repo{:id 47619592, :lang :clojure, :full-name "soarb/clojurescript-om-adventures", :created-at "2015-12-08T12:04:51Z", :pushed-at "2015-12-30T15:25:35Z", :size-kb 1314, :stars 0, :archived? false}
 #:repo{:id 47631694, :lang :clojure, :full-name "codyhall/adventofcode", :created-at "2015-12-08T15:44:52Z", :pushed-at "2015-12-09T00:29:24Z", :size-kb 33, :stars 0, :archived? false}
 #:repo{:id 47635110, :lang :clojure, :full-name "josesanch/adventofcode", :created-at "2015-12-08T16:40:31Z", :pushed-at "2015-12-22T00:44:29Z", :size-kb 68, :stars 1, :archived? false}
 #:repo{:id 47637970, :lang :clojure, :full-name "iig/adventofcode", :created-at "2015-12-08T17:30:36Z", :pushed-at "2016-12-08T16:28:27Z", :size-kb 41, :stars 0, :archived? false}
@@ -90,8 +85,6 @@
 #:repo{:id 49943060, :lang :clojure, :full-name "tharibo/adventofcode", :created-at "2016-01-19T09:54:29Z", :pushed-at "2016-12-07T05:49:51Z", :size-kb 60, :stars 0, :archived? false}
 #:repo{:id 50134280, :lang :clojure, :full-name "matches/advent", :created-at "2016-01-21T20:22:49Z", :pushed-at "2016-01-21T20:28:23Z", :size-kb 32, :stars 0, :archived? false}
 #:repo{:id 50598895, :lang :clojure, :full-name "inhortte/advent_of_code", :created-at "2016-01-28T17:05:19Z", :pushed-at "2016-02-10T12:05:25Z", :size-kb 62, :stars 0, :archived? false}
-#:repo{:id 50954437, :lang :clojure, :full-name "vgamula/potential-adventure", :created-at "2016-02-02T21:49:42Z", :pushed-at "2016-02-05T00:45:51Z", :size-kb 13, :stars 1, :archived? false}
-#:repo{:id 51100265, :lang :clojure, :full-name "faisalabujabal/Text-Based-Adventure-Game", :created-at "2016-02-04T19:37:03Z", :pushed-at "2016-12-01T23:21:12Z", :size-kb 23, :stars 0, :archived? false}
 #:repo{:id 51245735, :lang :clojure, :full-name "k3nn7/advent-of-code-clojure", :created-at "2016-02-07T11:48:35Z", :pushed-at "2016-04-03T19:59:20Z", :size-kb 37, :stars 0, :archived? false}
 #:repo{:id 52017405, :lang :clojure, :full-name "halfdane/code-advent", :created-at "2016-02-18T15:32:03Z", :pushed-at "2016-02-22T10:45:25Z", :size-kb 39, :stars 0, :archived? false}
 #:repo{:id 52108241, :lang :clojure, :full-name "alphaone/advent-of-code-clj", :created-at "2016-02-19T18:37:22Z", :pushed-at "2025-03-26T16:23:27Z", :size-kb 452, :stars 1, :archived? false}
@@ -100,7 +93,6 @@
 #:repo{:id 54594159, :lang :clojure, :full-name "kaibra/adventofcode", :created-at "2016-03-23T21:26:18Z", :pushed-at "2017-01-11T10:39:48Z", :size-kb 115, :stars 0, :archived? false}
 #:repo{:id 54989264, :lang :clojure, :full-name "divs1210/advent-of-code", :created-at "2016-03-29T15:51:56Z", :pushed-at "2016-04-05T11:28:47Z", :size-kb 41, :stars 0, :archived? false}
 #:repo{:id 56606477, :lang :clojure, :full-name "mrz/advent-of-code", :created-at "2016-04-19T14:58:16Z", :pushed-at "2016-04-19T15:05:02Z", :size-kb 27, :stars 0, :archived? false}
-#:repo{:id 57218136, :lang :clojure, :full-name "practicalli-johnny/quil-adventures-in-flatland", :created-at "2016-04-27T14:04:27Z", :pushed-at "2016-04-27T14:11:36Z", :size-kb 13, :stars 0, :archived? false}
 #:repo{:id 58332515, :lang :clojure, :full-name "philipschwarz/advent-of-code-in-clojure", :created-at "2016-05-08T21:37:19Z", :pushed-at "2016-05-10T22:03:08Z", :size-kb 6, :stars 0, :archived? false}
 #:repo{:id 62492771, :lang :clojure, :full-name "Jackevansevo/clojure-advent-of-code", :created-at "2016-07-03T11:01:35Z", :pushed-at "2016-11-14T17:01:26Z", :size-kb 39, :stars 0, :archived? false}
 #:repo{:id 62895114, :lang :clojure, :full-name "amirci/aoc_clj", :created-at "2016-07-08T14:36:01Z", :pushed-at "2025-12-11T06:42:40Z", :size-kb 1119, :stars 0, :archived? false}
@@ -109,11 +101,9 @@
 #:repo{:id 67445300, :lang :clojure, :full-name "mikavilpas/adventofcode-clojure", :created-at "2016-09-05T19:17:09Z", :pushed-at "2016-09-30T06:27:57Z", :size-kb 78, :stars 1, :archived? false}
 #:repo{:id 70289627, :lang :clojure, :full-name "jrheard/advent-of-code", :created-at "2016-10-07T23:23:28Z", :pushed-at "2016-10-11T01:14:23Z", :size-kb 87, :stars 0, :archived? false}
 #:repo{:id 70661271, :lang :clojure, :full-name "mangolemon/adventofcode", :created-at "2016-10-12T04:03:08Z", :pushed-at "2016-10-13T15:15:20Z", :size-kb 21, :stars 0, :archived? false}
-#:repo{:id 72609179, :lang :clojure, :full-name "ebunders/cl-adventure", :created-at "2016-11-02T06:06:24Z", :pushed-at "2016-11-07T06:27:05Z", :size-kb 10, :stars 0, :archived? false}
 #:repo{:id 73521706, :lang :clojure, :full-name "Grasseh/adventofcode-2016", :created-at "2016-11-12T00:24:32Z", :pushed-at "2016-12-05T15:20:20Z", :size-kb 77, :stars 0, :archived? false}
 #:repo{:id 73675938, :lang :clojure, :full-name "geekingfrog/advent-of-code-clojure", :created-at "2016-11-14T06:51:53Z", :pushed-at "2016-12-25T09:29:11Z", :size-kb 252, :stars 0, :archived? false}
 #:repo{:id 74680182, :lang :clojure, :full-name "a-urth/advent-of-code-2015", :created-at "2016-11-24T14:26:23Z", :pushed-at "2016-11-24T14:26:52Z", :size-kb 14, :stars 0, :archived? false}
-#:repo{:id 74864805, :lang :clojure, :full-name "xamebax/adventures-in-quil", :created-at "2016-11-27T03:28:09Z", :pushed-at "2016-11-27T04:54:01Z", :size-kb 5, :stars 0, :archived? false}
 #:repo{:id 74994139, :lang :clojure, :full-name "tvirolai/advent-of-code-2016", :created-at "2016-11-28T16:54:32Z", :pushed-at "2024-12-11T16:06:30Z", :size-kb 170, :stars 0, :archived? false}
 #:repo{:id 75202752, :lang :clojure, :full-name "kennet-pobox-se/AOC", :created-at "2016-11-30T15:58:41Z", :pushed-at "2016-12-28T22:24:01Z", :size-kb 163, :stars 0, :archived? false}
 #:repo{:id 75229522, :lang :clojure, :full-name "johnmcconnell/aoc-clj", :created-at "2016-11-30T21:38:46Z", :pushed-at "2021-01-02T07:34:26Z", :size-kb 1023, :stars 1, :archived? false}
@@ -183,10 +173,7 @@
 #:repo{:id 76176816, :lang :clojure, :full-name "squiddle/advent-of-code-2016", :created-at "2016-12-11T13:43:54Z", :pushed-at "2016-12-11T13:48:21Z", :size-kb 14, :stars 0, :archived? false}
 #:repo{:id 76221836, :lang :clojure, :full-name "matthavener/adventofcode2016", :created-at "2016-12-12T04:26:37Z", :pushed-at "2016-12-26T03:10:27Z", :size-kb 168, :stars 0, :archived? false}
 #:repo{:id 76286452, :lang :clojure, :full-name "ekroon/adventofcode2016", :created-at "2016-12-12T19:02:34Z", :pushed-at "2016-12-13T21:41:58Z", :size-kb 11, :stars 0, :archived? false}
-#:repo{:id 76701227, :lang :clojure, :full-name "jzhan159/cs296-textadventure", :created-at "2016-12-17T03:20:53Z", :pushed-at "2016-12-17T03:35:04Z", :size-kb 6, :stars 0, :archived? false}
 #:repo{:id 76720662, :lang :clojure, :full-name "sido378/aoc16_clojure", :created-at "2016-12-17T11:35:36Z", :pushed-at "2016-12-17T15:10:12Z", :size-kb 35, :stars 0, :archived? false}
-#:repo{:id 76763281, :lang :clojure, :full-name "jennyhmtran/Adventure2", :created-at "2016-12-18T04:49:47Z", :pushed-at "2017-11-04T21:17:00Z", :size-kb 12, :stars 0, :archived? false}
-#:repo{:id 76841919, :lang :clojure, :full-name "sbmore2/Clojure-Text-Adventure-", :created-at "2016-12-19T08:13:01Z", :pushed-at "2016-12-19T08:27:05Z", :size-kb 11, :stars 0, :archived? false}
 #:repo{:id 77051251, :lang :clojure, :full-name "vsmart/advent-of-code-2016", :created-at "2016-12-21T12:52:08Z", :pushed-at "2016-12-21T12:52:22Z", :size-kb 6, :stars 0, :archived? false}
 #:repo{:id 77079984, :lang :clojure, :full-name "dianjin/advent-of-code-2016", :created-at "2016-12-21T19:24:12Z", :pushed-at "2016-12-22T21:03:54Z", :size-kb 184, :stars 0, :archived? false}
 #:repo{:id 77411240, :lang :clojure, :full-name "ihabunek/aoc2016", :created-at "2016-12-26T23:07:03Z", :pushed-at "2017-12-17T12:36:19Z", :size-kb 180, :stars 0, :archived? false}
@@ -196,11 +183,8 @@
 #:repo{:id 77847013, :lang :clojure, :full-name "robinweston/advent-of-code-2016-clojure", :created-at "2017-01-02T16:37:16Z", :pushed-at "2017-01-06T21:27:35Z", :size-kb 185, :stars 0, :archived? false}
 #:repo{:id 77862372, :lang :clojure, :full-name "jmulcahy/advent-of-code-2016", :created-at "2017-01-02T21:17:12Z", :pushed-at "2018-12-03T07:37:12Z", :size-kb 16, :stars 0, :archived? false}
 #:repo{:id 78008106, :lang :clojure, :full-name "Baspar/adventofcode", :created-at "2017-01-04T11:01:49Z", :pushed-at "2017-01-12T08:14:52Z", :size-kb 277, :stars 0, :archived? false}
-#:repo{:id 78892675, :lang :clojure, :full-name "jmeline/clj-adventure", :created-at "2017-01-13T22:45:07Z", :pushed-at "2017-01-13T22:48:00Z", :size-kb 9, :stars 0, :archived? false}
 #:repo{:id 80368628, :lang :clojure, :full-name "DerekCuevas/advent-of-code-2016", :created-at "2017-01-29T19:56:59Z", :pushed-at "2017-03-19T03:37:48Z", :size-kb 192, :stars 2, :archived? false}
-#:repo{:id 80638899, :lang :clojure, :full-name "firthh/ldnclj-text-adventures", :created-at "2017-02-01T16:24:04Z", :pushed-at "2017-02-13T21:58:06Z", :size-kb 7, :stars 0, :archived? false}
 #:repo{:id 80931582, :lang :clojure, :full-name "Jontem/AoC2016-clojure", :created-at "2017-02-04T16:23:08Z", :pushed-at "2017-02-04T17:07:41Z", :size-kb 7, :stars 0, :archived? false}
-#:repo{:id 81496464, :lang :clojure, :full-name "sean-a-m/glowing-adventure", :created-at "2017-02-09T21:26:00Z", :pushed-at "2017-02-09T21:30:45Z", :size-kb 19, :stars 0, :archived? false}
 #:repo{:id 82585159, :lang :clojure, :full-name "lvguowei/advent-of-code", :created-at "2017-02-20T17:40:19Z", :pushed-at "2017-02-25T19:27:32Z", :size-kb 12, :stars 0, :archived? false}
 #:repo{:id 83491864, :lang :clojure, :full-name "k13gomez/advent-of-code-1", :created-at "2017-03-01T00:05:53Z", :pushed-at "2017-03-01T00:06:09Z", :size-kb 7, :stars 0, :archived? false}
 #:repo{:id 83970044, :lang :clojure, :full-name "wnr/aoc-day1", :created-at "2017-03-05T12:58:38Z", :pushed-at "2017-03-05T12:58:50Z", :size-kb 6, :stars 0, :archived? false}
@@ -210,7 +194,6 @@
 #:repo{:id 86758308, :lang :clojure, :full-name "willpan/advent-2016", :created-at "2017-03-30T23:31:19Z", :pushed-at "2017-04-25T13:16:10Z", :size-kb 37, :stars 0, :archived? false}
 #:repo{:id 87266562, :lang :clojure, :full-name "punit-naik/advent-of-code", :created-at "2017-04-05T04:40:51Z", :pushed-at "2018-09-20T13:56:38Z", :size-kb 9, :stars 0, :archived? false}
 #:repo{:id 87632591, :lang :clojure, :full-name "johan1a/adventofcode2016", :created-at "2017-04-08T12:33:47Z", :pushed-at "2018-04-14T18:54:13Z", :size-kb 280, :stars 0, :archived? false}
-#:repo{:id 89746284, :lang :clojure, :full-name "jsa-aerial/cljs-adventures", :created-at "2017-04-28T21:31:48Z", :pushed-at "2017-07-14T21:38:04Z", :size-kb 319, :stars 0, :archived? false}
 #:repo{:id 90482228, :lang :clojure, :full-name "alexpeits/advent-of-code-2016-clojure", :created-at "2017-05-06T18:12:56Z", :pushed-at "2017-05-08T19:39:18Z", :size-kb 176, :stars 1, :archived? false}
 #:repo{:id 94820922, :lang :clojure, :full-name "reynoldscem/aoc-2016-clojure", :created-at "2017-06-19T21:06:08Z", :pushed-at "2017-06-19T21:08:32Z", :size-kb 1, :stars 0, :archived? false}
 #:repo{:id 95046294, :lang :clojure, :full-name "anthontaylor/adventofcode", :created-at "2017-06-21T21:07:36Z", :pushed-at "2017-07-06T22:08:10Z", :size-kb 74, :stars 0, :archived? false}
@@ -218,10 +201,7 @@
 #:repo{:id 96489354, :lang :clojure, :full-name "AndrewSinclair/aoc-2016-1-and-4", :created-at "2017-07-07T02:08:29Z", :pushed-at "2017-07-08T18:31:07Z", :size-kb 39, :stars 0, :archived? false}
 #:repo{:id 96824208, :lang :clojure, :full-name "mtbkapp/advent-of-code-2016", :created-at "2017-07-10T21:46:13Z", :pushed-at "2017-07-13T21:11:43Z", :size-kb 22, :stars 0, :archived? false}
 #:repo{:id 99072092, :lang :clojure, :full-name "StevenBR/advent_of_code_clojure", :created-at "2017-08-02T04:28:13Z", :pushed-at "2017-08-02T15:51:36Z", :size-kb 26, :stars 0, :archived? false}
-#:repo{:id 100188193, :lang :clojure, :full-name "aryabhatiya/fictional-adventure", :created-at "2017-08-13T16:02:03Z", :pushed-at "2017-08-19T11:13:41Z", :size-kb 145, :stars 2, :archived? false}
 #:repo{:id 101758578, :lang :clojure, :full-name "querenker/advent-of-code-2016", :created-at "2017-08-29T12:27:08Z", :pushed-at "2017-09-25T12:09:20Z", :size-kb 165, :stars 0, :archived? false}
-#:repo{:id 102045438, :lang :clojure, :full-name "omarestrella/adventure-system", :created-at "2017-08-31T21:08:43Z", :pushed-at "2017-09-04T14:22:00Z", :size-kb 30, :stars 0, :archived? false}
-#:repo{:id 104258291, :lang :clojure, :full-name "aryabhatiya/fantastic-adventure", :created-at "2017-09-20T19:21:07Z", :pushed-at "2017-09-24T04:10:22Z", :size-kb 17, :stars 0, :archived? false}
 #:repo{:id 104689463, :lang :clojure, :full-name "Solaxun/aoc2015", :created-at "2017-09-25T01:24:00Z", :pushed-at "2018-07-28T03:40:48Z", :size-kb 92, :stars 0, :archived? false}
 #:repo{:id 106459162, :lang :clojure, :full-name "borkdude/aoc2015_day7", :created-at "2017-10-10T19:01:04Z", :pushed-at "2017-10-10T20:46:54Z", :size-kb 4, :stars 4, :archived? false}
 #:repo{:id 106587431, :lang :clojure, :full-name "madstap/advent-of-code2016", :created-at "2017-10-11T17:35:32Z", :pushed-at "2017-11-11T06:59:03Z", :size-kb 159, :stars 0, :archived? false}
@@ -233,7 +213,6 @@
 #:repo{:id 110481004, :lang :clojure, :full-name "jgertm/advent-of-code", :created-at "2017-11-13T00:21:44Z", :pushed-at "2017-11-13T00:39:18Z", :size-kb 40, :stars 0, :archived? false}
 #:repo{:id 110933022, :lang :clojure, :full-name "gseyffert/advent-of-code", :created-at "2017-11-16T06:35:07Z", :pushed-at "2018-01-05T21:39:54Z", :size-kb 3769, :stars 0, :archived? false}
 #:repo{:id 110990614, :lang :clojure, :full-name "kalvatn/aoclj", :created-at "2017-11-16T15:47:07Z", :pushed-at "2024-10-22T08:53:48Z", :size-kb 240, :stars 1, :archived? false}
-#:repo{:id 111048743, :lang :clojure, :full-name "JanxSpirit/deep-sea-adventure", :created-at "2017-11-17T02:41:34Z", :pushed-at "2017-11-17T02:52:10Z", :size-kb 7, :stars 0, :archived? false}
 #:repo{:id 112252418, :lang :clojure, :full-name "chpill/advent", :created-at "2017-11-27T21:47:40Z", :pushed-at "2023-12-03T16:30:03Z", :size-kb 152, :stars 0, :archived? false}
 #:repo{:id 112308768, :lang :clojure, :full-name "metamorph/advent-of-code-2017", :created-at "2017-11-28T08:38:20Z", :pushed-at "2017-12-21T13:09:28Z", :size-kb 155, :stars 0, :archived? false}
 #:repo{:id 112364463, :lang :clojure, :full-name "scottamurray/advent", :created-at "2017-11-28T17:06:35Z", :pushed-at "2017-12-06T08:40:09Z", :size-kb 27, :stars 0, :archived? false}
@@ -322,7 +301,6 @@
 #:repo{:id 112888031, :lang :clojure, :full-name "Giesch/advent-of-code-17", :created-at "2017-12-03T00:22:47Z", :pushed-at "2018-07-15T08:20:52Z", :size-kb 93, :stars 0, :archived? false}
 #:repo{:id 112901025, :lang :clojure, :full-name "Jaretbinford/adventofcode", :created-at "2017-12-03T04:52:59Z", :pushed-at "2017-12-07T15:01:10Z", :size-kb 53, :stars 0, :archived? false}
 #:repo{:id 112905928, :lang :clojure, :full-name "holyjak/advent-of-code", :created-at "2017-12-03T06:33:09Z", :pushed-at "2017-12-15T07:25:57Z", :size-kb 174, :stars 1, :archived? false}
-#:repo{:id 112921591, :lang :clojure, :full-name "tank-bohr/didactic-adventure", :created-at "2017-12-03T11:18:15Z", :pushed-at "2018-04-20T13:02:30Z", :size-kb 47, :stars 0, :archived? false}
 #:repo{:id 112941826, :lang :clojure, :full-name "plexus/advent-of-code", :created-at "2017-12-03T15:59:22Z", :pushed-at "2022-10-18T08:33:53Z", :size-kb 152, :stars 1, :archived? false}
 #:repo{:id 112946419, :lang :clojure, :full-name "TimoFreiberg/advent-of-code-clj", :created-at "2017-12-03T17:02:32Z", :pushed-at "2018-01-03T15:15:47Z", :size-kb 169, :stars 1, :archived? false}
 #:repo{:id 112951896, :lang :clojure, :full-name "gernd/advent-of-clojure", :created-at "2017-12-03T18:19:52Z", :pushed-at "2021-12-19T13:19:14Z", :size-kb 3263, :stars 1, :archived? false}
@@ -419,7 +397,6 @@
 #:repo{:id 114832558, :lang :clojure, :full-name "epiccoleman/aoc-2017", :created-at "2017-12-20T02:17:38Z", :pushed-at "2017-12-20T17:00:38Z", :size-kb 26, :stars 0, :archived? false}
 #:repo{:id 114999094, :lang :clojure, :full-name "JackSho/AdventOfCode", :created-at "2017-12-21T11:35:16Z", :pushed-at "2020-12-16T11:38:56Z", :size-kb 247, :stars 0, :archived? false}
 #:repo{:id 115032987, :lang :clojure, :full-name "agentbellnorm/advent-of-code-2017", :created-at "2017-12-21T17:59:41Z", :pushed-at "2018-01-01T14:31:18Z", :size-kb 99, :stars 0, :archived? false}
-#:repo{:id 115057733, :lang :clojure, :full-name "mctaylorpants/clojure-text-adventure", :created-at "2017-12-21T23:59:01Z", :pushed-at "2017-12-30T00:43:33Z", :size-kb 10, :stars 0, :archived? false}
 #:repo{:id 115114627, :lang :clojure, :full-name "Ninerian/adventcode-2017", :created-at "2017-12-22T12:45:42Z", :pushed-at "2017-12-22T12:45:58Z", :size-kb 4, :stars 0, :archived? false}
 #:repo{:id 115159932, :lang :clojure, :full-name "akmiller78/advent-of-code2017", :created-at "2017-12-23T00:32:12Z", :pushed-at "2017-12-23T00:32:32Z", :size-kb 7, :stars 0, :archived? false}
 #:repo{:id 115295578, :lang :clojure, :full-name "Chouser/AdventOfCode2017", :created-at "2017-12-25T01:13:19Z", :pushed-at "2018-01-15T04:18:52Z", :size-kb 133, :stars 0, :archived? false}
@@ -447,14 +424,11 @@
 #:repo{:id 119893811, :lang :clojure, :full-name "tvojtech/advent-of-code", :created-at "2018-02-01T21:07:43Z", :pushed-at "2018-02-01T22:31:26Z", :size-kb 3, :stars 0, :archived? false}
 #:repo{:id 120158690, :lang :clojure, :full-name "srm88/advent-of-code-2017", :created-at "2018-02-04T05:45:29Z", :pushed-at "2018-04-18T00:17:38Z", :size-kb 54, :stars 0, :archived? false}
 #:repo{:id 120186985, :lang :clojure, :full-name "ilmoraunio/advent-of-code-2018", :created-at "2018-02-04T13:25:21Z", :pushed-at "2018-03-02T19:24:13Z", :size-kb 59, :stars 0, :archived? false}
-#:repo{:id 120831170, :lang :clojure, :full-name "llsouder/adventure", :created-at "2018-02-08T23:33:13Z", :pushed-at "2018-04-28T20:24:05Z", :size-kb 675, :stars 0, :archived? false}
 #:repo{:id 120874729, :lang :clojure, :full-name "germ13/clojure-advent", :created-at "2018-02-09T07:51:10Z", :pushed-at "2018-03-01T07:52:29Z", :size-kb 26, :stars 0, :archived? false}
 #:repo{:id 121138405, :lang :clojure, :full-name "pclalv/advent-of-code", :created-at "2018-02-11T15:43:37Z", :pushed-at "2020-04-17T00:34:28Z", :size-kb 385, :stars 0, :archived? false}
-#:repo{:id 121163228, :lang :clojure, :full-name "leon9608/AdventureGame", :created-at "2018-02-11T20:18:50Z", :pushed-at "2018-02-11T20:32:24Z", :size-kb 11, :stars 0, :archived? false}
 #:repo{:id 122055272, :lang :clojure, :full-name "scottmccaughie/adventofcode", :created-at "2018-02-19T11:49:50Z", :pushed-at "2018-02-20T17:28:51Z", :size-kb 67, :stars 0, :archived? false}
 #:repo{:id 122409987, :lang :clojure, :full-name "akivascript/advent-of-code", :created-at "2018-02-22T00:10:10Z", :pushed-at "2018-02-22T00:11:29Z", :size-kb 23, :stars 0, :archived? false}
 #:repo{:id 123023431, :lang :clojure, :full-name "jackmoch/advent-16", :created-at "2018-02-26T20:02:27Z", :pushed-at "2018-02-26T20:27:50Z", :size-kb 7, :stars 0, :archived? false}
-#:repo{:id 124557052, :lang :clojure, :full-name "miikargh/space-adventure", :created-at "2018-03-09T15:20:33Z", :pushed-at "2020-06-02T08:58:30Z", :size-kb 1843, :stars 0, :archived? false}
 #:repo{:id 125804457, :lang :clojure, :full-name "alexdao3/advent-of-code", :created-at "2018-03-19T05:11:52Z", :pushed-at "2021-01-08T08:04:38Z", :size-kb 211, :stars 2, :archived? false}
 #:repo{:id 127469110, :lang :clojure, :full-name "blackgate/advent-of-code-2017", :created-at "2018-03-30T20:13:54Z", :pushed-at "2018-04-27T12:08:57Z", :size-kb 19, :stars 0, :archived? false}
 #:repo{:id 129581720, :lang :clojure, :full-name "johan1a/adventofcode2017", :created-at "2018-04-15T05:57:59Z", :pushed-at "2018-04-15T07:11:09Z", :size-kb 10, :stars 0, :archived? false}
@@ -476,9 +450,6 @@
 #:repo{:id 141107019, :lang :clojure, :full-name "rfar/advent_of_code", :created-at "2018-07-16T08:07:23Z", :pushed-at "2020-04-30T09:11:23Z", :size-kb 50, :stars 1, :archived? false}
 #:repo{:id 141894212, :lang :clojure, :full-name "bubblefoil/adventofcode17", :created-at "2018-07-22T12:35:11Z", :pushed-at "2018-07-31T17:01:48Z", :size-kb 28, :stars 0, :archived? false}
 #:repo{:id 144798048, :lang :clojure, :full-name "jaydeesimon/advent-of-code-2015", :created-at "2018-08-15T02:54:41Z", :pushed-at "2018-08-21T02:30:27Z", :size-kb 53, :stars 1, :archived? false}
-#:repo{:id 146928235, :lang :clojure, :full-name "rMaxiQp/textAdventure", :created-at "2018-08-31T18:21:10Z", :pushed-at "2018-08-31T18:23:22Z", :size-kb 9, :stars 1, :archived? true}
-#:repo{:id 148274403, :lang :clojure, :full-name "shichuzhu/text_adventure_game", :created-at "2018-09-11T06:58:07Z", :pushed-at "2018-09-13T06:02:22Z", :size-kb 16, :stars 0, :archived? false}
-#:repo{:id 149162956, :lang :clojure, :full-name "PiotrGalusza/ClojureAdventure", :created-at "2018-09-17T17:31:38Z", :pushed-at "2018-09-23T03:48:31Z", :size-kb 11, :stars 1, :archived? false}
 #:repo{:id 149195906, :lang :clojure, :full-name "DeLaGuardo/adventofcode", :created-at "2018-09-17T22:28:20Z", :pushed-at "2018-09-18T09:35:16Z", :size-kb 14, :stars 0, :archived? false}
 #:repo{:id 151609966, :lang :clojure, :full-name "kkburr/advent", :created-at "2018-10-04T17:25:22Z", :pushed-at "2018-12-04T05:19:19Z", :size-kb 137, :stars 0, :archived? false}
 #:repo{:id 152453016, :lang :clojure, :full-name "cciccia/advent-of-code-2018", :created-at "2018-10-10T16:13:38Z", :pushed-at "2018-12-14T21:35:19Z", :size-kb 87, :stars 0, :archived? false}
@@ -775,7 +746,6 @@
 #:repo{:id 174409594, :lang :clojure, :full-name "zirmite/aoc-clj-2016", :created-at "2019-03-07T19:46:20Z", :pushed-at "2019-03-14T02:11:06Z", :size-kb 8, :stars 0, :archived? false}
 #:repo{:id 175428244, :lang :clojure, :full-name "thejettdurham/advent-of-code-2018-clojure", :created-at "2019-03-13T13:38:51Z", :pushed-at "2019-03-14T22:07:45Z", :size-kb 6, :stars 0, :archived? false}
 #:repo{:id 175960354, :lang :clojure, :full-name "conniepocky/advent-of-code-2019", :created-at "2019-03-16T10:56:37Z", :pushed-at "2019-03-16T13:26:18Z", :size-kb 12, :stars 0, :archived? false}
-#:repo{:id 176515356, :lang :clojure, :full-name "mellow-golem-games/RPG-Adventure-Manager", :created-at "2019-03-19T13:13:57Z", :pushed-at "2023-04-30T16:58:57Z", :size-kb 19010, :stars 0, :archived? false}
 #:repo{:id 177692724, :lang :clojure, :full-name "JohanCodinha/advent-of-code2018", :created-at "2019-03-26T01:31:02Z", :pushed-at "2019-05-20T03:49:23Z", :size-kb 100, :stars 0, :archived? false}
 #:repo{:id 177724468, :lang :clojure, :full-name "aaronang/advent-of-clojure-2018", :created-at "2019-03-26T06:02:23Z", :pushed-at "2019-03-27T03:13:28Z", :size-kb 2, :stars 0, :archived? false}
 #:repo{:id 178303035, :lang :clojure, :full-name "bfollek/advent2018clj", :created-at "2019-03-29T00:29:43Z", :pushed-at "2019-07-26T12:26:27Z", :size-kb 186, :stars 0, :archived? false}
@@ -792,7 +762,6 @@
 #:repo{:id 184063459, :lang :clojure, :full-name "burnall/advent2015", :created-at "2019-04-29T12:03:44Z", :pushed-at "2019-07-19T20:31:15Z", :size-kb 103, :stars 0, :archived? false}
 #:repo{:id 187393910, :lang :clojure, :full-name "jolod/advent-of-code-2017", :created-at "2019-05-18T18:46:18Z", :pushed-at "2019-11-04T16:42:52Z", :size-kb 213, :stars 1, :archived? false}
 #:repo{:id 191368650, :lang :clojure, :full-name "kimchhickey/advent-of-code-clj", :created-at "2019-06-11T12:38:00Z", :pushed-at "2022-10-14T09:40:17Z", :size-kb 253, :stars 1, :archived? false}
-#:repo{:id 197419188, :lang :clojure, :full-name "jmhossain/clojure-adventure", :created-at "2019-07-17T15:46:50Z", :pushed-at "2019-07-20T03:57:40Z", :size-kb 17, :stars 1, :archived? false}
 #:repo{:id 197922583, :lang :clojure, :full-name "burnall/advent2016", :created-at "2019-07-20T11:41:36Z", :pushed-at "2019-11-26T09:48:17Z", :size-kb 180, :stars 0, :archived? false}
 #:repo{:id 198324426, :lang :clojure, :full-name "neeasade/AdventOfCode", :created-at "2019-07-23T00:59:03Z", :pushed-at "2021-01-16T15:28:25Z", :size-kb 101, :stars 0, :archived? false}
 #:repo{:id 200431223, :lang :clojure, :full-name "valbaca/AdventOfCode2016-Clojure", :created-at "2019-08-03T23:52:27Z", :pushed-at "2021-08-17T03:04:56Z", :size-kb 15, :stars 0, :archived? true}
@@ -1063,8 +1032,6 @@
 #:repo{:id 227220418, :lang :clojure, :full-name "duncanjbrown/aoc2019", :created-at "2019-12-10T21:36:02Z", :pushed-at "2020-01-16T20:49:11Z", :size-kb 64, :stars 0, :archived? false}
 #:repo{:id 227239786, :lang :clojure, :full-name "jlo/advent-of-code-clj", :created-at "2019-12-11T00:12:06Z", :pushed-at "2019-12-11T00:12:45Z", :size-kb 8, :stars 0, :archived? false}
 #:repo{:id 227241736, :lang :clojure, :full-name "gfpeltier/adventofcode2019", :created-at "2019-12-11T00:29:39Z", :pushed-at "2019-12-20T22:09:26Z", :size-kb 14, :stars 0, :archived? false}
-#:repo{:id 227264948, :lang :clojure, :full-name "arjunt24/cs296-adventure-", :created-at "2019-12-11T03:05:33Z", :pushed-at "2019-12-21T05:30:54Z", :size-kb 13, :stars 0, :archived? false}
-#:repo{:id 227266019, :lang :clojure, :full-name "Qwertazertl0/CS296-25-FA19-Adventure-Project", :created-at "2019-12-11T03:12:11Z", :pushed-at "2019-12-11T17:08:50Z", :size-kb 13, :stars 0, :archived? false}
 #:repo{:id 227421718, :lang :clojure, :full-name "MagusMachinae/Advent-of-Code-2019", :created-at "2019-12-11T17:22:33Z", :pushed-at "2020-02-07T10:21:18Z", :size-kb 3, :stars 0, :archived? false}
 #:repo{:id 227444629, :lang :clojure, :full-name "lvguowei/advent-of-code-2019", :created-at "2019-12-11T19:32:47Z", :pushed-at "2019-12-11T20:01:28Z", :size-kb 8, :stars 0, :archived? false}
 #:repo{:id 227448923, :lang :clojure, :full-name "sejoharp/advent-of-code-2019", :created-at "2019-12-11T19:57:14Z", :pushed-at "2020-01-12T15:52:48Z", :size-kb 21, :stars 0, :archived? false}
@@ -1091,10 +1058,6 @@
 #:repo{:id 229098422, :lang :clojure, :full-name "psousa50/advent-of-code-2019", :created-at "2019-12-19T16:45:12Z", :pushed-at "2020-01-04T10:49:44Z", :size-kb 21, :stars 0, :archived? false}
 #:repo{:id 229120013, :lang :clojure, :full-name "jasonchadwick/adventofcode2019", :created-at "2019-12-19T18:58:35Z", :pushed-at "2020-01-12T23:45:23Z", :size-kb 96, :stars 0, :archived? false}
 #:repo{:id 229147324, :lang :clojure, :full-name "leourbina/advent-2019", :created-at "2019-12-19T22:16:04Z", :pushed-at "2019-12-19T22:16:28Z", :size-kb 2, :stars 0, :archived? false}
-#:repo{:id 229360731, :lang :clojure, :full-name "HenryShan/adventure", :created-at "2019-12-21T01:30:06Z", :pushed-at "2019-12-21T02:24:36Z", :size-kb 80, :stars 0, :archived? false}
-#:repo{:id 229376839, :lang :clojure, :full-name "roneall2/cs296_adventure", :created-at "2019-12-21T04:39:05Z", :pushed-at "2019-12-21T05:19:38Z", :size-kb 13, :stars 0, :archived? false}
-#:repo{:id 229480202, :lang :clojure, :full-name "chessvivek/CLOJURE_Adventure_Game", :created-at "2019-12-21T20:34:45Z", :pushed-at "2019-12-21T20:41:33Z", :size-kb 10, :stars 0, :archived? false}
-#:repo{:id 229485746, :lang :clojure, :full-name "lukaszs2/Clj-Adventure", :created-at "2019-12-21T21:33:31Z", :pushed-at "2019-12-21T21:34:50Z", :size-kb 3366, :stars 0, :archived? false}
 #:repo{:id 229500394, :lang :clojure, :full-name "andrewblim/advent-of-code-2019", :created-at "2019-12-22T00:38:20Z", :pushed-at "2020-11-28T04:40:33Z", :size-kb 48, :stars 0, :archived? false}
 #:repo{:id 229505589, :lang :clojure, :full-name "practicalli/advent-of-clojure-code", :created-at "2019-12-22T01:52:06Z", :pushed-at "2020-02-06T10:54:12Z", :size-kb 10, :stars 1, :archived? false}
 #:repo{:id 229561217, :lang :clojure, :full-name "conniepocky/advent-of-code", :created-at "2019-12-22T12:03:50Z", :pushed-at "2019-12-22T12:04:27Z", :size-kb 8, :stars 0, :archived? false}
@@ -1156,7 +1119,6 @@
 #:repo{:id 305858343, :lang :clojure, :full-name "aod/advent-of-clojure", :created-at "2020-10-20T23:38:42Z", :pushed-at "2021-11-24T23:48:39Z", :size-kb 42, :stars 0, :archived? false}
 #:repo{:id 306696159, :lang :clojure, :full-name "skonair/aoc-2015", :created-at "2020-10-23T16:55:54Z", :pushed-at "2020-11-01T11:57:50Z", :size-kb 44, :stars 0, :archived? false}
 #:repo{:id 307642195, :lang :clojure, :full-name "mununki/aoc-clojure", :created-at "2020-10-27T09:05:34Z", :pushed-at "2020-12-10T15:32:56Z", :size-kb 124, :stars 2, :archived? false}
-#:repo{:id 307662483, :lang :clojure, :full-name "ppintosilva/clojure-adventures", :created-at "2020-10-27T10:25:11Z", :pushed-at "2020-12-03T19:18:44Z", :size-kb 26, :stars 0, :archived? false}
 #:repo{:id 308315452, :lang :clojure, :full-name "Doesntmeananything/advent-of-code", :created-at "2020-10-29T12:04:52Z", :pushed-at "2020-12-18T22:08:46Z", :size-kb 37, :stars 0, :archived? false}
 #:repo{:id 308325515, :lang :clojure, :full-name "callum-oakley/advent-of-code-2015-clj", :created-at "2020-10-29T12:44:14Z", :pushed-at "2020-10-31T19:22:17Z", :size-kb 28, :stars 0, :archived? false}
 #:repo{:id 310605430, :lang :clojure, :full-name "japonophile/advent-of-code", :created-at "2020-11-06T13:31:15Z", :pushed-at "2022-12-10T11:44:36Z", :size-kb 13, :stars 0, :archived? false}
@@ -1598,7 +1560,6 @@
 #:repo{:id 333843082, :lang :clojure, :full-name "RedPenguin101/aoc2018", :created-at "2021-01-28T18:04:41Z", :pushed-at "2021-12-01T18:24:12Z", :size-kb 126, :stars 0, :archived? false}
 #:repo{:id 335317834, :lang :clojure, :full-name "vitberget/advent-of-code-2015-clojure", :created-at "2021-02-02T14:34:10Z", :pushed-at "2021-02-02T16:40:15Z", :size-kb 12, :stars 0, :archived? false}
 #:repo{:id 336353023, :lang :clojure, :full-name "klazich/aoc-2019-clj", :created-at "2021-02-05T18:15:20Z", :pushed-at "2021-02-26T18:45:44Z", :size-kb 31, :stars 0, :archived? false}
-#:repo{:id 338650147, :lang :clojure, :full-name "thomasjosea/adventure-of-code-clojure", :created-at "2021-02-13T19:15:44Z", :pushed-at "2021-10-20T18:19:52Z", :size-kb 36, :stars 0, :archived? false}
 #:repo{:id 340775122, :lang :clojure, :full-name "meta-434/clojure_advent_2019", :created-at "2021-02-20T23:23:46Z", :pushed-at "2021-05-09T05:29:46Z", :size-kb 17, :stars 0, :archived? false}
 #:repo{:id 341303392, :lang :clojure, :full-name "guido-weber/AoC_2020", :created-at "2021-02-22T18:50:42Z", :pushed-at "2021-02-23T16:10:56Z", :size-kb 9, :stars 0, :archived? false}
 #:repo{:id 341739260, :lang :clojure, :full-name "jeromewu/aoc2019-clj", :created-at "2021-02-24T01:15:05Z", :pushed-at "2021-03-07T06:29:30Z", :size-kb 48, :stars 0, :archived? false}
@@ -1616,7 +1577,6 @@
 #:repo{:id 354404748, :lang :clojure, :full-name "abyala/advent-2018-clojure", :created-at "2021-04-03T22:11:49Z", :pushed-at "2022-01-02T05:50:07Z", :size-kb 239, :stars 4, :archived? false}
 #:repo{:id 355183031, :lang :clojure, :full-name "RedPenguin101/aoc2015", :created-at "2021-04-06T12:37:43Z", :pushed-at "2021-12-01T18:22:13Z", :size-kb 75, :stars 0, :archived? false}
 #:repo{:id 355302327, :lang :clojure, :full-name "Thomashrb/advent-of-code-data", :created-at "2021-04-06T19:08:57Z", :pushed-at "2021-04-08T22:11:50Z", :size-kb 573, :stars 9, :archived? false}
-#:repo{:id 357930312, :lang :clojure, :full-name "zorvan/adventures", :created-at "2021-04-14T14:15:36Z", :pushed-at "2021-06-09T18:25:30Z", :size-kb 416, :stars 0, :archived? false}
 #:repo{:id 359230251, :lang :clojure, :full-name "robertmottus/Advent-of-Code-Clojure", :created-at "2021-04-18T19:05:32Z", :pushed-at "2023-02-21T19:44:50Z", :size-kb 81, :stars 0, :archived? false}
 #:repo{:id 360217901, :lang :clojure, :full-name "annsofip/AoCClojure", :created-at "2021-04-21T15:24:22Z", :pushed-at "2021-05-05T17:57:38Z", :size-kb 5, :stars 0, :archived? false}
 #:repo{:id 360503172, :lang :clojure, :full-name "JRobinson28/aoc-2020", :created-at "2021-04-22T11:59:56Z", :pushed-at "2021-04-22T12:10:20Z", :size-kb 58, :stars 0, :archived? false}
@@ -1638,7 +1598,6 @@
 #:repo{:id 380839828, :lang :clojure, :full-name "hgranthorner/clj-advent-2017", :created-at "2021-06-27T21:19:28Z", :pushed-at "2021-06-27T22:48:02Z", :size-kb 3, :stars 0, :archived? false}
 #:repo{:id 382065231, :lang :clojure, :full-name "RedPenguin101/aoc2019", :created-at "2021-07-01T14:45:05Z", :pushed-at "2021-12-01T18:24:38Z", :size-kb 77, :stars 0, :archived? false}
 #:repo{:id 383434368, :lang :clojure, :full-name "yyna/advent-of-code", :created-at "2021-07-06T10:48:30Z", :pushed-at "2024-12-04T13:25:57Z", :size-kb 4800, :stars 8, :archived? false}
-#:repo{:id 384532435, :lang :clojure, :full-name "daspositioned/clojure-adventures", :created-at "2021-07-09T19:25:53Z", :pushed-at "2025-10-06T11:18:05Z", :size-kb 10, :stars 0, :archived? true}
 #:repo{:id 384724009, :lang :clojure, :full-name "maurits-out/advent-of-code-2018", :created-at "2021-07-10T14:59:46Z", :pushed-at "2023-12-31T14:10:44Z", :size-kb 186, :stars 0, :archived? false}
 #:repo{:id 387360371, :lang :clojure, :full-name "bakyeono/study-clj-aoc", :created-at "2021-07-19T06:21:59Z", :pushed-at "2022-06-29T08:44:47Z", :size-kb 98, :stars 0, :archived? false}
 #:repo{:id 387882835, :lang :clojure, :full-name "APB9785/AoC-2016-clojure", :created-at "2021-07-20T18:37:21Z", :pushed-at "2021-08-09T19:53:14Z", :size-kb 17, :stars 0, :archived? false}
@@ -1682,7 +1641,6 @@
 #:repo{:id 430373891, :lang :clojure, :full-name "mwolfetech/aoc2021", :created-at "2021-11-21T13:26:23Z", :pushed-at "2025-06-18T15:09:59Z", :size-kb 42, :stars 1, :archived? false}
 #:repo{:id 430552133, :lang :clojure, :full-name "neilcode/advent-of-code-2021", :created-at "2021-11-22T03:39:08Z", :pushed-at "2022-12-01T06:56:23Z", :size-kb 56, :stars 0, :archived? false}
 #:repo{:id 430688814, :lang :clojure, :full-name "christiaan-janssen/advent2015", :created-at "2021-11-22T12:00:11Z", :pushed-at "2021-11-22T12:31:16Z", :size-kb 2, :stars 0, :archived? false}
-#:repo{:id 431198827, :lang :clojure, :full-name "Zhiheng-Hua/Adventure", :created-at "2021-11-23T17:45:34Z", :pushed-at "2021-12-16T00:42:01Z", :size-kb 186, :stars 0, :archived? false}
 #:repo{:id 432005754, :lang :clojure, :full-name "mprakash13/advent2020", :created-at "2021-11-25T23:57:43Z", :pushed-at "2021-11-29T21:42:08Z", :size-kb 32, :stars 0, :archived? false}
 #:repo{:id 432484945, :lang :clojure, :full-name "scottbale/advent-of-code", :created-at "2021-11-27T14:37:47Z", :pushed-at "2025-12-24T02:40:10Z", :size-kb 361, :stars 0, :archived? false}
 #:repo{:id 432820806, :lang :clojure, :full-name "philshap/advent2021", :created-at "2021-11-28T20:44:58Z", :pushed-at "2021-12-29T12:56:11Z", :size-kb 107, :stars 0, :archived? false}
@@ -2059,7 +2017,6 @@
 #:repo{:id 438400882, :lang :clojure, :full-name "rotaliator/adventofcode2021", :created-at "2021-12-14T21:09:34Z", :pushed-at "2022-01-10T22:10:07Z", :size-kb 34, :stars 1, :archived? false}
 #:repo{:id 438460154, :lang :clojure, :full-name "CBlair1986/advent-clojure", :created-at "2021-12-15T01:48:33Z", :pushed-at "2021-12-16T18:26:03Z", :size-kb 293, :stars 0, :archived? false}
 #:repo{:id 438485449, :lang :clojure, :full-name "lamesjinden/advent-of-code-2021", :created-at "2021-12-15T03:45:24Z", :pushed-at "2022-11-04T05:50:50Z", :size-kb 16, :stars 0, :archived? false}
-#:repo{:id 438513906, :lang :clojure, :full-name "ApoorvaAditya/adventure-game", :created-at "2021-12-15T06:03:12Z", :pushed-at "2021-12-21T19:16:05Z", :size-kb 1119, :stars 0, :archived? true}
 #:repo{:id 438739395, :lang :clojure, :full-name "Oleksii-Kshenskyi/aoc-2021", :created-at "2021-12-15T18:52:09Z", :pushed-at "2022-06-06T10:15:22Z", :size-kb 32, :stars 1, :archived? false}
 #:repo{:id 438914503, :lang :clojure, :full-name "jantorestolsvik/advent-of-code-2021", :created-at "2021-12-16T08:27:23Z", :pushed-at "2022-04-09T21:36:55Z", :size-kb 62, :stars 0, :archived? false}
 #:repo{:id 439057871, :lang :clojure, :full-name "goshatch/advent-of-code-2021-clojure", :created-at "2021-12-16T16:32:50Z", :pushed-at "2022-01-06T17:05:40Z", :size-kb 18, :stars 0, :archived? true}
@@ -2139,10 +2096,8 @@
 #:repo{:id 463366121, :lang :clojure, :full-name "chulphan/advent-of-code", :created-at "2022-02-25T02:10:00Z", :pushed-at "2022-02-25T03:35:31Z", :size-kb 18, :stars 0, :archived? false}
 #:repo{:id 463612983, :lang :clojure, :full-name "tmoson/aoc2021", :created-at "2022-02-25T17:05:30Z", :pushed-at "2022-02-25T17:07:59Z", :size-kb 41, :stars 0, :archived? false}
 #:repo{:id 466836479, :lang :clojure, :full-name "spthm/advent-of-code-2021", :created-at "2022-03-06T19:33:36Z", :pushed-at "2022-12-03T12:51:17Z", :size-kb 84, :stars 0, :archived? false}
-#:repo{:id 470786014, :lang :clojure, :full-name "brookeswanson/adventure", :created-at "2022-03-16T23:43:28Z", :pushed-at "2022-05-03T23:42:44Z", :size-kb 43, :stars 0, :archived? false}
 #:repo{:id 474320605, :lang :clojure, :full-name "MartinPuda/aoc-full", :created-at "2022-03-26T10:59:25Z", :pushed-at "2022-03-29T19:20:12Z", :size-kb 19, :stars 0, :archived? false}
 #:repo{:id 476058625, :lang :clojure, :full-name "eatobin/advent-21-clojure", :created-at "2022-03-30T21:35:15Z", :pushed-at "2023-12-28T23:21:22Z", :size-kb 20, :stars 0, :archived? false}
-#:repo{:id 476849315, :lang :clojure, :full-name "ben908/adventure-clojure", :created-at "2022-04-01T19:45:32Z", :pushed-at "2022-04-01T19:46:53Z", :size-kb 9, :stars 0, :archived? false}
 #:repo{:id 476959676, :lang :clojure, :full-name "jcarvajal288/advent-of-code-2021", :created-at "2022-04-02T05:45:12Z", :pushed-at "2023-08-30T21:15:57Z", :size-kb 38, :stars 0, :archived? false}
 #:repo{:id 478502845, :lang :clojure, :full-name "jysandy/advent-of-code-2021", :created-at "2022-04-06T10:03:23Z", :pushed-at "2022-04-27T07:41:55Z", :size-kb 13, :stars 0, :archived? false}
 #:repo{:id 478599262, :lang :clojure, :full-name "Yi-Jiahe/advent-of-code-2018", :created-at "2022-04-06T14:37:28Z", :pushed-at "2023-07-15T08:54:37Z", :size-kb 1064, :stars 0, :archived? false}
@@ -2373,7 +2328,6 @@
 #:repo{:id 573218926, :lang :clojure, :full-name "CookieJohn/MyAOC", :created-at "2022-12-02T00:31:18Z", :pushed-at "2022-12-10T09:32:22Z", :size-kb 285, :stars 0, :archived? false}
 #:repo{:id 573222464, :lang :clojure, :full-name "PEZ/joyride-aoc-2022", :created-at "2022-12-02T00:47:26Z", :pushed-at "2023-02-06T21:52:10Z", :size-kb 8908, :stars 4, :archived? false}
 #:repo{:id 573226831, :lang :clojure, :full-name "agharbin/advent-of-code-2022", :created-at "2022-12-02T01:06:46Z", :pushed-at "2023-05-06T03:58:18Z", :size-kb 35, :stars 0, :archived? false}
-#:repo{:id 573228630, :lang :clojure, :full-name "MatKurianski/adventure-of-code-2022", :created-at "2022-12-02T01:14:59Z", :pushed-at "2022-12-08T02:12:00Z", :size-kb 39, :stars 0, :archived? false}
 #:repo{:id 573238184, :lang :clojure, :full-name "jlangson/adventofcode2022", :created-at "2022-12-02T01:55:14Z", :pushed-at "2022-12-19T23:09:53Z", :size-kb 24, :stars 0, :archived? false}
 #:repo{:id 573242079, :lang :clojure, :full-name "josuesantos1/advent-of-code-22", :created-at "2022-12-02T02:10:22Z", :pushed-at "2022-12-02T02:10:56Z", :size-kb 12, :stars 0, :archived? false}
 #:repo{:id 573264831, :lang :clojure, :full-name "Yekrats/Advent22", :created-at "2022-12-02T03:43:53Z", :pushed-at "2022-12-02T03:51:04Z", :size-kb 61, :stars 0, :archived? false}
@@ -2414,7 +2368,6 @@
 #:repo{:id 573549971, :lang :clojure, :full-name "bloyot/advent-of-code-2022", :created-at "2022-12-02T18:27:34Z", :pushed-at "2022-12-06T19:33:37Z", :size-kb 28, :stars 0, :archived? false}
 #:repo{:id 573550426, :lang :clojure, :full-name "elatedpixel/advent2022", :created-at "2022-12-02T18:29:05Z", :pushed-at "2022-12-15T19:19:28Z", :size-kb 38, :stars 1, :archived? false}
 #:repo{:id 573553493, :lang :clojure, :full-name "jakufort/aoc", :created-at "2022-12-02T18:39:00Z", :pushed-at "2024-12-08T11:02:44Z", :size-kb 310, :stars 0, :archived? false}
-#:repo{:id 573556525, :lang :clojure, :full-name "jattenberg/adventures-of-code", :created-at "2022-12-02T18:49:05Z", :pushed-at "2025-12-05T05:33:53Z", :size-kb 672, :stars 1, :archived? false}
 #:repo{:id 573566136, :lang :clojure, :full-name "Uunnamed/AoC2022", :created-at "2022-12-02T19:22:37Z", :pushed-at "2022-12-27T12:11:11Z", :size-kb 105, :stars 0, :archived? false}
 #:repo{:id 573567104, :lang :clojure, :full-name "LevitatingOrange/aoc22", :created-at "2022-12-02T19:26:22Z", :pushed-at "2022-12-05T11:09:08Z", :size-kb 11, :stars 2, :archived? false}
 #:repo{:id 573574534, :lang :clojure, :full-name "markw/advent-of-code-2022", :created-at "2022-12-02T19:52:38Z", :pushed-at "2023-01-10T20:29:37Z", :size-kb 123, :stars 0, :archived? false}
@@ -2678,7 +2631,6 @@
 #:repo{:id 618253474, :lang :clojure, :full-name "HenryCROSS/clojure_advent_of_code_2022", :created-at "2023-03-24T04:16:03Z", :pushed-at "2023-05-01T04:51:23Z", :size-kb 306, :stars 0, :archived? false}
 #:repo{:id 618900229, :lang :clojure, :full-name "yulqen/advent_of_code22", :created-at "2023-03-25T17:14:57Z", :pushed-at "2023-03-25T17:15:18Z", :size-kb 48, :stars 0, :archived? false}
 #:repo{:id 622923391, :lang :clojure, :full-name "stindrago/advent-of-code", :created-at "2023-04-03T10:42:03Z", :pushed-at "2023-04-03T10:43:00Z", :size-kb 261, :stars 0, :archived? false}
-#:repo{:id 622924426, :lang :clojure, :full-name "stindrago/chose-your-own-adventure-app", :created-at "2023-04-03T10:44:46Z", :pushed-at "2023-04-03T11:09:45Z", :size-kb 81, :stars 0, :archived? true}
 #:repo{:id 623046586, :lang :clojure, :full-name "suereey/advent-of-code", :created-at "2023-04-03T15:29:00Z", :pushed-at "2023-04-26T19:13:37Z", :size-kb 63, :stars 0, :archived? false}
 #:repo{:id 629230301, :lang :clojure, :full-name "nikijiandani/aoc-clojure", :created-at "2023-04-17T22:36:25Z", :pushed-at "2023-05-31T23:51:10Z", :size-kb 11, :stars 0, :archived? false}
 #:repo{:id 632681872, :lang :clojure, :full-name "yzccww/advent_of_code", :created-at "2023-04-25T23:11:48Z", :pushed-at "2023-04-27T22:41:46Z", :size-kb 3, :stars 0, :archived? false}
@@ -3062,7 +3014,6 @@
 #:repo{:id 840565213, :lang :clojure, :full-name "andrewleverette/advent_of_code_clj", :created-at "2024-08-10T03:09:34Z", :pushed-at "2024-12-17T02:59:02Z", :size-kb 88, :stars 0, :archived? false}
 #:repo{:id 841157487, :lang :clojure, :full-name "Marce1in/Advent-Of-Code", :created-at "2024-08-11T20:05:13Z", :pushed-at "2026-03-11T22:11:47Z", :size-kb 68, :stars 0, :archived? false}
 #:repo{:id 847649831, :lang :clojure, :full-name "LinusMB/Advent-of-Code-2021", :created-at "2024-08-26T09:23:18Z", :pushed-at "2024-08-26T09:29:06Z", :size-kb 17, :stars 0, :archived? false}
-#:repo{:id 850397561, :lang :clojure, :full-name "guyguy2001/clojure-adventure", :created-at "2024-08-31T16:53:19Z", :pushed-at "2025-03-08T20:16:55Z", :size-kb 127, :stars 1, :archived? false}
 #:repo{:id 852419638, :lang :clojure, :full-name "helenwilliamson/advent-of-code-2023", :created-at "2024-09-04T19:16:15Z", :pushed-at "2024-09-24T20:12:23Z", :size-kb 20, :stars 0, :archived? false}
 #:repo{:id 856559278, :lang :clojure, :full-name "tbeeck/advent-of-code-2023", :created-at "2024-09-12T19:31:03Z", :pushed-at "2024-09-16T05:58:47Z", :size-kb 21, :stars 0, :archived? false}
 #:repo{:id 871458241, :lang :clojure, :full-name "rjray/advent-2016-clojure", :created-at "2024-10-12T03:00:40Z", :pushed-at "2024-11-01T21:39:48Z", :size-kb 83, :stars 0, :archived? false}
@@ -3590,7 +3541,6 @@
 #:repo{:id 52115030, :lang :elixir, :full-name "alphaone/advent-of-code-elixir", :created-at "2016-02-19T20:38:42Z", :pushed-at "2016-02-22T14:35:38Z", :size-kb 5, :stars 0, :archived? false}
 #:repo{:id 52657841, :lang :elixir, :full-name "amohamedali/advent_of_code_elixir", :created-at "2016-02-27T08:39:17Z", :pushed-at "2016-02-27T12:17:05Z", :size-kb 24, :stars 0, :archived? false}
 #:repo{:id 52821183, :lang :elixir, :full-name "seanchen1991/advent_of_code_elixir", :created-at "2016-02-29T20:11:13Z", :pushed-at "2016-03-01T21:55:57Z", :size-kb 1, :stars 1, :archived? false}
-#:repo{:id 53129749, :lang :elixir, :full-name "sinakarimi/functional-adventures", :created-at "2016-03-04T11:06:22Z", :pushed-at "2016-09-25T11:11:32Z", :size-kb 137, :stars 0, :archived? false}
 #:repo{:id 53134431, :lang :elixir, :full-name "hotovson/advent-of-elixir-code", :created-at "2016-03-04T12:38:04Z", :pushed-at "2016-03-05T16:21:17Z", :size-kb 25, :stars 0, :archived? false}
 #:repo{:id 53734197, :lang :elixir, :full-name "fabiokr/adventofcode", :created-at "2016-03-12T13:55:12Z", :pushed-at "2016-03-20T17:57:14Z", :size-kb 37, :stars 0, :archived? false}
 #:repo{:id 53882794, :lang :elixir, :full-name "mkasztelnik/elixir-adventofcode", :created-at "2016-03-14T18:48:21Z", :pushed-at "2016-03-17T11:59:19Z", :size-kb 7, :stars 0, :archived? false}
@@ -3601,7 +3551,6 @@
 #:repo{:id 54761170, :lang :elixir, :full-name "lauromoura/adventofcode", :created-at "2016-03-26T03:42:16Z", :pushed-at "2021-12-31T04:33:51Z", :size-kb 172, :stars 0, :archived? false}
 #:repo{:id 56138743, :lang :elixir, :full-name "NobbZ/advent_of_code", :created-at "2016-04-13T09:27:55Z", :pushed-at "2018-12-04T07:03:11Z", :size-kb 55, :stars 0, :archived? true}
 #:repo{:id 58051547, :lang :elixir, :full-name "dudekowsky/advent_of_code", :created-at "2016-05-04T12:49:21Z", :pushed-at "2016-05-04T12:49:56Z", :size-kb 66, :stars 0, :archived? false}
-#:repo{:id 60384456, :lang :elixir, :full-name "easco/adventure", :created-at "2016-06-03T23:55:37Z", :pushed-at "2019-01-24T04:49:57Z", :size-kb 28, :stars 3, :archived? false}
 #:repo{:id 60492925, :lang :elixir, :full-name "RookieOne/adventofcode", :created-at "2016-06-06T02:30:46Z", :pushed-at "2016-06-24T05:12:21Z", :size-kb 81, :stars 0, :archived? false}
 #:repo{:id 62739757, :lang :elixir, :full-name "iamteem/advent-of-code", :created-at "2016-07-06T17:17:59Z", :pushed-at "2016-07-06T17:20:34Z", :size-kb 1, :stars 0, :archived? false}
 #:repo{:id 64086737, :lang :elixir, :full-name "andrielfn/advent-of-code", :created-at "2016-07-24T21:36:41Z", :pushed-at "2018-04-30T07:02:07Z", :size-kb 39, :stars 0, :archived? false}
@@ -3706,10 +3655,7 @@
 #:repo{:id 79652984, :lang :elixir, :full-name "mirka/Advent-of-Code", :created-at "2017-01-21T15:11:46Z", :pushed-at "2021-12-31T11:12:19Z", :size-kb 433, :stars 0, :archived? false}
 #:repo{:id 79733071, :lang :elixir, :full-name "halkuon/advent", :created-at "2017-01-22T17:30:00Z", :pushed-at "2017-03-17T07:17:17Z", :size-kb 18, :stars 0, :archived? false}
 #:repo{:id 79755110, :lang :elixir, :full-name "fladrif/adventOfCode", :created-at "2017-01-23T00:06:02Z", :pushed-at "2017-02-01T09:18:36Z", :size-kb 8, :stars 0, :archived? false}
-#:repo{:id 80350625, :lang :elixir, :full-name "marcelfahle/elixir-adventures", :created-at "2017-01-29T14:28:34Z", :pushed-at "2017-07-19T07:50:29Z", :size-kb 6229, :stars 1, :archived? false}
 #:repo{:id 80991649, :lang :elixir, :full-name "kylethebaker/elixir-advent-of-code-2015", :created-at "2017-02-05T12:34:42Z", :pushed-at "2017-04-10T05:58:20Z", :size-kb 47, :stars 0, :archived? false}
-#:repo{:id 81108850, :lang :elixir, :full-name "khadijahhall/manheim_adventure", :created-at "2017-02-06T16:46:36Z", :pushed-at "2017-02-06T20:42:09Z", :size-kb 58, :stars 0, :archived? false}
-#:repo{:id 81617937, :lang :elixir, :full-name "arguingcrab/Elixir-Phoenix-Adventures", :created-at "2017-02-11T00:02:52Z", :pushed-at "2017-02-21T22:48:18Z", :size-kb 187, :stars 0, :archived? false}
 #:repo{:id 82197728, :lang :elixir, :full-name "bkirz/advent-of-code-2016", :created-at "2017-02-16T15:53:05Z", :pushed-at "2017-02-16T15:53:19Z", :size-kb 153, :stars 0, :archived? false}
 #:repo{:id 82312351, :lang :elixir, :full-name "anthonypleshek/adventofcode2016", :created-at "2017-02-17T15:49:28Z", :pushed-at "2017-02-17T15:49:55Z", :size-kb 164, :stars 0, :archived? false}
 #:repo{:id 88924482, :lang :elixir, :full-name "kaiyote/advent_elixir", :created-at "2017-04-21T01:03:34Z", :pushed-at "2017-08-04T17:43:47Z", :size-kb 392, :stars 0, :archived? false}
@@ -3719,7 +3665,6 @@
 #:repo{:id 98836748, :lang :elixir, :full-name "dathanb/advent_of_code", :created-at "2017-07-31T01:41:30Z", :pushed-at "2024-12-02T22:29:09Z", :size-kb 551, :stars 0, :archived? false}
 #:repo{:id 99355538, :lang :elixir, :full-name "sujaymansingh/adventofcode.ex", :created-at "2017-08-04T15:21:53Z", :pushed-at "2019-01-13T20:13:17Z", :size-kb 38, :stars 0, :archived? false}
 #:repo{:id 99480973, :lang :elixir, :full-name "akosasante/Advent-Of-Code-Helper-Elixir", :created-at "2017-08-06T11:04:14Z", :pushed-at "2022-12-02T22:47:29Z", :size-kb 93, :stars 8, :archived? false}
-#:repo{:id 102401712, :lang :elixir, :full-name "mathemagics/dnd-party-adventure-server", :created-at "2017-09-04T20:54:36Z", :pushed-at "2017-09-17T03:13:59Z", :size-kb 68, :stars 0, :archived? false}
 #:repo{:id 103230269, :lang :elixir, :full-name "sunboshan/advent_of_code", :created-at "2017-09-12T06:19:56Z", :pushed-at "2017-10-10T05:36:20Z", :size-kb 266, :stars 0, :archived? false}
 #:repo{:id 105101569, :lang :elixir, :full-name "xingxing/aoc", :created-at "2017-09-28T04:15:50Z", :pushed-at "2022-08-02T03:14:52Z", :size-kb 20, :stars 0, :archived? false}
 #:repo{:id 108091040, :lang :elixir, :full-name "indyone/adventofcode", :created-at "2017-10-24T07:18:44Z", :pushed-at "2018-12-31T05:33:35Z", :size-kb 6, :stars 2, :archived? false}
@@ -3899,7 +3844,6 @@
 #:repo{:id 113788185, :lang :elixir, :full-name "jfalk/advent_2017", :created-at "2017-12-10T22:23:10Z", :pushed-at "2017-12-12T01:20:54Z", :size-kb 6, :stars 0, :archived? false}
 #:repo{:id 113818455, :lang :elixir, :full-name "ngscheurich/advent-of-code-2017", :created-at "2017-12-11T05:56:46Z", :pushed-at "2017-12-15T20:13:08Z", :size-kb 1012, :stars 0, :archived? false}
 #:repo{:id 113831063, :lang :elixir, :full-name "mfilej/aoc17", :created-at "2017-12-11T08:13:30Z", :pushed-at "2017-12-22T18:03:17Z", :size-kb 109, :stars 2, :archived? false}
-#:repo{:id 114001566, :lang :elixir, :full-name "zhengxiaoyao0716/honeycomb-adventure", :created-at "2017-12-12T14:41:19Z", :pushed-at "2018-03-05T08:50:56Z", :size-kb 82, :stars 0, :archived? true}
 #:repo{:id 114040085, :lang :elixir, :full-name "mholtman/advent_of_code_2017", :created-at "2017-12-12T21:17:17Z", :pushed-at "2017-12-21T14:21:27Z", :size-kb 41, :stars 0, :archived? false}
 #:repo{:id 114054811, :lang :elixir, :full-name "kalbir/advent-of-code-2017", :created-at "2017-12-13T00:44:15Z", :pushed-at "2018-01-02T14:12:21Z", :size-kb 43, :stars 0, :archived? false}
 #:repo{:id 114073504, :lang :elixir, :full-name "jhollinger/Advent-of-Code-solutions", :created-at "2017-12-13T04:24:35Z", :pushed-at "2026-03-06T16:57:28Z", :size-kb 238, :stars 0, :archived? false}
@@ -3927,7 +3871,6 @@
 #:repo{:id 115359053, :lang :elixir, :full-name "drewolson/advent_of_code_2017", :created-at "2017-12-25T19:29:27Z", :pushed-at "2018-01-02T15:38:00Z", :size-kb 121, :stars 1, :archived? false}
 #:repo{:id 115819875, :lang :elixir, :full-name "metdinov/aoc2017", :created-at "2017-12-30T19:54:28Z", :pushed-at "2018-02-08T20:23:23Z", :size-kb 28, :stars 0, :archived? false}
 #:repo{:id 115825166, :lang :elixir, :full-name "seanhandley/aoc_2017_ex", :created-at "2017-12-30T21:26:40Z", :pushed-at "2018-01-08T17:33:50Z", :size-kb 221, :stars 0, :archived? false}
-#:repo{:id 115912120, :lang :elixir, :full-name "mendokusai/adventure", :created-at "2018-01-01T10:16:54Z", :pushed-at "2018-03-03T11:12:26Z", :size-kb 1873, :stars 2, :archived? false}
 #:repo{:id 117784789, :lang :elixir, :full-name "kespinola/code_advent_2017", :created-at "2018-01-17T04:40:14Z", :pushed-at "2018-01-20T16:42:52Z", :size-kb 9, :stars 0, :archived? false}
 #:repo{:id 118100573, :lang :elixir, :full-name "ntalfer/adventofcode2017", :created-at "2018-01-19T08:48:30Z", :pushed-at "2018-02-28T06:26:34Z", :size-kb 80, :stars 0, :archived? false}
 #:repo{:id 118202647, :lang :elixir, :full-name "bclube/advent-of-code-2016", :created-at "2018-01-20T02:53:15Z", :pushed-at "2018-04-18T14:54:27Z", :size-kb 50, :stars 0, :archived? false}
@@ -3943,9 +3886,7 @@
 #:repo{:id 127549741, :lang :elixir, :full-name "gntpet/AdventOfCode2017", :created-at "2018-03-31T16:25:15Z", :pushed-at "2018-07-22T16:29:45Z", :size-kb 62, :stars 0, :archived? false}
 #:repo{:id 130360296, :lang :elixir, :full-name "chevinbrown/advent-of-code", :created-at "2018-04-20T12:38:56Z", :pushed-at "2021-12-07T17:55:09Z", :size-kb 141, :stars 0, :archived? false}
 #:repo{:id 136652846, :lang :elixir, :full-name "unclesnottie/advent-of-code", :created-at "2018-06-08T18:24:32Z", :pushed-at "2023-09-28T02:12:49Z", :size-kb 2398, :stars 0, :archived? false}
-#:repo{:id 139413849, :lang :elixir, :full-name "DeadSuperHero/elixir-adventure", :created-at "2018-07-02T08:28:53Z", :pushed-at "2018-07-02T23:30:06Z", :size-kb 13, :stars 1, :archived? false}
 #:repo{:id 144090671, :lang :elixir, :full-name "xiongtx/aoc2015elixir", :created-at "2018-08-09T02:21:44Z", :pushed-at "2018-08-11T01:05:30Z", :size-kb 44, :stars 0, :archived? false}
-#:repo{:id 149599568, :lang :elixir, :full-name "reconizer/city-adventure-server", :created-at "2018-09-20T11:35:38Z", :pushed-at "2023-11-14T09:56:10Z", :size-kb 2915, :stars 0, :archived? false}
 #:repo{:id 151318773, :lang :elixir, :full-name "berlund/aoc-elixir", :created-at "2018-10-02T20:27:34Z", :pushed-at "2018-12-20T22:17:44Z", :size-kb 15, :stars 0, :archived? false}
 #:repo{:id 153937532, :lang :elixir, :full-name "dunyakirkali/aoc.ex", :created-at "2018-10-20T18:48:47Z", :pushed-at "2026-01-28T14:55:20Z", :size-kb 14942, :stars 8, :archived? false}
 #:repo{:id 155288094, :lang :elixir, :full-name "nikteg/adventofcode", :created-at "2018-10-29T22:11:16Z", :pushed-at "2019-12-09T10:21:28Z", :size-kb 36, :stars 0, :archived? false}
@@ -3953,7 +3894,6 @@
 #:repo{:id 158340048, :lang :elixir, :full-name "debajit/advent-of-code-2018", :created-at "2018-11-20T06:15:02Z", :pushed-at "2018-12-08T11:04:31Z", :size-kb 11, :stars 0, :archived? false}
 #:repo{:id 158569441, :lang :elixir, :full-name "jochumb/aoc2018", :created-at "2018-11-21T15:32:07Z", :pushed-at "2018-12-14T22:55:46Z", :size-kb 91, :stars 0, :archived? true}
 #:repo{:id 158693430, :lang :elixir, :full-name "mru2/aoc", :created-at "2018-11-22T12:05:10Z", :pushed-at "2018-12-05T13:13:17Z", :size-kb 66, :stars 0, :archived? false}
-#:repo{:id 158969549, :lang :elixir, :full-name "marjaimate/AdventureIEX", :created-at "2018-11-24T20:04:58Z", :pushed-at "2018-11-24T20:05:31Z", :size-kb 8, :stars 1, :archived? false}
 #:repo{:id 159378556, :lang :elixir, :full-name "mashiro-no-rabo/aoc", :created-at "2018-11-27T18:08:19Z", :pushed-at "2018-12-24T19:50:06Z", :size-kb 82, :stars 0, :archived? true}
 #:repo{:id 159386338, :lang :elixir, :full-name "marcodenisi/advent-of-code", :created-at "2018-11-27T19:13:27Z", :pushed-at "2021-12-24T11:08:57Z", :size-kb 352, :stars 4, :archived? false}
 #:repo{:id 159409150, :lang :elixir, :full-name "Heart-plus-N/2018-Advent-of-Code", :created-at "2018-11-27T22:34:09Z", :pushed-at "2018-12-28T21:10:10Z", :size-kb 153, :stars 0, :archived? true}
@@ -4309,7 +4249,6 @@
 #:repo{:id 163172983, :lang :elixir, :full-name "HarenBroog/advent_of_code", :created-at "2018-12-26T11:33:12Z", :pushed-at "2018-12-26T21:31:41Z", :size-kb 94, :stars 0, :archived? false}
 #:repo{:id 163692887, :lang :elixir, :full-name "the-shank/advent-of-code-2018", :created-at "2018-12-31T19:27:37Z", :pushed-at "2019-01-03T03:45:29Z", :size-kb 231, :stars 0, :archived? false}
 #:repo{:id 163702455, :lang :elixir, :full-name "TroyLaurin/aoc2018", :created-at "2018-12-31T23:17:27Z", :pushed-at "2019-01-01T06:45:55Z", :size-kb 1174, :stars 0, :archived? false}
-#:repo{:id 163760897, :lang :elixir, :full-name "gregcline/serialized-adventures", :created-at "2019-01-01T19:24:05Z", :pushed-at "2019-01-01T22:12:42Z", :size-kb 140, :stars 0, :archived? false}
 #:repo{:id 164006121, :lang :elixir, :full-name "Pongch/advent_of_code", :created-at "2019-01-03T18:01:19Z", :pushed-at "2019-06-10T15:19:47Z", :size-kb 78, :stars 0, :archived? false}
 #:repo{:id 164016106, :lang :elixir, :full-name "al2o3cr/advent-of-code", :created-at "2019-01-03T19:47:48Z", :pushed-at "2019-01-03T19:54:44Z", :size-kb 94, :stars 1, :archived? false}
 #:repo{:id 164047154, :lang :elixir, :full-name "shysank/advent_of_code", :created-at "2019-01-04T02:26:47Z", :pushed-at "2019-01-25T04:49:09Z", :size-kb 17, :stars 0, :archived? false}
@@ -4323,8 +4262,6 @@
 #:repo{:id 170182406, :lang :elixir, :full-name "thetamind/adventofcode2018", :created-at "2019-02-11T18:47:31Z", :pushed-at "2019-03-01T19:15:21Z", :size-kb 192, :stars 1, :archived? false}
 #:repo{:id 171660668, :lang :elixir, :full-name "dennisxtria/advent_of_code_2018", :created-at "2019-02-20T11:28:42Z", :pushed-at "2019-03-01T13:14:33Z", :size-kb 6, :stars 0, :archived? false}
 #:repo{:id 172915741, :lang :elixir, :full-name "bfollek/advent2018ex", :created-at "2019-02-27T12:56:22Z", :pushed-at "2019-03-30T01:19:22Z", :size-kb 81, :stars 0, :archived? false}
-#:repo{:id 176016101, :lang :elixir, :full-name "m-doughty/mars_adventure", :created-at "2019-03-16T19:33:17Z", :pushed-at "2019-03-17T02:53:41Z", :size-kb 15, :stars 0, :archived? false}
-#:repo{:id 176117069, :lang :elixir, :full-name "eteubert/open_adventure_capitalist", :created-at "2019-03-17T14:59:45Z", :pushed-at "2019-03-17T15:00:02Z", :size-kb 142, :stars 15, :archived? false}
 #:repo{:id 178294888, :lang :elixir, :full-name "arzke/aoc", :created-at "2019-03-28T23:01:13Z", :pushed-at "2019-04-01T21:24:40Z", :size-kb 14, :stars 1, :archived? false}
 #:repo{:id 178690298, :lang :elixir, :full-name "kenseii/advent-of-code-2018", :created-at "2019-03-31T13:15:29Z", :pushed-at "2019-03-31T16:15:11Z", :size-kb 3, :stars 0, :archived? false}
 #:repo{:id 182843017, :lang :elixir, :full-name "w-sanches/advent_of_code", :created-at "2019-04-22T18:18:31Z", :pushed-at "2020-12-17T19:42:24Z", :size-kb 108, :stars 0, :archived? false}
@@ -4332,12 +4269,10 @@
 #:repo{:id 185754905, :lang :elixir, :full-name "QuestionC/elixir-advent2018", :created-at "2019-05-09T08:07:00Z", :pushed-at "2019-05-09T08:12:33Z", :size-kb 120, :stars 0, :archived? false}
 #:repo{:id 188825341, :lang :elixir, :full-name "dukevenkat/Elixir-Adventofcode", :created-at "2019-05-27T10:49:29Z", :pushed-at "2020-01-27T09:52:51Z", :size-kb 15, :stars 1, :archived? false}
 #:repo{:id 190087378, :lang :elixir, :full-name "grantwest/advent-of-code", :created-at "2019-06-03T21:51:30Z", :pushed-at "2023-12-01T22:29:11Z", :size-kb 893, :stars 0, :archived? false}
-#:repo{:id 193489650, :lang :elixir, :full-name "kehlynch/adventure-game", :created-at "2019-06-24T11:08:30Z", :pushed-at "2023-01-05T03:07:49Z", :size-kb 3707, :stars 0, :archived? false}
 #:repo{:id 195026026, :lang :elixir, :full-name "rdaumann/aoc-2018-elixir", :created-at "2019-07-03T09:49:26Z", :pushed-at "2021-12-02T10:35:03Z", :size-kb 21, :stars 0, :archived? false}
 #:repo{:id 195573700, :lang :elixir, :full-name "mRamiroGonzalez/aoc2018-elixir", :created-at "2019-07-06T18:59:19Z", :pushed-at "2019-07-10T22:13:48Z", :size-kb 6, :stars 0, :archived? false}
 #:repo{:id 203635567, :lang :elixir, :full-name "Bounga/advent-of-code-2018", :created-at "2019-08-21T17:45:59Z", :pushed-at "2019-08-21T17:52:20Z", :size-kb 78, :stars 0, :archived? false}
 #:repo{:id 204709696, :lang :elixir, :full-name "mariiio/advent_of_code", :created-at "2019-08-27T13:30:11Z", :pushed-at "2019-08-27T13:33:28Z", :size-kb 18, :stars 2, :archived? false}
-#:repo{:id 205582147, :lang :elixir, :full-name "condef5/elixir-adventure", :created-at "2019-08-31T18:30:20Z", :pushed-at "2019-08-31T18:45:53Z", :size-kb 9, :stars 1, :archived? false}
 #:repo{:id 205962045, :lang :elixir, :full-name "asurin/aoc_elixir", :created-at "2019-09-03T01:11:33Z", :pushed-at "2019-09-06T14:05:22Z", :size-kb 24, :stars 0, :archived? false}
 #:repo{:id 210610337, :lang :elixir, :full-name "hh-ex/adventofcode-kata", :created-at "2019-09-24T13:30:17Z", :pushed-at "2019-09-24T19:07:29Z", :size-kb 12, :stars 0, :archived? false}
 #:repo{:id 212521505, :lang :elixir, :full-name "Andaar/AdventOfCode", :created-at "2019-10-03T07:34:38Z", :pushed-at "2019-12-30T06:46:37Z", :size-kb 14, :stars 0, :archived? false}
@@ -4699,7 +4634,6 @@
 #:repo{:id 266030707, :lang :elixir, :full-name "rlchu/advent2019elixir", :created-at "2020-05-22T05:59:33Z", :pushed-at "2020-05-25T20:41:25Z", :size-kb 5, :stars 0, :archived? false}
 #:repo{:id 267385695, :lang :elixir, :full-name "karitham/aoc", :created-at "2020-05-27T17:37:07Z", :pushed-at "2024-12-20T14:04:09Z", :size-kb 350, :stars 1, :archived? false}
 #:repo{:id 267416584, :lang :elixir, :full-name "tychode/aoc", :created-at "2020-05-27T20:10:47Z", :pushed-at "2020-05-27T20:11:22Z", :size-kb 24, :stars 0, :archived? false}
-#:repo{:id 278949943, :lang :elixir, :full-name "ignaciomosca/phoenix_adventureworks", :created-at "2020-07-11T22:13:36Z", :pushed-at "2023-01-06T11:17:49Z", :size-kb 1528, :stars 0, :archived? false}
 #:repo{:id 284688146, :lang :elixir, :full-name "venkatesh73/aoc-17-elixir", :created-at "2020-08-03T11:59:49Z", :pushed-at "2020-08-29T07:49:32Z", :size-kb 3, :stars 0, :archived? false}
 #:repo{:id 285470151, :lang :elixir, :full-name "brianwitte/advent_2018", :created-at "2020-08-06T04:08:26Z", :pushed-at "2020-08-06T04:09:18Z", :size-kb 10, :stars 0, :archived? false}
 #:repo{:id 287058476, :lang :elixir, :full-name "mep1992/advent2019", :created-at "2020-08-12T16:07:10Z", :pushed-at "2020-08-27T14:26:06Z", :size-kb 40, :stars 0, :archived? false}
@@ -5103,8 +5037,6 @@
 #:repo{:id 392314162, :lang :elixir, :full-name "space-shell/advent-of-code-2020", :created-at "2021-08-03T12:43:14Z", :pushed-at "2021-08-03T12:43:56Z", :size-kb 65, :stars 1, :archived? false}
 #:repo{:id 392741583, :lang :elixir, :full-name "crsanti/advent-of-code-elixir-boilerplate", :created-at "2021-08-04T15:35:33Z", :pushed-at "2021-08-04T17:20:22Z", :size-kb 4, :stars 0, :archived? false}
 #:repo{:id 395410328, :lang :elixir, :full-name "VadAbel/AdventOfCode2017", :created-at "2021-08-12T18:27:31Z", :pushed-at "2023-08-08T20:35:29Z", :size-kb 160, :stars 0, :archived? false}
-#:repo{:id 401087263, :lang :elixir, :full-name "FelixFortis/adventure_time", :created-at "2021-08-29T16:18:45Z", :pushed-at "2021-09-03T11:29:02Z", :size-kb 79, :stars 0, :archived? false}
-#:repo{:id 401136216, :lang :elixir, :full-name "FelixFortis/adventure_time_online", :created-at "2021-08-29T20:29:09Z", :pushed-at "2021-10-01T18:38:06Z", :size-kb 157, :stars 0, :archived? false}
 #:repo{:id 408642291, :lang :elixir, :full-name "jwilson/adventofcode2020", :created-at "2021-09-21T00:32:39Z", :pushed-at "2021-10-19T17:41:04Z", :size-kb 49, :stars 0, :archived? false}
 #:repo{:id 412796611, :lang :elixir, :full-name "tetek/aoc2020", :created-at "2021-10-02T12:57:23Z", :pushed-at "2021-10-02T13:01:01Z", :size-kb 49, :stars 0, :archived? false}
 #:repo{:id 418010354, :lang :elixir, :full-name "stackcats/adventofcode", :created-at "2021-10-17T03:38:51Z", :pushed-at "2025-12-12T07:05:04Z", :size-kb 1292, :stars 1, :archived? false}
@@ -5637,7 +5569,6 @@
 #:repo{:id 480386769, :lang :elixir, :full-name "gdelazzer/aoc2021", :created-at "2022-04-11T13:14:01Z", :pushed-at "2022-04-11T13:27:57Z", :size-kb 16, :stars 0, :archived? false}
 #:repo{:id 482274164, :lang :elixir, :full-name "BIRSAx2/advent-of-code-2021", :created-at "2022-04-16T14:23:00Z", :pushed-at "2022-07-23T14:08:46Z", :size-kb 60, :stars 1, :archived? false}
 #:repo{:id 485703034, :lang :elixir, :full-name "parkdoyeon/advent-of-code-elixir", :created-at "2022-04-26T08:42:45Z", :pushed-at "2022-06-04T11:09:54Z", :size-kb 11, :stars 0, :archived? false}
-#:repo{:id 487966034, :lang :elixir, :full-name "AvishekPD/elixir-adventure", :created-at "2022-05-02T19:28:15Z", :pushed-at "2022-05-03T11:04:35Z", :size-kb 2, :stars 0, :archived? false}
 #:repo{:id 489181893, :lang :elixir, :full-name "bll98085/AOC2021_elixir", :created-at "2022-05-06T01:52:02Z", :pushed-at "2022-06-16T08:49:53Z", :size-kb 354, :stars 0, :archived? false}
 #:repo{:id 489941020, :lang :elixir, :full-name "mgkoning/advent-of-elixir-2016", :created-at "2022-05-08T12:44:13Z", :pushed-at "2022-09-29T21:47:58Z", :size-kb 9, :stars 0, :archived? false}
 #:repo{:id 490703368, :lang :elixir, :full-name "vincentscode/Advent-of-Code", :created-at "2022-05-10T13:14:10Z", :pushed-at "2023-12-07T12:47:07Z", :size-kb 53, :stars 0, :archived? false}
@@ -6172,9 +6103,7 @@
 #:repo{:id 604158107, :lang :elixir, :full-name "john-heintschel/advent-of-code", :created-at "2023-02-20T13:08:18Z", :pushed-at "2023-12-23T21:36:37Z", :size-kb 36, :stars 0, :archived? false}
 #:repo{:id 605254440, :lang :elixir, :full-name "SzymonJankowski98/AdventOfCode2022", :created-at "2023-02-22T19:21:37Z", :pushed-at "2023-02-27T20:12:36Z", :size-kb 29, :stars 0, :archived? false}
 #:repo{:id 616856686, :lang :elixir, :full-name "Sauronius/AoC2022", :created-at "2023-03-21T08:19:02Z", :pushed-at "2023-03-21T08:22:10Z", :size-kb 49, :stars 0, :archived? false}
-#:repo{:id 617958643, :lang :elixir, :full-name "mateus-alves-dev/animated-adventure", :created-at "2023-03-23T13:19:12Z", :pushed-at "2023-03-23T13:19:14Z", :size-kb 3, :stars 0, :archived? false}
 #:repo{:id 619333359, :lang :elixir, :full-name "ignoxx/aoc-challenge", :created-at "2023-03-26T23:15:59Z", :pushed-at "2023-03-26T23:16:48Z", :size-kb 8, :stars 1, :archived? false}
-#:repo{:id 622344627, :lang :elixir, :full-name "mateus-alves-dev/reimagined-adventure", :created-at "2023-04-01T20:41:33Z", :pushed-at "2023-04-18T00:23:28Z", :size-kb 281, :stars 0, :archived? false}
 #:repo{:id 625272506, :lang :elixir, :full-name "michaltarasiuk/aoc-elixir", :created-at "2023-04-08T15:45:40Z", :pushed-at "2023-04-18T06:45:03Z", :size-kb 107, :stars 0, :archived? false}
 #:repo{:id 625965585, :lang :elixir, :full-name "adrianos10/advent-of-code-2022-ex", :created-at "2023-04-10T14:03:41Z", :pushed-at "2023-04-10T14:04:36Z", :size-kb 9, :stars 0, :archived? false}
 #:repo{:id 627450946, :lang :elixir, :full-name "jeffhsta/advent_of_code_elixir", :created-at "2023-04-13T13:48:35Z", :pushed-at "2025-03-27T22:56:23Z", :size-kb 4536, :stars 0, :archived? false}
@@ -6191,7 +6120,6 @@
 #:repo{:id 646508794, :lang :elixir, :full-name "brucedo/elixir_advent", :created-at "2023-05-28T16:14:54Z", :pushed-at "2023-11-02T04:00:18Z", :size-kb 70, :stars 0, :archived? false}
 #:repo{:id 650274816, :lang :elixir, :full-name "FinestGit/Elixir-AdventOfCode2022", :created-at "2023-06-06T18:09:02Z", :pushed-at "2023-06-06T21:11:52Z", :size-kb 8, :stars 0, :archived? false}
 #:repo{:id 657965776, :lang :elixir, :full-name "workkwaw/aoc-elxr", :created-at "2023-06-24T10:53:35Z", :pushed-at "2023-06-24T23:53:56Z", :size-kb 6, :stars 0, :archived? false}
-#:repo{:id 661232574, :lang :elixir, :full-name "CarlG96/AdventuresInElixir", :created-at "2023-07-02T07:49:54Z", :pushed-at "2023-07-09T07:01:14Z", :size-kb 12, :stars 0, :archived? false}
 #:repo{:id 661485313, :lang :elixir, :full-name "MarcosFlavioGS/Advent_of_code_2022_Elixir", :created-at "2023-07-03T01:31:43Z", :pushed-at "2023-07-08T21:19:54Z", :size-kb 18, :stars 0, :archived? false}
 #:repo{:id 665248535, :lang :elixir, :full-name "segfaultDelirium/advent_of_code_day1", :created-at "2023-07-11T19:21:20Z", :pushed-at "2023-07-11T19:21:56Z", :size-kb 9, :stars 0, :archived? false}
 #:repo{:id 670114885, :lang :elixir, :full-name "tedkulp/aoc-elixir-2022", :created-at "2023-07-24T10:25:31Z", :pushed-at "2023-07-24T10:25:33Z", :size-kb 13, :stars 0, :archived? false}
@@ -6201,10 +6129,8 @@
 #:repo{:id 673522581, :lang :elixir, :full-name "HmWhyNot/AdventOfCode", :created-at "2023-08-01T20:28:01Z", :pushed-at "2023-08-03T18:47:24Z", :size-kb 8, :stars 0, :archived? false}
 #:repo{:id 676326386, :lang :elixir, :full-name "flmng0/advent", :created-at "2023-08-09T00:37:39Z", :pushed-at "2024-12-19T17:29:39Z", :size-kb 107, :stars 0, :archived? false}
 #:repo{:id 676392470, :lang :elixir, :full-name "VadAbel/AdventOfCode2018", :created-at "2023-08-09T05:19:03Z", :pushed-at "2024-12-31T14:39:37Z", :size-kb 133, :stars 0, :archived? false}
-#:repo{:id 688279208, :lang :elixir, :full-name "xantrac/adventurer", :created-at "2023-09-07T02:52:38Z", :pushed-at "2023-10-20T00:54:55Z", :size-kb 491, :stars 0, :archived? false}
 #:repo{:id 689103673, :lang :elixir, :full-name "MarcOSDX/aoc22", :created-at "2023-09-08T20:09:09Z", :pushed-at "2023-09-08T20:16:44Z", :size-kb 9, :stars 0, :archived? true}
 #:repo{:id 692444366, :lang :elixir, :full-name "carbonleakage/AOC2015_elixir", :created-at "2023-09-16T13:53:17Z", :pushed-at "2023-09-17T16:11:03Z", :size-kb 29, :stars 0, :archived? false}
-#:repo{:id 697727395, :lang :elixir, :full-name "Christian-Broomfield/the_adventuring_day", :created-at "2023-09-28T10:57:27Z", :pushed-at "2024-03-19T14:34:06Z", :size-kb 10292, :stars 0, :archived? false}
 #:repo{:id 698927687, :lang :elixir, :full-name "magnax/aoc_elixir", :created-at "2023-10-01T12:13:32Z", :pushed-at "2023-10-01T12:16:45Z", :size-kb 23, :stars 0, :archived? false}
 #:repo{:id 699680836, :lang :elixir, :full-name "simon-nystrom/adventofcode-2023", :created-at "2023-10-03T05:58:30Z", :pushed-at "2023-12-02T08:57:14Z", :size-kb 17, :stars 0, :archived? false}
 #:repo{:id 702994551, :lang :elixir, :full-name "mrjln/advent-elixir", :created-at "2023-10-10T11:56:53Z", :pushed-at "2023-10-10T11:57:41Z", :size-kb 13, :stars 0, :archived? false}
@@ -6378,7 +6304,6 @@
 #:repo{:id 726169944, :lang :elixir, :full-name "denvaar/advent_of_code_2023", :created-at "2023-12-01T17:24:06Z", :pushed-at "2024-01-19T03:29:12Z", :size-kb 10, :stars 5, :archived? false}
 #:repo{:id 726171133, :lang :elixir, :full-name "agoodman1999/aoc-2023-day1", :created-at "2023-12-01T17:27:18Z", :pushed-at "2023-12-01T17:39:07Z", :size-kb 2, :stars 0, :archived? false}
 #:repo{:id 726172081, :lang :elixir, :full-name "jorgeacortes/advent-of-code-2023", :created-at "2023-12-01T17:29:59Z", :pushed-at "2023-12-02T14:23:34Z", :size-kb 9, :stars 0, :archived? false}
-#:repo{:id 726174717, :lang :elixir, :full-name "ataideal/adventure-of-code-2023", :created-at "2023-12-01T17:36:58Z", :pushed-at "2023-12-08T23:44:16Z", :size-kb 43, :stars 0, :archived? false}
 #:repo{:id 726175121, :lang :elixir, :full-name "laszlokorte/aoc2023", :created-at "2023-12-01T17:38:11Z", :pushed-at "2023-12-27T22:15:15Z", :size-kb 3056, :stars 1, :archived? false}
 #:repo{:id 726175239, :lang :elixir, :full-name "timarbuckle/adventofcode2023", :created-at "2023-12-01T17:38:27Z", :pushed-at "2023-12-16T05:40:01Z", :size-kb 51, :stars 0, :archived? false}
 #:repo{:id 726175656, :lang :elixir, :full-name "michaelst/aoc", :created-at "2023-12-01T17:39:34Z", :pushed-at "2023-12-16T06:23:40Z", :size-kb 178, :stars 0, :archived? false}
@@ -7304,7 +7229,6 @@
 #:repo{:id 910683658, :lang :elixir, :full-name "binilinlquad/aoc2024", :created-at "2025-01-01T03:59:14Z", :pushed-at "2025-01-01T04:01:58Z", :size-kb 2, :stars 0, :archived? false}
 #:repo{:id 911666103, :lang :elixir, :full-name "cookiedan42/advent-of-code", :created-at "2025-01-03T14:59:19Z", :pushed-at "2025-01-03T15:00:16Z", :size-kb 142, :stars 0, :archived? false}
 #:repo{:id 914037204, :lang :elixir, :full-name "kallebysantos/advent_of_code", :created-at "2025-01-08T20:33:57Z", :pushed-at "2025-01-08T20:36:56Z", :size-kb 8, :stars 0, :archived? false}
-#:repo{:id 914091289, :lang :elixir, :full-name "MichaelDimmitt/liveview-livebook-and-db-basic-adventure", :created-at "2025-01-08T23:47:50Z", :pushed-at "2025-01-24T04:23:12Z", :size-kb 94, :stars 0, :archived? false}
 #:repo{:id 914623524, :lang :elixir, :full-name "WhiteAgller/Elixir-AdventOfCode", :created-at "2025-01-10T00:57:19Z", :pushed-at "2025-03-08T18:14:57Z", :size-kb 52, :stars 0, :archived? false}
 #:repo{:id 915082051, :lang :elixir, :full-name "glompho/advent-of-code2015", :created-at "2025-01-10T23:31:19Z", :pushed-at "2025-01-10T23:31:22Z", :size-kb 29, :stars 0, :archived? false}
 #:repo{:id 915635894, :lang :elixir, :full-name "glompho/advent-of-code-2016", :created-at "2025-01-12T12:03:20Z", :pushed-at "2025-01-12T22:36:48Z", :size-kb 46, :stars 0, :archived? false}
@@ -7318,7 +7242,6 @@
 #:repo{:id 933475617, :lang :elixir, :full-name "0strichKnight/aoc2016-elixir", :created-at "2025-02-16T03:31:47Z", :pushed-at "2025-02-23T21:31:04Z", :size-kb 16, :stars 0, :archived? false}
 #:repo{:id 933738836, :lang :elixir, :full-name "nabeel-sadiq/advent-of-code-2023", :created-at "2025-02-16T15:31:07Z", :pushed-at "2025-02-16T17:10:31Z", :size-kb 1, :stars 0, :archived? false}
 #:repo{:id 933861491, :lang :elixir, :full-name "hite77/advent2024Elixir", :created-at "2025-02-16T21:08:05Z", :pushed-at "2025-03-17T01:02:03Z", :size-kb 120, :stars 0, :archived? false}
-#:repo{:id 933978553, :lang :elixir, :full-name "danthekishan/adventure_game", :created-at "2025-02-17T04:22:35Z", :pushed-at "2025-02-17T04:22:47Z", :size-kb 6, :stars 0, :archived? false}
 #:repo{:id 937402042, :lang :elixir, :full-name "glompho/advent-of-code-2018", :created-at "2025-02-23T00:35:24Z", :pushed-at "2025-03-04T10:46:18Z", :size-kb 61, :stars 0, :archived? false}
 #:repo{:id 941531704, :lang :elixir, :full-name "LiteralGenie/aoc2024", :created-at "2025-03-02T14:16:44Z", :pushed-at "2025-03-03T01:32:05Z", :size-kb 22, :stars 0, :archived? false}
 #:repo{:id 942243483, :lang :elixir, :full-name "karlosmid/aoc2015", :created-at "2025-03-03T19:59:48Z", :pushed-at "2025-12-28T12:30:18Z", :size-kb 97, :stars 0, :archived? false}
@@ -7339,10 +7262,8 @@
 #:repo{:id 1002487820, :lang :elixir, :full-name "lpasz/aoc.ex", :created-at "2025-06-15T15:26:39Z", :pushed-at "2026-01-04T13:25:03Z", :size-kb 317, :stars 0, :archived? false}
 #:repo{:id 1011894998, :lang :elixir, :full-name "mackswell13/aoc-2024-elixir", :created-at "2025-07-01T13:48:55Z", :pushed-at "2025-07-01T13:49:03Z", :size-kb 13, :stars 0, :archived? false}
 #:repo{:id 1013404855, :lang :elixir, :full-name "mfisher1996/aoc_elixir", :created-at "2025-07-03T21:04:59Z", :pushed-at "2025-07-03T21:05:07Z", :size-kb 24, :stars 0, :archived? false}
-#:repo{:id 1016702987, :lang :elixir, :full-name "biyonik/elixirlearnadventure", :created-at "2025-07-09T11:57:10Z", :pushed-at "2025-07-11T13:34:26Z", :size-kb 30, :stars 0, :archived? false}
 #:repo{:id 1027762836, :lang :elixir, :full-name "jongm/advent-of-code-2024-elixir", :created-at "2025-07-28T13:51:17Z", :pushed-at "2025-09-22T14:02:00Z", :size-kb 1083, :stars 0, :archived? false}
 #:repo{:id 1034142758, :lang :elixir, :full-name "santo-pc/advent24-elixir", :created-at "2025-08-07T23:20:18Z", :pushed-at "2025-09-06T22:38:00Z", :size-kb 10272, :stars 0, :archived? false}
-#:repo{:id 1034840969, :lang :elixir, :full-name "claremont-computer-network/elixiradventures", :created-at "2025-08-09T04:58:25Z", :pushed-at "2025-08-11T19:49:58Z", :size-kb 4, :stars 0, :archived? false}
 #:repo{:id 1040267971, :lang :elixir, :full-name "bmoldy/AdventOfCode24", :created-at "2025-08-18T17:57:23Z", :pushed-at "2025-08-21T04:37:28Z", :size-kb 142, :stars 0, :archived? false}
 #:repo{:id 1042751297, :lang :elixir, :full-name "louis-can-code/AdventOfCode2024", :created-at "2025-08-22T14:13:37Z", :pushed-at "2025-08-22T14:22:58Z", :size-kb 20, :stars 0, :archived? false}
 #:repo{:id 1045040673, :lang :elixir, :full-name "bnsdlr/adventofcode-elixir-template", :created-at "2025-08-26T15:09:48Z", :pushed-at "2025-09-01T14:10:35Z", :size-kb 67, :stars 0, :archived? false}
@@ -7364,7 +7285,6 @@
 #:repo{:id 1077026118, :lang :elixir, :full-name "Meconer/aoc2024_elixir", :created-at "2025-10-15T17:08:00Z", :pushed-at "2025-11-13T20:00:12Z", :size-kb 1307, :stars 0, :archived? false}
 #:repo{:id 1078590147, :lang :elixir, :full-name "ffutryk/elixir-aoc", :created-at "2025-10-18T02:09:28Z", :pushed-at "2025-12-07T06:03:22Z", :size-kb 22, :stars 0, :archived? false}
 #:repo{:id 1083081238, :lang :elixir, :full-name "DrearyLisper/aoc-2020", :created-at "2025-10-25T10:01:00Z", :pushed-at "2025-10-26T13:59:56Z", :size-kb 337, :stars 0, :archived? false}
-#:repo{:id 1085243751, :lang :elixir, :full-name "tomagrab/elixirtextadventure", :created-at "2025-10-28T19:18:51Z", :pushed-at "2025-11-03T19:53:33Z", :size-kb 17, :stars 0, :archived? false}
 #:repo{:id 1086393575, :lang :elixir, :full-name "AVR-GCC/elixir_aoc", :created-at "2025-10-30T11:05:46Z", :pushed-at "2025-11-01T00:10:31Z", :size-kb 50, :stars 0, :archived? false}
 #:repo{:id 1086764427, :lang :elixir, :full-name "Boettner-eric/Advent-of-Code-2025", :created-at "2025-10-30T21:48:26Z", :pushed-at "2025-12-26T19:34:11Z", :size-kb 88, :stars 1, :archived? false}
 #:repo{:id 1087921956, :lang :elixir, :full-name "JohnB/2016adventOfCode", :created-at "2025-11-01T23:14:11Z", :pushed-at "2025-11-29T06:11:08Z", :size-kb 67, :stars 0, :archived? false}
@@ -7605,8 +7525,6 @@
 #:repo{:id 1124073056, :lang :elixir, :full-name "mfdela/aoc_template", :created-at "2025-12-28T09:12:43Z", :pushed-at "2026-02-02T00:04:48Z", :size-kb 12, :stars 0, :archived? false}
 #:repo{:id 1124309784, :lang :elixir, :full-name "mfdela/aoc_2016", :created-at "2025-12-28T19:20:44Z", :pushed-at "2026-01-08T23:35:28Z", :size-kb 151, :stars 0, :archived? false}
 #:repo{:id 1125314654, :lang :elixir, :full-name "gandhiShepard/aoc_annual", :created-at "2025-12-30T14:04:42Z", :pushed-at "2026-01-01T00:37:00Z", :size-kb 175, :stars 0, :archived? false}
-#:repo{:id 33781266, :lang :ocaml, :full-name "cal-smith/ocaml-adventures", :created-at "2015-04-11T15:37:00Z", :pushed-at "2015-04-11T15:37:03Z", :size-kb 84, :stars 0, :archived? false}
-#:repo{:id 40303129, :lang :ocaml, :full-name "trevorsummerssmith/adventure-game", :created-at "2015-08-06T12:16:46Z", :pushed-at "2015-10-16T15:13:49Z", :size-kb 304, :stars 0, :archived? false}
 #:repo{:id 47355789, :lang :ocaml, :full-name "EarlEspino/AdventofCodeSML", :created-at "2015-12-03T19:41:19Z", :pushed-at "2015-12-07T19:58:15Z", :size-kb 8, :stars 0, :archived? false}
 #:repo{:id 47418879, :lang :ocaml, :full-name "izzystardust/advent-solutions", :created-at "2015-12-04T17:24:31Z", :pushed-at "2020-03-26T22:31:21Z", :size-kb 70, :stars 1, :archived? false}
 #:repo{:id 47486749, :lang :ocaml, :full-name "0xxon/adventofcode", :created-at "2015-12-06T06:42:33Z", :pushed-at "2016-06-08T17:50:30Z", :size-kb 12, :stars 0, :archived? false}
@@ -7636,7 +7554,6 @@
 #:repo{:id 112844753, :lang :ocaml, :full-name "RudyWeber/adventOfCode2017", :created-at "2017-12-02T13:36:06Z", :pushed-at "2017-12-07T14:41:00Z", :size-kb 29, :stars 1, :archived? false}
 #:repo{:id 112848950, :lang :ocaml, :full-name "petetnt/advent-of-code-2017-reasonml", :created-at "2017-12-02T14:34:41Z", :pushed-at "2017-12-12T20:32:50Z", :size-kb 326, :stars 0, :archived? false}
 #:repo{:id 112853854, :lang :ocaml, :full-name "bloodyowl/adventofcode2017", :created-at "2017-12-02T15:37:48Z", :pushed-at "2017-12-02T15:38:02Z", :size-kb 21, :stars 1, :archived? false}
-#:repo{:id 112856212, :lang :ocaml, :full-name "StrykerKKD/text-adventure", :created-at "2017-12-02T16:07:02Z", :pushed-at "2017-12-09T18:30:40Z", :size-kb 2, :stars 0, :archived? true}
 #:repo{:id 112857644, :lang :ocaml, :full-name "jbachhardie/advent-of-code-2017", :created-at "2017-12-02T16:26:29Z", :pushed-at "2017-12-21T17:11:09Z", :size-kb 165, :stars 0, :archived? false}
 #:repo{:id 112864476, :lang :ocaml, :full-name "okkero/Advent-of-Code-2017-random-lang", :created-at "2017-12-02T18:01:32Z", :pushed-at "2017-12-03T23:12:49Z", :size-kb 10, :stars 1, :archived? false}
 #:repo{:id 112876333, :lang :ocaml, :full-name "spencerwi/AdventOfCode2017", :created-at "2017-12-02T20:58:28Z", :pushed-at "2018-02-27T20:08:58Z", :size-kb 154, :stars 0, :archived? false}
@@ -7718,7 +7635,6 @@
 #:repo{:id 163920975, :lang :ocaml, :full-name "Karfroth/advent_of_code", :created-at "2019-01-03T03:57:10Z", :pushed-at "2019-01-06T02:39:55Z", :size-kb 6, :stars 0, :archived? false}
 #:repo{:id 164000127, :lang :ocaml, :full-name "MatthewBurstein/advent_of_code_2018_reason", :created-at "2019-01-03T16:57:52Z", :pushed-at "2019-01-07T00:02:50Z", :size-kb 84, :stars 0, :archived? false}
 #:repo{:id 166642130, :lang :ocaml, :full-name "alejandrodob/aoc-2018", :created-at "2019-01-20T09:04:09Z", :pushed-at "2019-01-25T09:09:45Z", :size-kb 73, :stars 0, :archived? false}
-#:repo{:id 166700369, :lang :ocaml, :full-name "cfshope/js_of_ocaml-adventure", :created-at "2019-01-20T19:27:50Z", :pushed-at "2019-01-28T01:43:08Z", :size-kb 2, :stars 0, :archived? false}
 #:repo{:id 169188344, :lang :ocaml, :full-name "Kyo91/advent-of-code", :created-at "2019-02-05T04:05:11Z", :pushed-at "2019-03-29T04:28:24Z", :size-kb 20, :stars 0, :archived? false}
 #:repo{:id 207873595, :lang :ocaml, :full-name "mainshum/aoc2016", :created-at "2019-09-11T17:54:33Z", :pushed-at "2019-09-14T12:09:20Z", :size-kb 4, :stars 0, :archived? false}
 #:repo{:id 214236037, :lang :ocaml, :full-name "AsumFace/AoC2018", :created-at "2019-10-10T16:46:57Z", :pushed-at "2019-10-25T22:59:20Z", :size-kb 13, :stars 0, :archived? false}
@@ -7783,7 +7699,6 @@
 #:repo{:id 229422571, :lang :ocaml, :full-name "tdfirth/aoc19", :created-at "2019-12-21T12:12:27Z", :pushed-at "2020-01-05T19:08:21Z", :size-kb 14, :stars 0, :archived? false}
 #:repo{:id 231016606, :lang :ocaml, :full-name "barisere/advent-of-code", :created-at "2019-12-31T03:08:39Z", :pushed-at "2019-12-31T03:08:51Z", :size-kb 14, :stars 0, :archived? false}
 #:repo{:id 234944761, :lang :ocaml, :full-name "lambdam/advent-of-code-2019-ocaml", :created-at "2020-01-19T18:22:48Z", :pushed-at "2020-01-21T09:54:56Z", :size-kb 6, :stars 0, :archived? false}
-#:repo{:id 237799700, :lang :ocaml, :full-name "yminsky/tiny-adventure", :created-at "2020-02-02T16:25:48Z", :pushed-at "2020-02-02T16:26:05Z", :size-kb 45, :stars 2, :archived? false}
 #:repo{:id 248223016, :lang :ocaml, :full-name "DieracDelta/advent-of-code-2018", :created-at "2020-03-18T12:16:36Z", :pushed-at "2020-04-29T12:33:20Z", :size-kb 66, :stars 0, :archived? false}
 #:repo{:id 300981266, :lang :ocaml, :full-name "bcc32/advent-of-code-2015", :created-at "2020-10-03T21:14:49Z", :pushed-at "2021-12-16T05:33:10Z", :size-kb 104, :stars 0, :archived? true}
 #:repo{:id 310961704, :lang :ocaml, :full-name "RosalesJ/aoc-2020", :created-at "2020-11-08T01:09:48Z", :pushed-at "2021-01-03T01:02:05Z", :size-kb 186, :stars 0, :archived? false}
@@ -7866,7 +7781,6 @@
 #:repo{:id 328596524, :lang :ocaml, :full-name "magurotuna/aoc2020", :created-at "2021-01-11T08:29:28Z", :pushed-at "2021-01-17T08:16:15Z", :size-kb 53, :stars 1, :archived? false}
 #:repo{:id 333818250, :lang :ocaml, :full-name "Hsodergren/AOC2020", :created-at "2021-01-28T16:32:49Z", :pushed-at "2021-03-25T14:50:03Z", :size-kb 106, :stars 0, :archived? false}
 #:repo{:id 339252182, :lang :ocaml, :full-name "kiranandcode/aoc-2020-ocaml", :created-at "2021-02-16T01:14:34Z", :pushed-at "2021-02-16T01:15:00Z", :size-kb 40, :stars 0, :archived? false}
-#:repo{:id 358740329, :lang :ocaml, :full-name "vivianndai/glarksons-adventures", :created-at "2021-04-16T23:15:26Z", :pushed-at "2021-04-16T23:39:17Z", :size-kb 11597, :stars 1, :archived? false}
 #:repo{:id 359285461, :lang :ocaml, :full-name "nobody-famous/aoc-ocaml", :created-at "2021-04-19T00:44:13Z", :pushed-at "2025-01-01T04:47:36Z", :size-kb 213, :stars 0, :archived? false}
 #:repo{:id 367748891, :lang :ocaml, :full-name "99heitor/advent-of-code-2020", :created-at "2021-05-15T23:33:05Z", :pushed-at "2021-06-02T03:38:17Z", :size-kb 46, :stars 0, :archived? false}
 #:repo{:id 386669097, :lang :ocaml, :full-name "AxlLind/AdventOfCode2016", :created-at "2021-07-16T14:42:04Z", :pushed-at "2024-12-01T10:28:54Z", :size-kb 907, :stars 2, :archived? false}
@@ -7974,9 +7888,7 @@
 #:repo{:id 445586485, :lang :ocaml, :full-name "TanLeYang/aoc2021", :created-at "2022-01-07T16:37:40Z", :pushed-at "2022-04-20T13:12:50Z", :size-kb 3360, :stars 0, :archived? false}
 #:repo{:id 446103834, :lang :ocaml, :full-name "neochrome/advent-of-code", :created-at "2022-01-09T13:59:08Z", :pushed-at "2023-02-12T16:51:13Z", :size-kb 608, :stars 0, :archived? false}
 #:repo{:id 448369494, :lang :ocaml, :full-name "alenkis/aoc-2015-ocaml", :created-at "2022-01-15T19:17:20Z", :pushed-at "2022-01-17T00:52:12Z", :size-kb 30, :stars 1, :archived? false}
-#:repo{:id 453312269, :lang :ocaml, :full-name "jteak/functional-adventure", :created-at "2022-01-29T06:07:21Z", :pushed-at "2022-01-29T06:09:02Z", :size-kb 31, :stars 0, :archived? false}
 #:repo{:id 464075252, :lang :ocaml, :full-name "ghostrider77/adventOfCode-2018", :created-at "2022-02-27T08:05:06Z", :pushed-at "2022-03-15T13:55:04Z", :size-kb 31, :stars 0, :archived? false}
-#:repo{:id 464698522, :lang :ocaml, :full-name "macpal37/BigRedAdventure", :created-at "2022-03-01T01:10:20Z", :pushed-at "2022-05-18T15:59:39Z", :size-kb 1695, :stars 1, :archived? false}
 #:repo{:id 478877629, :lang :ocaml, :full-name "ugoarzur/adventofcode", :created-at "2022-04-07T07:40:29Z", :pushed-at "2022-04-25T13:05:45Z", :size-kb 265, :stars 0, :archived? false}
 #:repo{:id 479402698, :lang :ocaml, :full-name "teyalem/advent", :created-at "2022-04-08T13:32:07Z", :pushed-at "2024-08-10T04:11:48Z", :size-kb 909, :stars 0, :archived? false}
 #:repo{:id 480686920, :lang :ocaml, :full-name "cuihtlauac/aoc", :created-at "2022-04-12T06:46:07Z", :pushed-at "2022-04-14T16:34:57Z", :size-kb 187, :stars 0, :archived? false}
@@ -7993,7 +7905,6 @@
 #:repo{:id 539823035, :lang :ocaml, :full-name "Robinhola/adventofcode-2019-ocaml", :created-at "2022-09-22T06:01:37Z", :pushed-at "2022-12-05T17:14:56Z", :size-kb 28, :stars 0, :archived? false}
 #:repo{:id 543445059, :lang :ocaml, :full-name "aoc-jds/aoc", :created-at "2022-09-30T05:35:48Z", :pushed-at "2022-12-15T06:20:57Z", :size-kb 39, :stars 0, :archived? false}
 #:repo{:id 565213407, :lang :ocaml, :full-name "Rui00Barata/Advent-Of-Code", :created-at "2022-11-12T17:30:53Z", :pushed-at "2024-01-09T19:50:30Z", :size-kb 3238, :stars 0, :archived? false}
-#:repo{:id 569105397, :lang :ocaml, :full-name "powcoder/CS-3110-a2-Adventure-OCaml", :created-at "2022-11-22T04:54:05Z", :pushed-at "2022-11-22T04:54:09Z", :size-kb 916, :stars 0, :archived? false}
 #:repo{:id 569295629, :lang :ocaml, :full-name "Gbury/advent-of-code", :created-at "2022-11-22T14:06:52Z", :pushed-at "2022-11-27T15:37:31Z", :size-kb 14, :stars 0, :archived? false}
 #:repo{:id 570056153, :lang :ocaml, :full-name "k3ap/aoc-2022", :created-at "2022-11-24T08:35:12Z", :pushed-at "2022-12-06T16:10:56Z", :size-kb 9, :stars 0, :archived? false}
 #:repo{:id 570864441, :lang :ocaml, :full-name "jakavel/advent-of-code-2022", :created-at "2022-11-26T11:33:54Z", :pushed-at "2022-12-18T15:52:08Z", :size-kb 71, :stars 0, :archived? false}
@@ -8124,7 +8035,6 @@
 #:repo{:id 592029263, :lang :ocaml, :full-name "ercpereda/adventofcode", :created-at "2023-01-22T17:55:20Z", :pushed-at "2023-12-16T03:34:28Z", :size-kb 150, :stars 0, :archived? false}
 #:repo{:id 593138262, :lang :ocaml, :full-name "KatrionaGoldmann/adventofcode2022", :created-at "2023-01-25T10:28:08Z", :pushed-at "2023-01-26T16:55:28Z", :size-kb 17, :stars 0, :archived? false}
 #:repo{:id 621014439, :lang :ocaml, :full-name "newsch/aoc", :created-at "2023-03-29T20:25:33Z", :pushed-at "2023-03-29T20:26:11Z", :size-kb 610, :stars 0, :archived? false}
-#:repo{:id 622540490, :lang :ocaml, :full-name "aprell/compiler-adventures", :created-at "2023-04-02T12:26:26Z", :pushed-at "2025-07-21T16:24:40Z", :size-kb 47, :stars 1, :archived? false}
 #:repo{:id 628659576, :lang :ocaml, :full-name "piotrplaneta/adventofcode2022", :created-at "2023-04-16T16:27:31Z", :pushed-at "2023-08-13T21:09:41Z", :size-kb 2357, :stars 0, :archived? false}
 #:repo{:id 634674750, :lang :ocaml, :full-name "Adrien-No/advent-of-code", :created-at "2023-04-30T22:02:02Z", :pushed-at "2025-01-01T23:45:36Z", :size-kb 1428, :stars 0, :archived? false}
 #:repo{:id 639587702, :lang :ocaml, :full-name "anzwhitney/advent-of-code-2022", :created-at "2023-05-11T19:20:42Z", :pushed-at "2023-05-15T17:20:34Z", :size-kb 37, :stars 0, :archived? false}
@@ -8182,7 +8092,6 @@
 #:repo{:id 692976926, :lang :ocaml, :full-name "thebenkogan/Advent-Of-Code-2019", :created-at "2023-09-18T05:15:20Z", :pushed-at "2023-12-05T01:15:08Z", :size-kb 49, :stars 0, :archived? false}
 #:repo{:id 694204596, :lang :ocaml, :full-name "pepega007xd/aoc22_ocaml", :created-at "2023-09-20T14:29:30Z", :pushed-at "2023-09-20T14:33:22Z", :size-kb 22, :stars 1, :archived? false}
 #:repo{:id 695321757, :lang :ocaml, :full-name "stastur/advent-of-code", :created-at "2023-09-22T21:13:58Z", :pushed-at "2023-12-26T18:26:48Z", :size-kb 241, :stars 0, :archived? false}
-#:repo{:id 697099114, :lang :ocaml, :full-name "ryuuTAylor/-60-seconds-text-adventure-game", :created-at "2023-09-27T03:51:35Z", :pushed-at "2023-09-27T03:52:07Z", :size-kb 1638, :stars 0, :archived? false}
 #:repo{:id 698465959, :lang :ocaml, :full-name "leblancfg/aoc_ocaml", :created-at "2023-09-30T02:26:36Z", :pushed-at "2023-10-25T02:28:50Z", :size-kb 4, :stars 0, :archived? false}
 #:repo{:id 698617372, :lang :ocaml, :full-name "dmanchon/aoc-2022-ocaml", :created-at "2023-09-30T13:01:08Z", :pushed-at "2023-11-07T07:16:46Z", :size-kb 26, :stars 0, :archived? false}
 #:repo{:id 701525801, :lang :ocaml, :full-name "TimWillebrands/aoc-2020-ocaml", :created-at "2023-10-06T20:41:11Z", :pushed-at "2023-10-06T21:52:13Z", :size-kb 1, :stars 0, :archived? false}
@@ -8282,7 +8191,6 @@
 #:repo{:id 726159130, :lang :ocaml, :full-name "sergiodrd/aoc", :created-at "2023-12-01T16:55:26Z", :pushed-at "2024-12-08T02:26:22Z", :size-kb 577, :stars 0, :archived? false}
 #:repo{:id 726166485, :lang :ocaml, :full-name "Friedchicken-42/aoc2023", :created-at "2023-12-01T17:15:04Z", :pushed-at "2023-12-20T09:54:52Z", :size-kb 33, :stars 0, :archived? false}
 #:repo{:id 726174027, :lang :ocaml, :full-name "kiyov09/aoc_2023", :created-at "2023-12-01T17:35:02Z", :pushed-at "2024-01-11T20:01:28Z", :size-kb 56, :stars 1, :archived? false}
-#:repo{:id 726177578, :lang :ocaml, :full-name "aviral-public/adventure-time-23", :created-at "2023-12-01T17:44:28Z", :pushed-at "2023-12-03T23:46:45Z", :size-kb 519, :stars 0, :archived? false}
 #:repo{:id 726182441, :lang :ocaml, :full-name "Fuiste/aoc-2023", :created-at "2023-12-01T17:57:39Z", :pushed-at "2023-12-09T16:51:09Z", :size-kb 97, :stars 0, :archived? false}
 #:repo{:id 726187131, :lang :ocaml, :full-name "ilithiofobik/aoc2023", :created-at "2023-12-01T18:11:03Z", :pushed-at "2023-12-05T14:15:28Z", :size-kb 79, :stars 0, :archived? false}
 #:repo{:id 726196830, :lang :ocaml, :full-name "konkitoman/adventofcode-2023", :created-at "2023-12-01T18:38:37Z", :pushed-at "2023-12-03T21:43:08Z", :size-kb 28, :stars 0, :archived? false}
@@ -8507,11 +8415,9 @@
 #:repo{:id 751838024, :lang :ocaml, :full-name "stinkymonkeyph/advent_of_code_2023", :created-at "2024-02-02T12:44:49Z", :pushed-at "2024-02-05T17:13:37Z", :size-kb 83, :stars 0, :archived? false}
 #:repo{:id 753872662, :lang :ocaml, :full-name "DillonJaap/aoc23", :created-at "2024-02-07T00:13:47Z", :pushed-at "2024-02-07T00:13:51Z", :size-kb 35, :stars 0, :archived? false}
 #:repo{:id 754125453, :lang :ocaml, :full-name "luishgh/aoc", :created-at "2024-02-07T13:00:40Z", :pushed-at "2024-02-07T13:02:55Z", :size-kb 49, :stars 0, :archived? false}
-#:repo{:id 780423145, :lang :ocaml, :full-name "rezi-gelenidze/ocaml-adventure", :created-at "2024-04-01T13:00:29Z", :pushed-at "2024-05-20T07:33:48Z", :size-kb 47, :stars 0, :archived? false}
 #:repo{:id 786116432, :lang :ocaml, :full-name "linus-witte/adventofcode", :created-at "2024-04-13T13:35:14Z", :pushed-at "2025-12-23T00:53:40Z", :size-kb 3796, :stars 0, :archived? false}
 #:repo{:id 786708252, :lang :ocaml, :full-name "JohnBakhmat/advent_of_ocaml", :created-at "2024-04-15T06:43:50Z", :pushed-at "2024-04-15T06:43:52Z", :size-kb 516, :stars 1, :archived? false}
 #:repo{:id 795639189, :lang :ocaml, :full-name "MichalK451/AoC2024", :created-at "2024-05-03T17:52:59Z", :pushed-at "2024-05-14T12:51:31Z", :size-kb 17975, :stars 0, :archived? false}
-#:repo{:id 796035845, :lang :ocaml, :full-name "NoMrBody/OCaml-adventure", :created-at "2024-05-04T18:34:19Z", :pushed-at "2026-04-18T12:17:11Z", :size-kb 1330, :stars 0, :archived? false}
 #:repo{:id 796416478, :lang :ocaml, :full-name "jdsee/aoc", :created-at "2024-05-05T21:34:08Z", :pushed-at "2024-05-09T23:45:15Z", :size-kb 1269, :stars 0, :archived? false}
 #:repo{:id 799518590, :lang :ocaml, :full-name "ghost-codes/aoc-2022-ocaml", :created-at "2024-05-12T11:50:14Z", :pushed-at "2024-05-18T16:52:19Z", :size-kb 22757, :stars 0, :archived? false}
 #:repo{:id 800119580, :lang :ocaml, :full-name "FissoreD/AoC", :created-at "2024-05-13T18:29:23Z", :pushed-at "2026-03-02T21:51:33Z", :size-kb 652, :stars 0, :archived? false}
@@ -8753,7 +8659,6 @@
 #:repo{:id 906074676, :lang :ocaml, :full-name "jt-gonz/aoc-2024", :created-at "2024-12-20T05:37:41Z", :pushed-at "2025-06-28T23:35:37Z", :size-kb 38, :stars 0, :archived? false}
 #:repo{:id 906074992, :lang :ocaml, :full-name "RodolpheFouquet/aoc2024", :created-at "2024-12-20T05:38:41Z", :pushed-at "2025-08-12T00:05:40Z", :size-kb 32, :stars 0, :archived? false}
 #:repo{:id 906452527, :lang :ocaml, :full-name "jdsee/aoc-25", :created-at "2024-12-21T00:19:16Z", :pushed-at "2025-01-06T12:59:51Z", :size-kb 41, :stars 0, :archived? false}
-#:repo{:id 906723279, :lang :ocaml, :full-name "tarun-bandi/caml-adventure", :created-at "2024-12-21T18:02:13Z", :pushed-at "2024-12-23T04:03:15Z", :size-kb 1769, :stars 0, :archived? false}
 #:repo{:id 906738060, :lang :ocaml, :full-name "krymancer/aoc2024-ocaml", :created-at "2024-12-21T18:55:57Z", :pushed-at "2024-12-25T17:55:03Z", :size-kb 5, :stars 0, :archived? false}
 #:repo{:id 906750963, :lang :ocaml, :full-name "alexmfriedman/advent-of-code-2024", :created-at "2024-12-21T19:49:07Z", :pushed-at "2024-12-30T02:04:04Z", :size-kb 175, :stars 0, :archived? false}
 #:repo{:id 906779214, :lang :ocaml, :full-name "GioMaz/aoc2024", :created-at "2024-12-21T22:00:16Z", :pushed-at "2024-12-21T23:10:38Z", :size-kb 6, :stars 0, :archived? false}
@@ -8774,11 +8679,9 @@
 #:repo{:id 917261028, :lang :ocaml, :full-name "joseph-amirth/aoc", :created-at "2025-01-15T16:53:13Z", :pushed-at "2025-12-09T01:32:08Z", :size-kb 444, :stars 0, :archived? false}
 #:repo{:id 918306036, :lang :ocaml, :full-name "Meconer/aoc2016", :created-at "2025-01-17T16:56:17Z", :pushed-at "2025-02-15T14:16:46Z", :size-kb 90, :stars 0, :archived? false}
 #:repo{:id 919160448, :lang :ocaml, :full-name "WINSDK/aoc", :created-at "2025-01-19T21:08:10Z", :pushed-at "2025-01-23T19:52:13Z", :size-kb 27, :stars 0, :archived? false}
-#:repo{:id 921962493, :lang :ocaml, :full-name "bengrass2112/Adventure_Game", :created-at "2025-01-25T00:44:52Z", :pushed-at "2025-01-25T00:45:30Z", :size-kb 37, :stars 0, :archived? false}
 #:repo{:id 927961164, :lang :ocaml, :full-name "k-kahora/AOC-2019", :created-at "2025-02-05T20:33:40Z", :pushed-at "2025-02-21T16:09:22Z", :size-kb 34, :stars 0, :archived? false}
 #:repo{:id 933313910, :lang :ocaml, :full-name "Meconer/aoc2017", :created-at "2025-02-15T16:58:42Z", :pushed-at "2025-03-30T17:17:22Z", :size-kb 1703, :stars 0, :archived? false}
 #:repo{:id 941136438, :lang :ocaml, :full-name "kevincal1226/advent-of-code-2024-ocaml", :created-at "2025-03-01T15:22:50Z", :pushed-at "2025-03-07T15:40:47Z", :size-kb 107, :stars 0, :archived? false}
-#:repo{:id 941313579, :lang :ocaml, :full-name "GoodWork56/Dungeon-Adventure-Game", :created-at "2025-03-02T01:46:05Z", :pushed-at "2025-03-02T01:51:36Z", :size-kb 108, :stars 0, :archived? false}
 #:repo{:id 949981008, :lang :ocaml, :full-name "ghostrider77/adventOfCode-2015", :created-at "2025-03-17T12:51:50Z", :pushed-at "2025-03-21T05:45:49Z", :size-kb 39, :stars 0, :archived? false}
 #:repo{:id 958861583, :lang :ocaml, :full-name "jaymody/aoc-ocaml", :created-at "2025-04-01T22:11:00Z", :pushed-at "2025-08-16T21:45:06Z", :size-kb 42, :stars 0, :archived? false}
 #:repo{:id 967792939, :lang :ocaml, :full-name "EricKalkman/AoC2021", :created-at "2025-04-17T02:31:34Z", :pushed-at "2025-05-12T02:04:12Z", :size-kb 95, :stars 0, :archived? false}
@@ -9119,7 +9022,6 @@
 #:repo{:id 321293702, :lang :zig, :full-name "SpexGuy/AoC-Leaderboard", :created-at "2020-12-14T09:15:41Z", :pushed-at "2022-12-02T04:58:33Z", :size-kb 22, :stars 0, :archived? false}
 #:repo{:id 322793421, :lang :zig, :full-name "dkmar/AoC2020", :created-at "2020-12-19T07:37:36Z", :pushed-at "2020-12-30T09:45:21Z", :size-kb 65, :stars 0, :archived? false}
 #:repo{:id 323458249, :lang :zig, :full-name "emcfarlane/aoc", :created-at "2020-12-21T22:05:02Z", :pushed-at "2024-12-29T22:13:09Z", :size-kb 348, :stars 1, :archived? false}
-#:repo{:id 323511941, :lang :zig, :full-name "painhardcore/zig-adventures", :created-at "2020-12-22T03:37:29Z", :pushed-at "2020-12-22T03:41:41Z", :size-kb 0, :stars 0, :archived? false}
 #:repo{:id 324564288, :lang :zig, :full-name "flooey/adventofcode", :created-at "2020-12-26T13:46:50Z", :pushed-at "2025-12-11T07:29:13Z", :size-kb 1077, :stars 3, :archived? false}
 #:repo{:id 325946556, :lang :zig, :full-name "zigster64/advent_of_code2020", :created-at "2021-01-01T08:57:08Z", :pushed-at "2021-01-25T02:50:12Z", :size-kb 464, :stars 0, :archived? false}
 #:repo{:id 326810017, :lang :zig, :full-name "ogmobot/aoc2015", :created-at "2021-01-04T21:18:22Z", :pushed-at "2021-01-05T23:46:38Z", :size-kb 30, :stars 0, :archived? false}
@@ -9129,7 +9031,6 @@
 #:repo{:id 341965595, :lang :zig, :full-name "poszu/advent-of-code", :created-at "2021-02-24T16:38:32Z", :pushed-at "2025-04-02T12:23:15Z", :size-kb 383, :stars 0, :archived? false}
 #:repo{:id 369381002, :lang :zig, :full-name "TristanCrawford/zig-aoc-2020", :created-at "2021-05-21T01:27:49Z", :pushed-at "2021-05-25T07:04:47Z", :size-kb 20, :stars 0, :archived? false}
 #:repo{:id 370016398, :lang :zig, :full-name "maxxnino/Advent-Zig-2020", :created-at "2021-05-23T09:59:15Z", :pushed-at "2021-06-04T03:23:17Z", :size-kb 55, :stars 0, :archived? false}
-#:repo{:id 381597959, :lang :zig, :full-name "uncomfyhalomacro/Zig_Adventures", :created-at "2021-06-30T06:25:59Z", :pushed-at "2021-06-30T08:09:44Z", :size-kb 248, :stars 0, :archived? false}
 #:repo{:id 400988739, :lang :zig, :full-name "mfeckie/zig-aoc", :created-at "2021-08-29T08:22:23Z", :pushed-at "2021-08-29T08:22:24Z", :size-kb 4, :stars 0, :archived? false}
 #:repo{:id 408638159, :lang :zig, :full-name "courajs/advent-2020-zig", :created-at "2021-09-21T00:11:17Z", :pushed-at "2021-10-16T22:28:14Z", :size-kb 3, :stars 0, :archived? false}
 #:repo{:id 408840107, :lang :zig, :full-name "jwarwick/aoc_2020_zig", :created-at "2021-09-21T13:53:17Z", :pushed-at "2021-09-27T15:31:42Z", :size-kb 25, :stars 0, :archived? false}
@@ -9273,7 +9174,6 @@
 #:repo{:id 442502484, :lang :zig, :full-name "svc-user/AoC", :created-at "2021-12-28T15:19:03Z", :pushed-at "2022-01-15T21:32:50Z", :size-kb 76, :stars 0, :archived? false}
 #:repo{:id 442650365, :lang :zig, :full-name "angeris/advent-of-code-2021", :created-at "2021-12-29T03:34:17Z", :pushed-at "2022-04-08T18:19:00Z", :size-kb 57, :stars 2, :archived? false}
 #:repo{:id 443199854, :lang :zig, :full-name "vacuousplanet/zig-advent2021", :created-at "2021-12-30T22:41:35Z", :pushed-at "2021-12-30T22:42:38Z", :size-kb 39, :stars 0, :archived? false}
-#:repo{:id 444084946, :lang :zig, :full-name "kristoff-it/ZigAdventures", :created-at "2022-01-03T14:12:15Z", :pushed-at "2022-01-17T00:28:28Z", :size-kb 62, :stars 28, :archived? false}
 #:repo{:id 445802010, :lang :zig, :full-name "danielclarke/aoc-2021", :created-at "2022-01-08T11:35:03Z", :pushed-at "2022-01-20T00:17:21Z", :size-kb 51, :stars 0, :archived? false}
 #:repo{:id 448262452, :lang :zig, :full-name "tiendung/ZigAoC2021", :created-at "2022-01-15T11:48:57Z", :pushed-at "2022-01-15T11:48:59Z", :size-kb 6, :stars 0, :archived? false}
 #:repo{:id 449495978, :lang :zig, :full-name "zorix/aoc2021", :created-at "2022-01-19T00:42:51Z", :pushed-at "2022-01-19T01:20:30Z", :size-kb 91, :stars 0, :archived? false}
@@ -9289,7 +9189,6 @@
 #:repo{:id 520578749, :lang :zig, :full-name "Rob2048/advent-of-zig-2021", :created-at "2022-08-02T16:51:12Z", :pushed-at "2022-08-02T16:52:51Z", :size-kb 140, :stars 0, :archived? false}
 #:repo{:id 527871068, :lang :zig, :full-name "lavgl/advent_of_code", :created-at "2022-08-23T07:00:39Z", :pushed-at "2022-08-31T10:47:03Z", :size-kb 137, :stars 0, :archived? false}
 #:repo{:id 530346750, :lang :zig, :full-name "famuyiwadayo/advent-of-code-2020-zig", :created-at "2022-08-29T18:35:22Z", :pushed-at "2022-09-05T12:12:23Z", :size-kb 42, :stars 0, :archived? false}
-#:repo{:id 539755299, :lang :zig, :full-name "Gertkeno/ZoopZoopAdventuresSeven", :created-at "2022-09-22T01:52:29Z", :pushed-at "2025-07-27T23:10:10Z", :size-kb 11426, :stars 3, :archived? false}
 #:repo{:id 554428623, :lang :zig, :full-name "lawrence-laz/advent-of-code", :created-at "2022-10-19T19:54:25Z", :pushed-at "2024-12-25T21:03:13Z", :size-kb 243, :stars 0, :archived? false}
 #:repo{:id 555385920, :lang :zig, :full-name "Shivix/AdventOfCode", :created-at "2022-10-21T13:29:49Z", :pushed-at "2025-12-10T09:48:26Z", :size-kb 1439, :stars 0, :archived? false}
 #:repo{:id 559665727, :lang :zig, :full-name "jes/aoc2021-zig", :created-at "2022-10-30T20:03:45Z", :pushed-at "2022-10-30T22:14:15Z", :size-kb 11, :stars 0, :archived? false}
@@ -9432,7 +9331,6 @@
 #:repo{:id 581935862, :lang :zig, :full-name "Deecellar/example-aoc-rimu", :created-at "2022-12-24T23:53:22Z", :pushed-at "2022-12-24T23:53:24Z", :size-kb 3, :stars 0, :archived? false}
 #:repo{:id 582227412, :lang :zig, :full-name "sagehane/aoc", :created-at "2022-12-26T06:31:02Z", :pushed-at "2022-12-26T06:45:44Z", :size-kb 54, :stars 0, :archived? false}
 #:repo{:id 582335024, :lang :zig, :full-name "abc401/advent-of-code", :created-at "2022-12-26T13:52:37Z", :pushed-at "2023-12-01T11:54:06Z", :size-kb 32, :stars 0, :archived? false}
-#:repo{:id 582446578, :lang :zig, :full-name "Gertkeno/sphagetti_adventure", :created-at "2022-12-26T21:33:29Z", :pushed-at "2026-01-05T04:12:55Z", :size-kb 95, :stars 0, :archived? false}
 #:repo{:id 583399608, :lang :zig, :full-name "csdt/aoc", :created-at "2022-12-29T17:00:21Z", :pushed-at "2022-12-30T13:30:03Z", :size-kb 10, :stars 0, :archived? false}
 #:repo{:id 595605557, :lang :zig, :full-name "baboikus/advent-of-code-2022", :created-at "2023-01-31T12:40:13Z", :pushed-at "2023-02-10T10:33:34Z", :size-kb 138, :stars 0, :archived? false}
 #:repo{:id 597509246, :lang :zig, :full-name "henriquepw/advent-of-code", :created-at "2023-02-04T19:10:20Z", :pushed-at "2025-12-06T18:35:53Z", :size-kb 1067, :stars 1, :archived? false}
@@ -9459,7 +9357,6 @@
 #:repo{:id 648325136, :lang :zig, :full-name "dsnc62/aoc-2022-zig", :created-at "2023-06-01T17:56:24Z", :pushed-at "2023-06-01T17:56:26Z", :size-kb 8, :stars 0, :archived? false}
 #:repo{:id 648932951, :lang :zig, :full-name "sezoka/advent-of-code", :created-at "2023-06-03T08:44:00Z", :pushed-at "2024-12-16T09:11:25Z", :size-kb 1758, :stars 0, :archived? false}
 #:repo{:id 651201615, :lang :zig, :full-name "sadicangel/aoc-2022", :created-at "2023-06-08T18:18:59Z", :pushed-at "2024-01-30T17:11:52Z", :size-kb 50, :stars 0, :archived? false}
-#:repo{:id 651408765, :lang :zig, :full-name "lawnjunk/zig-adventures", :created-at "2023-06-09T07:13:41Z", :pushed-at "2023-06-10T06:21:56Z", :size-kb 6, :stars 1, :archived? false}
 #:repo{:id 654334393, :lang :zig, :full-name "titusdmoore/2022-advent-of-code", :created-at "2023-06-15T22:51:17Z", :pushed-at "2023-10-12T22:35:12Z", :size-kb 22, :stars 0, :archived? false}
 #:repo{:id 654354312, :lang :zig, :full-name "vortexofdoom/Zig-AoC-2015", :created-at "2023-06-16T00:30:33Z", :pushed-at "2023-06-16T00:30:36Z", :size-kb 11, :stars 0, :archived? false}
 #:repo{:id 654571836, :lang :zig, :full-name "EraYaN/advent-of-code", :created-at "2023-06-16T12:24:26Z", :pushed-at "2024-12-15T13:20:28Z", :size-kb 82, :stars 0, :archived? false}
@@ -9480,7 +9377,6 @@
 #:repo{:id 666175069, :lang :zig, :full-name "azuline/aoc2022", :created-at "2023-07-13T22:25:12Z", :pushed-at "2023-08-06T21:33:34Z", :size-kb 35, :stars 0, :archived? false}
 #:repo{:id 667157659, :lang :zig, :full-name "pepijno/adventOfCode2022-zig", :created-at "2023-07-16T20:36:49Z", :pushed-at "2023-09-03T20:22:49Z", :size-kb 97, :stars 0, :archived? false}
 #:repo{:id 667743211, :lang :zig, :full-name "trungducnguyenvn/Advent-Of-Code-21-22", :created-at "2023-07-18T07:51:55Z", :pushed-at "2023-07-18T07:51:58Z", :size-kb 7, :stars 0, :archived? false}
-#:repo{:id 668979026, :lang :zig, :full-name "NCLanceman/MerchantAdventure", :created-at "2023-07-21T04:05:58Z", :pushed-at "2023-10-05T18:11:43Z", :size-kb 54, :stars 0, :archived? false}
 #:repo{:id 673347306, :lang :zig, :full-name "Calder-Ty/AdventOfCode2019", :created-at "2023-08-01T12:29:08Z", :pushed-at "2024-11-23T18:34:52Z", :size-kb 23, :stars 0, :archived? false}
 #:repo{:id 674861595, :lang :zig, :full-name "CaryRock/2022-AoC", :created-at "2023-08-05T01:59:41Z", :pushed-at "2023-08-05T18:31:23Z", :size-kb 1670, :stars 0, :archived? false}
 #:repo{:id 675508467, :lang :zig, :full-name "JacquelineCasey/AdventOfCode2019", :created-at "2023-08-07T04:55:53Z", :pushed-at "2023-08-20T06:25:30Z", :size-kb 462, :stars 0, :archived? false}
@@ -9489,7 +9385,6 @@
 #:repo{:id 680495618, :lang :zig, :full-name "WanderningMaster/aoc", :created-at "2023-08-19T12:36:21Z", :pushed-at "2025-12-06T10:22:42Z", :size-kb 164, :stars 0, :archived? false}
 #:repo{:id 680880718, :lang :zig, :full-name "acalinp/advent-of-code-2023", :created-at "2023-08-20T17:53:24Z", :pushed-at "2023-08-20T17:53:38Z", :size-kb 284, :stars 0, :archived? false}
 #:repo{:id 681178869, :lang :zig, :full-name "Censacrof/advent-of-code-2022", :created-at "2023-08-21T12:49:06Z", :pushed-at "2023-10-10T22:27:31Z", :size-kb 10623, :stars 0, :archived? false}
-#:repo{:id 685841774, :lang :zig, :full-name "aldehydkrotonowy/zig-adventure", :created-at "2023-09-01T06:17:16Z", :pushed-at "2024-07-27T17:17:50Z", :size-kb 79, :stars 0, :archived? false}
 #:repo{:id 688704473, :lang :zig, :full-name "spanzeri/aoc-zig", :created-at "2023-09-07T23:44:17Z", :pushed-at "2024-12-25T22:44:04Z", :size-kb 5, :stars 0, :archived? false}
 #:repo{:id 689430603, :lang :zig, :full-name "PatrickTorgerson/advent2015", :created-at "2023-09-09T19:27:43Z", :pushed-at "2023-09-22T20:03:32Z", :size-kb 126, :stars 2, :archived? false}
 #:repo{:id 689465494, :lang :zig, :full-name "luanjaardim/AdventOfCode", :created-at "2023-09-09T22:31:31Z", :pushed-at "2025-01-15T22:49:37Z", :size-kb 1064, :stars 0, :archived? false}
@@ -9497,7 +9392,6 @@
 #:repo{:id 690155449, :lang :zig, :full-name "kasperbe/advent-of-code", :created-at "2023-09-11T16:29:03Z", :pushed-at "2023-12-01T18:14:03Z", :size-kb 14, :stars 0, :archived? false}
 #:repo{:id 690517194, :lang :zig, :full-name "Alpyg/advent_of_zig", :created-at "2023-09-12T10:56:23Z", :pushed-at "2023-09-12T10:57:10Z", :size-kb 6, :stars 0, :archived? false}
 #:repo{:id 691196881, :lang :zig, :full-name "TheFunctionalGuy/advent-of-code-2022", :created-at "2023-09-13T17:29:09Z", :pushed-at "2023-11-18T00:50:41Z", :size-kb 29, :stars 0, :archived? false}
-#:repo{:id 691825417, :lang :zig, :full-name "brandonland/zig-text-adventure", :created-at "2023-09-15T01:17:30Z", :pushed-at "2023-10-01T04:27:23Z", :size-kb 52, :stars 0, :archived? true}
 #:repo{:id 692360409, :lang :zig, :full-name "PrabodhaSrimal/AdventOfCode", :created-at "2023-09-16T08:39:27Z", :pushed-at "2023-10-01T11:13:12Z", :size-kb 8, :stars 0, :archived? false}
 #:repo{:id 693741096, :lang :zig, :full-name "littleBobbyTablez/adventOfCode2022", :created-at "2023-09-19T16:06:25Z", :pushed-at "2023-10-13T08:02:10Z", :size-kb 67, :stars 0, :archived? false}
 #:repo{:id 693833942, :lang :zig, :full-name "s-kro/aoc-2015-zig", :created-at "2023-09-19T20:04:12Z", :pushed-at "2023-12-05T16:06:18Z", :size-kb 7, :stars 0, :archived? false}
@@ -9508,7 +9402,6 @@
 #:repo{:id 697000980, :lang :zig, :full-name "jdavasligil/advent-of-code", :created-at "2023-09-26T21:08:07Z", :pushed-at "2023-12-16T05:33:19Z", :size-kb 2949, :stars 1, :archived? false}
 #:repo{:id 697353930, :lang :zig, :full-name "juacu7340/aoc", :created-at "2023-09-27T14:57:53Z", :pushed-at "2024-12-06T21:44:28Z", :size-kb 12571, :stars 0, :archived? false}
 #:repo{:id 698896520, :lang :zig, :full-name "chhutcheson/advent_of_code", :created-at "2023-10-01T10:08:59Z", :pushed-at "2023-10-01T11:02:56Z", :size-kb 12882, :stars 0, :archived? false}
-#:repo{:id 699903894, :lang :zig, :full-name "brandonland/text-adventure-game", :created-at "2023-10-03T15:07:50Z", :pushed-at "2023-11-02T19:06:34Z", :size-kb 736, :stars 0, :archived? true}
 #:repo{:id 701396765, :lang :zig, :full-name "frasbach/advent-of-code-2022-zig", :created-at "2023-10-06T14:47:00Z", :pushed-at "2023-10-06T14:47:03Z", :size-kb 7, :stars 0, :archived? false}
 #:repo{:id 701814017, :lang :zig, :full-name "nerdman/advent-of-code", :created-at "2023-10-07T16:27:30Z", :pushed-at "2024-12-29T19:58:15Z", :size-kb 41, :stars 0, :archived? false}
 #:repo{:id 701900545, :lang :zig, :full-name "ivancanosa/advent_code_2022_zig", :created-at "2023-10-07T22:41:28Z", :pushed-at "2023-10-17T03:10:00Z", :size-kb 53, :stars 0, :archived? false}
@@ -9526,7 +9419,6 @@
 #:repo{:id 711501410, :lang :zig, :full-name "aserowy/aoc", :created-at "2023-10-29T13:17:01Z", :pushed-at "2023-11-01T11:22:59Z", :size-kb 15, :stars 0, :archived? false}
 #:repo{:id 713925758, :lang :zig, :full-name "danvk/aoc2023", :created-at "2023-11-03T14:28:40Z", :pushed-at "2024-07-11T17:01:17Z", :size-kb 1126, :stars 6, :archived? false}
 #:repo{:id 714441409, :lang :zig, :full-name "logc/adventofzig", :created-at "2023-11-04T21:51:59Z", :pushed-at "2023-11-04T22:26:27Z", :size-kb 33, :stars 0, :archived? false}
-#:repo{:id 717398908, :lang :zig, :full-name "gormel/story-adventure", :created-at "2023-11-11T11:24:57Z", :pushed-at "2026-07-10T14:57:37Z", :size-kb 9269, :stars 1, :archived? false}
 #:repo{:id 718511462, :lang :zig, :full-name "yumyum-pi/zig-aoc-2022", :created-at "2023-11-14T08:29:28Z", :pushed-at "2023-12-10T05:59:12Z", :size-kb 69, :stars 0, :archived? false}
 #:repo{:id 718892186, :lang :zig, :full-name "danmack/adventOfCode", :created-at "2023-11-15T02:07:41Z", :pushed-at "2023-12-08T01:51:27Z", :size-kb 27, :stars 0, :archived? false}
 #:repo{:id 720567638, :lang :zig, :full-name "fardragon/AdventOfCode", :created-at "2023-11-18T21:56:09Z", :pushed-at "2025-12-12T19:38:37Z", :size-kb 231, :stars 0, :archived? false}
@@ -9716,7 +9608,6 @@
 #:repo{:id 726587905, :lang :zig, :full-name "max-the-mage/AdventOfCode2023", :created-at "2023-12-02T19:55:48Z", :pushed-at "2023-12-02T21:14:53Z", :size-kb 12326, :stars 0, :archived? false}
 #:repo{:id 726607657, :lang :zig, :full-name "espentrydal/aoc-zig-2023", :created-at "2023-12-02T21:23:44Z", :pushed-at "2023-12-02T21:23:45Z", :size-kb 8, :stars 0, :archived? false}
 #:repo{:id 726608165, :lang :zig, :full-name "LukeMinnich/advent-of-code-2023", :created-at "2023-12-02T21:26:06Z", :pushed-at "2023-12-23T01:54:46Z", :size-kb 52, :stars 0, :archived? false}
-#:repo{:id 726612821, :lang :zig, :full-name "TommyJingles/text-based-adventure", :created-at "2023-12-02T21:48:38Z", :pushed-at "2024-03-29T23:24:38Z", :size-kb 75, :stars 0, :archived? false}
 #:repo{:id 726637087, :lang :zig, :full-name "andrew644/advent_of_code_2023", :created-at "2023-12-02T23:19:24Z", :pushed-at "2025-08-13T20:28:26Z", :size-kb 91, :stars 0, :archived? false}
 #:repo{:id 726639666, :lang :zig, :full-name "truemedian/advent2023", :created-at "2023-12-02T23:35:20Z", :pushed-at "2023-12-04T16:28:39Z", :size-kb 79, :stars 0, :archived? false}
 #:repo{:id 726640103, :lang :zig, :full-name "erik-dunteman/aoc23", :created-at "2023-12-02T23:38:22Z", :pushed-at "2023-12-02T23:38:34Z", :size-kb 17, :stars 0, :archived? false}
@@ -9918,7 +9809,6 @@
 #:repo{:id 834793602, :lang :zig, :full-name "picogeyer/aoc", :created-at "2024-07-28T11:35:02Z", :pushed-at "2024-12-14T22:12:45Z", :size-kb 42, :stars 0, :archived? false}
 #:repo{:id 834807791, :lang :zig, :full-name "TimothyElems/advent-of-code", :created-at "2024-07-28T12:28:34Z", :pushed-at "2024-07-28T17:39:34Z", :size-kb 6, :stars 0, :archived? false}
 #:repo{:id 835418840, :lang :zig, :full-name "Nekrolm/aoc2019_multilang", :created-at "2024-07-29T19:53:20Z", :pushed-at "2024-10-27T18:28:29Z", :size-kb 56, :stars 0, :archived? false}
-#:repo{:id 836267299, :lang :zig, :full-name "doccaico/Adventures-Raylib", :created-at "2024-07-31T13:42:49Z", :pushed-at "2025-01-28T15:58:17Z", :size-kb 16, :stars 0, :archived? false}
 #:repo{:id 836308884, :lang :zig, :full-name "esaldor/zig-advent-of-code", :created-at "2024-07-31T15:14:28Z", :pushed-at "2024-08-05T19:49:42Z", :size-kb 15, :stars 1, :archived? false}
 #:repo{:id 836657842, :lang :zig, :full-name "KoaLaYT/adventofcode", :created-at "2024-08-01T09:37:53Z", :pushed-at "2025-06-09T07:23:10Z", :size-kb 815, :stars 1, :archived? false}
 #:repo{:id 837427915, :lang :zig, :full-name "debling/advent-of-code", :created-at "2024-08-03T00:53:17Z", :pushed-at "2025-12-03T13:18:54Z", :size-kb 53, :stars 0, :archived? false}
@@ -9938,7 +9828,6 @@
 #:repo{:id 865641381, :lang :zig, :full-name "Feferoni/AOC_2021_ZIG", :created-at "2024-09-30T21:43:56Z", :pushed-at "2024-10-19T20:54:41Z", :size-kb 909, :stars 0, :archived? false}
 #:repo{:id 865838777, :lang :zig, :full-name "teilin/aoc-zig", :created-at "2024-10-01T08:14:48Z", :pushed-at "2025-09-03T11:48:31Z", :size-kb 208, :stars 0, :archived? false}
 #:repo{:id 869053249, :lang :zig, :full-name "l-lini/aoc23", :created-at "2024-10-07T16:30:44Z", :pushed-at "2024-12-01T11:30:08Z", :size-kb 84, :stars 1, :archived? false}
-#:repo{:id 869508243, :lang :zig, :full-name "tomascarruco/zig-http-adventure", :created-at "2024-10-08T12:17:23Z", :pushed-at "2024-10-08T12:18:18Z", :size-kb 6, :stars 0, :archived? false}
 #:repo{:id 871273973, :lang :zig, :full-name "sbrow/advent_of_code", :created-at "2024-10-11T16:00:43Z", :pushed-at "2025-04-06T17:35:21Z", :size-kb 83, :stars 0, :archived? false}
 #:repo{:id 871423116, :lang :zig, :full-name "valentinRog/advent-of-code-2021", :created-at "2024-10-12T00:01:46Z", :pushed-at "2025-01-25T15:47:45Z", :size-kb 76, :stars 0, :archived? false}
 #:repo{:id 872687225, :lang :zig, :full-name "Drumstickz64/advent_of_code_2020", :created-at "2024-10-14T22:18:36Z", :pushed-at "2024-10-18T21:49:01Z", :size-kb 34, :stars 0, :archived? false}
@@ -10388,7 +10277,6 @@
 #:repo{:id 902083615, :lang :zig, :full-name "wyatt-radkiewicz/advent-of-code-2024", :created-at "2024-12-11T21:53:17Z", :pushed-at "2024-12-11T21:55:53Z", :size-kb 7, :stars 0, :archived? false}
 #:repo{:id 902108293, :lang :zig, :full-name "luxgile/Advent-of-Code-2024", :created-at "2024-12-11T23:24:26Z", :pushed-at "2024-12-12T23:34:15Z", :size-kb 49266, :stars 0, :archived? false}
 #:repo{:id 902597439, :lang :zig, :full-name "AustinAttempts/AOC2024", :created-at "2024-12-12T22:10:01Z", :pushed-at "2025-12-31T04:14:43Z", :size-kb 155, :stars 0, :archived? false}
-#:repo{:id 902677556, :lang :zig, :full-name "TzeroOcne/zig-adventure", :created-at "2024-12-13T03:38:04Z", :pushed-at "2024-12-13T03:38:59Z", :size-kb 3, :stars 0, :archived? false}
 #:repo{:id 902849840, :lang :zig, :full-name "lpoorthuis/advent-of-zig", :created-at "2024-12-13T11:54:09Z", :pushed-at "2024-12-19T16:23:52Z", :size-kb 5525, :stars 0, :archived? false}
 #:repo{:id 902953387, :lang :zig, :full-name "LDprg/AOC_2024", :created-at "2024-12-13T16:00:58Z", :pushed-at "2025-12-27T15:25:26Z", :size-kb 14, :stars 0, :archived? true}
 #:repo{:id 903062661, :lang :zig, :full-name "sk4rm/advent-of-code-2024", :created-at "2024-12-13T21:15:13Z", :pushed-at "2024-12-13T21:15:59Z", :size-kb 411, :stars 0, :archived? false}
@@ -10461,7 +10349,6 @@
 #:repo{:id 926182033, :lang :zig, :full-name "vncsmyrnk/aoc", :created-at "2025-02-02T18:37:57Z", :pushed-at "2025-03-05T13:02:15Z", :size-kb 31, :stars 0, :archived? false}
 #:repo{:id 927612796, :lang :zig, :full-name "benjuh/aoc2024", :created-at "2025-02-05T08:49:09Z", :pushed-at "2025-02-22T04:54:39Z", :size-kb 200, :stars 0, :archived? false}
 #:repo{:id 927908125, :lang :zig, :full-name "Mario-SO/advent_of_zig", :created-at "2025-02-05T18:34:24Z", :pushed-at "2025-12-02T09:16:34Z", :size-kb 4647, :stars 1, :archived? false}
-#:repo{:id 930242986, :lang :zig, :full-name "d0mb1/text_adventure-zig", :created-at "2025-02-10T10:11:26Z", :pushed-at "2025-02-19T14:56:42Z", :size-kb 11, :stars 0, :archived? false}
 #:repo{:id 932189062, :lang :zig, :full-name "Algorithmonaut/AOC-2024-zig", :created-at "2025-02-13T14:14:38Z", :pushed-at "2025-05-16T12:36:35Z", :size-kb 1257, :stars 0, :archived? false}
 #:repo{:id 932500255, :lang :zig, :full-name "cabeedelhertz/advent-of-zig", :created-at "2025-02-14T02:28:11Z", :pushed-at "2025-02-18T01:53:51Z", :size-kb 446, :stars 0, :archived? false}
 #:repo{:id 933301752, :lang :zig, :full-name "SamKn1ght/Advent-of-Code-2024", :created-at "2025-02-15T16:27:29Z", :pushed-at "2025-02-18T01:38:38Z", :size-kb 6, :stars 0, :archived? false}
@@ -10491,11 +10378,9 @@
 #:repo{:id 981079792, :lang :zig, :full-name "DarthPumpkin/advent-of-code-24", :created-at "2025-05-10T09:44:38Z", :pushed-at "2025-11-29T23:16:08Z", :size-kb 45, :stars 0, :archived? false}
 #:repo{:id 982511867, :lang :zig, :full-name "tww-r1/Advent-of-Code-2024-Solutions", :created-at "2025-05-13T02:10:05Z", :pushed-at "2025-05-16T00:55:16Z", :size-kb 3, :stars 1, :archived? false}
 #:repo{:id 991152580, :lang :zig, :full-name "lucasbclarke/aoc", :created-at "2025-05-27T07:48:17Z", :pushed-at "2025-12-03T01:40:33Z", :size-kb 62, :stars 0, :archived? false}
-#:repo{:id 995654773, :lang :zig, :full-name "Mudinlah/Azua-Adventure", :created-at "2025-06-03T20:18:15Z", :pushed-at "2026-03-03T17:30:51Z", :size-kb 98899, :stars 0, :archived? false}
 #:repo{:id 995796983, :lang :zig, :full-name "gihyunx/advent-of-code-zig", :created-at "2025-06-04T02:52:24Z", :pushed-at "2025-07-23T00:07:22Z", :size-kb 68, :stars 0, :archived? false}
 #:repo{:id 998099219, :lang :zig, :full-name "siddharthkumarjha/AOC-2024", :created-at "2025-06-07T21:28:08Z", :pushed-at "2025-06-16T12:33:31Z", :size-kb 60, :stars 0, :archived? false}
 #:repo{:id 998954501, :lang :zig, :full-name "chrisjung01/zig_adventofcode_2024", :created-at "2025-06-09T14:11:19Z", :pushed-at "2025-06-09T16:51:49Z", :size-kb 1948, :stars 0, :archived? false}
-#:repo{:id 1003740892, :lang :zig, :full-name "mrSamDev/my-zig-adventures", :created-at "2025-06-17T15:40:41Z", :pushed-at "2025-06-17T15:41:21Z", :size-kb 0, :stars 0, :archived? false}
 #:repo{:id 1007271442, :lang :zig, :full-name "definitepotato/aoc", :created-at "2025-06-23T18:20:57Z", :pushed-at "2025-12-11T14:31:39Z", :size-kb 3227, :stars 0, :archived? false}
 #:repo{:id 1007322964, :lang :zig, :full-name "gaba-gh0ul/Zig-AoC", :created-at "2025-06-23T20:16:02Z", :pushed-at "2025-06-23T20:16:05Z", :size-kb 8, :stars 0, :archived? false}
 #:repo{:id 1014542571, :lang :zig, :full-name "mdmrk/aoc22", :created-at "2025-07-05T23:43:38Z", :pushed-at "2025-08-07T10:18:11Z", :size-kb 86, :stars 0, :archived? false}
@@ -10572,7 +10457,6 @@
 #:repo{:id 1107345598, :lang :zig, :full-name "msyke/aoc2025", :created-at "2025-12-01T02:20:27Z", :pushed-at "2025-12-08T05:05:22Z", :size-kb 20, :stars 0, :archived? false}
 #:repo{:id 1107363803, :lang :zig, :full-name "LithosphereRocketry/AOC2025", :created-at "2025-12-01T03:11:35Z", :pushed-at "2025-12-08T07:23:50Z", :size-kb 30, :stars 0, :archived? false}
 #:repo{:id 1107377185, :lang :zig, :full-name "DuskyElf/advent-of-zig-25", :created-at "2025-12-01T03:48:11Z", :pushed-at "2025-12-09T19:41:03Z", :size-kb 20, :stars 1, :archived? false}
-#:repo{:id 1107378902, :lang :zig, :full-name "doccaico/Adventures-Opengl", :created-at "2025-12-01T03:53:03Z", :pushed-at "2025-12-02T09:02:53Z", :size-kb 24, :stars 0, :archived? false}
 #:repo{:id 1107381245, :lang :zig, :full-name "Lilweavs/advent-of-code-2025", :created-at "2025-12-01T03:59:30Z", :pushed-at "2025-12-05T04:57:30Z", :size-kb 7, :stars 0, :archived? false}
 #:repo{:id 1107384532, :lang :zig, :full-name "nathanielketema/advent-of-code", :created-at "2025-12-01T04:08:35Z", :pushed-at "2026-01-08T22:07:56Z", :size-kb 190, :stars 1, :archived? false}
 #:repo{:id 1107386886, :lang :zig, :full-name "shiznit0587/AdventOfCode2025", :created-at "2025-12-01T04:15:00Z", :pushed-at "2026-01-28T04:23:57Z", :size-kb 182, :stars 0, :archived? false}
@@ -10955,7 +10839,6 @@
 #:repo{:id 1123815877, :lang :zig, :full-name "earthfail/advent-of-code", :created-at "2025-12-27T17:25:01Z", :pushed-at "2026-01-02T21:26:55Z", :size-kb 20, :stars 0, :archived? false}
 #:repo{:id 1123949014, :lang :zig, :full-name "mauroraya/adventofcode-2025-day6-zig", :created-at "2025-12-28T01:33:17Z", :pushed-at "2025-12-29T00:47:22Z", :size-kb 16, :stars 0, :archived? false}
 #:repo{:id 1124097153, :lang :zig, :full-name "benbarten/aoc-2025", :created-at "2025-12-28T10:25:54Z", :pushed-at "2026-01-10T20:36:48Z", :size-kb 46, :stars 0, :archived? false}
-#:repo{:id 1124175030, :lang :zig, :full-name "kenesparta/zig-adventures", :created-at "2025-12-28T13:52:30Z", :pushed-at "2026-01-12T05:23:43Z", :size-kb 11, :stars 1, :archived? false}
 #:repo{:id 1124347731, :lang :zig, :full-name "guerreroderrick/adventofcode-2025", :created-at "2025-12-28T21:20:23Z", :pushed-at "2025-12-28T21:34:57Z", :size-kb 51, :stars 0, :archived? false}
 #:repo{:id 1125513159, :lang :zig, :full-name "ak4-sh/aoc_zig", :created-at "2025-12-30T21:35:45Z", :pushed-at "2025-12-30T21:39:30Z", :size-kb 15, :stars 0, :archived? false}
 #:repo{:id 1125639178, :lang :zig, :full-name "maladr0it/aoc25", :created-at "2025-12-31T04:48:55Z", :pushed-at "2026-01-22T05:08:30Z", :size-kb 144, :stars 0, :archived? false}
