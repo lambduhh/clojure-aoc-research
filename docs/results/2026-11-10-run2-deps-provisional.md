@@ -1,3 +1,27 @@
+---
+type: Research
+title: "Dependency queries, run 2 (provisional)"
+description: "Funnel, declared deps, required namespaces and template coverage on the run-2 database (10,960 repos)."
+tags: [advent-of-code, results]
+created: 2026-11-10
+modified: 2026-11-11
+source: "src/research/queries.clj"
+ai_assisted: "Claude Opus 5.5 via Claude Code"
+session: 0a61cb0b
+tools: [babashka, clojure, Datomic Local]
+agents_skills: []
+review_maturity: L2 (Human-reviewed)
+review_note: "Viewed by lambduhh in PR #4 on 2026-11-11."
+reviewed_at: 2026-11-11
+---
+
+# Dependency queries, run 2 (provisional)
+
+Funnel, declared deps, required namespaces and template coverage on the run-2 database (10,960 repos).
+
+Produced by: src/research/queries.clj.
+
+```text
 == Q15 funnel
    [:clojure :cloned 3489]
    [:clojure :failed 1]
@@ -12,10 +36,10 @@
    [:zig :cloned 1861]
    [:zig :missing 12]
    [:zig :skipped-size 55]
-   included solution files [:clojure 45766]
-   included solution files [:elixir 47888]
-   included solution files [:ocaml 15443]
-   included solution files [:zig 18905]
+   included solution files [:clojure 45224]
+   included solution files [:elixir 47550]
+   included solution files [:ocaml 15317]
+   included solution files [:zig 18683]
 
 == Q1 Clojure repos (cloned): 3489 | with any declaration: 2880
    2519  87.5%  org.clojure/clojure
@@ -108,3 +132,4 @@
     128  criterium/criterium
      51  io.github.nextjournal/clerk
      12  clj-kondo/clj-kondo
+```

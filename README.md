@@ -1,5 +1,3 @@
-<!-- DRAFT: AI-drafted; pending Jordan's review. -->
-
 # clojure-aoc-research
 
 What Clojure Advent of Code solvers actually use, compared with solvers in Elixir, OCaml and Zig. It covers dependencies, var references, line counts, how far people get, and whether old repos still work. Built with Clojure, babashka and Datomic.
@@ -20,7 +18,7 @@ Repo lists come from Thiago Carvalho's [programming-language-vitality](https://g
 
 Run everything after cloning with `bb after-clone "<note>"`. Tests: `bb test` (babashka) and `bb test-jvm` (clj-kondo stage and loader).
 
-**Checks before results are trusted:** the puzzle mapper's precision is measured on hand-labelled samples ([`data/labels/`](data/labels)), and the line-count comparison is pre-registered in [`prereg/lines-of-code.md`](prereg/lines-of-code.md).
+**Checks before results are trusted:** the puzzle mapper's precision is measured on hand-labelled samples ([`data/labels/`](data/labels)), and the line-count comparison is pre-registered in [`docs/prereg/lines-of-code.md`](docs/prereg/lines-of-code.md).
 
 `bb status` summarises the clone log. `bb test` runs the tests. `bb tasks` lists all tasks.
 

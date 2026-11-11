@@ -1,4 +1,18 @@
-<!-- DRAFT: AI-drafted; pending Jordan's review. -->
+---
+type: Review
+title: "Verification of the first-pass insights (2026-11-11)"
+description: "Three independent checks per claim (recompute, methodology, critic), with corrected wording for each claim."
+tags: [advent-of-code]
+created: 2026-11-11
+modified: 2026-11-11
+ai_assisted: "Claude Opus 5.5 via Claude Code"
+session: 0a61cb0b
+tools: [babashka, clojure, Datomic Local, gh]
+agents_skills: []
+review_maturity: L2 (Human-reviewed)
+review_note: "Viewed by lambduhh in PR #4 on 2026-11-11."
+reviewed_at: 2026-11-11
+---
 
 # Verification of the first-pass insights (2026-11-11)
 

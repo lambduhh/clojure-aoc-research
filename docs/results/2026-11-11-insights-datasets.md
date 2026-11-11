@@ -1,3 +1,27 @@
+---
+type: Research
+title: "AoC repo trends and follow-on rates (exploratory)"
+description: "AoC-named repos per year by language, and the follow-on rate for all owners and for newcomers. Not pre-registered."
+tags: [advent-of-code, results]
+created: 2026-11-11
+modified: 2026-11-11
+source: "analysis/dataset_insights.bb and analysis/newcomers.bb"
+ai_assisted: "Claude Opus 5.5 via Claude Code"
+session: 0a61cb0b
+tools: [babashka, clojure, Datomic Local]
+agents_skills: []
+review_maturity: L2 (Human-reviewed)
+review_note: "Viewed by lambduhh in PR #4 on 2026-11-11."
+reviewed_at: 2026-11-11
+---
+
+# AoC repo trends and follow-on rates (exploratory)
+
+AoC-named repos per year by language, and the follow-on rate for all owners and for newcomers. Not pre-registered.
+
+Produced by: analysis/dataset_insights.bb and analysis/newcomers.bb.
+
+```text
 == I1: AoC-named repos created per year, by language (dataset, deduped)
 year  clojure   elixir    ocaml      zig   clojure-share
 2015      83       64        6        0     54.2%
@@ -40,3 +64,4 @@ year  clojure   elixir    ocaml      zig   clojure-share
    2023      12/106    11.3%    26/252    10.3%    12/190     6.3%    41/230    17.8%
    2024       6/115     5.2%    29/267    10.9%    20/165    12.1%    51/334    15.3%
    (exploratory. 'First repo' = earliest created repo whose PRIMARY language is that language in Thiago's dataset)
+```
