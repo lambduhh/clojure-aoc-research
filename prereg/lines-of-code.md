@@ -105,6 +105,35 @@ The causes, each fixed with a test:
 
 The fixes were tuned on that sample, so precision is **re-measured on a fresh holdout sample** with a different seed before any comparison runs. Both measurements are reported.
 
+### Amendment 3 (2026-11-10, before any comparison): holdout result
+
+**The holdout sample:** seed 20261111, 200 files, no overlap with the first sample. Per language it has three groups: 30 included files, 10 unmapped and 10 template-flagged. It was labelled by two blind AI labellers using **different methods** (path-first and content-first), who disagreed on 9 files; an adjudicator settled all 9.
+
+**Results before any further change:**
+
+| Measure | Result |
+|---|---|
+| **Included-file precision** (a real solution and the right puzzle) | **115/120 = 95.8%** (95% CI 90.6–98.2). Passes the 95% gate on the point estimate. |
+| Clojure | 30/30 |
+| Elixir | 29/30 |
+| OCaml | 29/30 |
+| Zig | 27/30 (90%, CI 74.4–96.5) |
+| Puzzle key correct, ignoring whether the file is a stub | 118/120 |
+| **Template detector precision** | **37/40 = 92.5%** (CI 80.1–97.4). Two real Clojure solutions were wrongly flagged (thin intcode wrappers repeated across days). |
+| **Unmapped files that are real solutions** | **12/40.** By language: Clojure 3/10, Elixir 6/10, OCaml 1/10, Zig 2/10. Estimated recall of included files, from these small samples: Clojure ≈95%, Elixir ≈90%, OCaml ≈97.5%, Zig ≈95.5%. Elixir's misses are mostly modules named after puzzle titles (`no_space_left_on_device`, `dive.ex`), which need a title list (design section 5). |
+
+**Change after the holdout.** The holdout can't validate it.
+- `d11q2` was read as day 2; it is day 11, question 2.
+- `advent4`, `aoc04` and `advent-10` are now read as days, for numbers 1–14 only, which can't be years.
+- `11-01` is read as day 11, part 1.
+
+Tests pin each case, and they were confirmed to fail on the previous mapper.
+
+**Residual biases:**
+- Unfinished but mapped solutions (2 of 3 Zig errors) can't be detected from paths. They add noise to line counts.
+- Lower Elixir recall shrinks the Elixir sample. That biases the comparison only if missed solutions differ in length from found ones, which hasn't been tested.
+- AI labels are pending Jordan's spot-check (`data/labels/holdout-labels.edn`).
+
 ### Amendment 2 (2026-11-10, before any comparison)
 
 An independent code review (four reviewers, each checked by a skeptic) confirmed several defects that bias the measures by language. The fixes are listed in the repo's commit history. Two changes concern this plan directly:

@@ -72,14 +72,16 @@
   (mapv re-pattern
         [(str "(?i)(?<![a-z])day[ _-]?" day-n "(?!\\d)")            ; day07, day_7, Day 5
          (str "(?i)(?<![a-z])dec[_-]?" day-n "(?!\\d)")             ; dec_6, dec10
-         (str "(?i)(?<![a-z])d" day-n "(?!\\d)(?![a-oq-z])")        ; d07, d1p2 (part); not d3js
+         (str "(?i)(?<![a-z])d" day-n "(?!\\d)(?![a-or-z])")        ; d07, d1p2 (part), d11q2 (question); not d3js
          (str "(?<!\\d)20(?:1[5-9]|2[0-5])[_-]" day-n "(?!\\d)")])) ; 2023_14
 
 (def ^:private weak-day-patterns
   ;; Bare numbers: a day, or sometimes a part number or a year.
   (mapv re-pattern
         [(str "(?i)(?<![a-z])(?:q|ex)[_-]?" day-n "(?!\\d)")        ; Q22, ex1
-         (str "^" day-n "(?:[ab]|[._-](?:part)?[12])?$")            ; 07, 5a, 6b, 01_2, 23.1
+         ;; advent4, aoc04, advent-10: only 1-14, which can't be read as a 2-digit year
+         "(?i)(?<![a-z])(?:advent|aoc)[_-]?0?([1-9]|1[0-4])(?!\\d)"
+         (str "^" day-n "(?:[ab]|[._-](?:part)?0?[12])?$")          ; 07, 5a, 6b, 01_2, 23.1, 11-01
          (str "^" day-n "[-_][A-Za-z][\\w-]*$")]))                  ; 10-factory, 07-handy-haversacks
 
 (def ^:private number-words

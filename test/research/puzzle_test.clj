@@ -81,6 +81,21 @@
     "day07/dune" "src/day02/project.clj" "build.zig.zon")
   (is (empty? (:puzzle/keys (mapped "2023-day3-zig/build.zig"))) "config files don't map to a puzzle"))
 
+(deftest post-holdout-patterns
+  (testing "d11q2 = day 11, question 2 (holdout found d11q2 -> day 2)"
+    (is (= #{[2023 11]} (:puzzle/keys (mapped "src/d11q2.zig" :repo-name "ZigAoC2023")))))
+  (testing "advent/aoc + a number that can't be a year (1-14) is a day"
+    (are [path repo year day] (= #{[year day]} (:puzzle/keys (mapped path :repo-name repo)))
+      "2017/advent-10/core.clj"   "x"       2017 10
+      "src/AoC/advent4.clj"       "AoC2022" 2022 4
+      "aoc04.exs"                 "aoc2021" 2021 4))
+  (testing "day-part names like 11-01"
+    (are [path year day] (= #{[year day]} (:puzzle/keys (mapped path :repo-name "x")))
+      "2017/src/11-01.zig" 2017 11
+      "2017/src/16-02.zig" 2017 16))
+  (testing "aoc21 stays an ambiguous year, not a day"
+    (is (= #{[2021 7]} (:puzzle/keys (mapped "src/aoc21/day07.clj" :repo-name "x"))))))
+
 (deftest invalid-days
   (is (empty? (:puzzle/keys (mapped "src/aoc2021/day26.clj"))))
   (is (empty? (:puzzle/keys (mapped "src/aoc2025/day13.clj"))) "2025 had 12 days")

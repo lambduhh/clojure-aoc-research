@@ -1,0 +1,40 @@
+disagreements between labellers: 9 | unresolved: 0
+
+== INCLUDED (what Q11-13 use): real solution AND correct puzzle
+   overall  115/120 = 95.8% (95% CI 90.6-98.2)
+   clojure  30/30 = 100.0% (95% CI 88.6-100.0)
+   elixir   29/30 = 96.7% (95% CI 83.3-99.4)
+   ocaml    29/30 = 96.7% (95% CI 83.3-99.4)
+   zig      27/30 = 90.0% (95% CI 74.4-96.5)
+   puzzle key correct (ignoring stub status): 118/120 = 98.3% (95% CI 94.1-99.5)
+   failures:
+     :elixir lib/aoc2021/day5/point.ex | mapper [2021 5] label [2021 5] sol? false nil | aoc2021/day5/point.ex generic point struct, no puzzle logic
+     :ocaml bin/day15.ml | mapper [2024 15] label [2023 15] sol? true nil | bin/day15.ml in yearless repo; HASH *17 mod 256 lens boxes is 2023 day 15 (test data matches)
+     :zig 2024/zig-2024/src/d12.zig | mapper [2024 12] label [2024 12] sol? false nil | 2024 d12 garden regions WIP: sample input only, floods only the first region, perimeter never summed, returns placeholder 99 for both parts
+     :zig 07/part-2/main.zig | mapper [2024 7] label [2024 7] sol? false nil | 2024 day 7 part-2 WIP that does not compile: generate_combinations never returns, [][]u8 assigned to [][]bool, runtime 3 ** len; no concat operator
+     :zig src/d11q2.zig | mapper [2023 2] label [2023 11] sol? true nil | ZigAoC2023 src/d11q2.zig; galaxy empty rows/cols expansion
+
+== TEMPLATE-FLAGGED: labeller agrees it's a template/stub/not a solution
+   overall  37/40 = 92.5% (95% CI 80.1-97.4)
+   clojure  8/10 = 80.0% (95% CI 49.0-94.3)
+   elixir   10/10 = 100.0% (95% CI 72.2-100.0)
+   ocaml    10/10 = 100.0% (95% CI 72.2-100.0)
+   zig      9/10 = 90.0% (95% CI 59.6-98.2)
+    WRONGLY FLAGGED: :clojure 2017/clj/src/clj/day21.clj | 2017/clj day21.clj; fractal art enhance 5/18 iterations
+    WRONGLY FLAGGED: :clojure src/adventofcode2019/day05.clj | adventofcode2019/day05; runs shared intcode with inputs 1 and 5
+    WRONGLY FLAGGED: :zig 2024/10/main.zig | in 2024/10/ but identical to 2024/3/src/main.zig; mul/do/don't is day 3
+
+== UNMAPPED: real solutions with a known puzzle that the mapper missed
+    12/40 = 30.0% (95% CI 18.1-45.4)
+    MISSED: :clojure 2017/advent-10/core.clj | label [2017 10] | 2017/advent-10/core.clj; Knot Hash
+    MISSED: :clojure clojure/2023/src/adv/t10.clj | label [2023 10] | clojure/2023/src/adv/t10.clj; pipe maze tiles
+    MISSED: :clojure src/AoC/advent4.clj | label [2022 4] | repo AoC2022, advent4.clj; range subsume/overlap
+    MISSED: :elixir adventcoints-4/adventcoints.exs | label [2015 4] | repo adventofcode-2015, adventcoints-4; md5 00000 mining
+    MISSED: :elixir lib/dive.ex | label [2021 2] | Aoc.Dive moduledoc 'day 2'; forward/down/up with aim; repo created 2021-12
+    MISSED: :elixir no_space_left_on_device/lib/impl/input_parser.ex | label [2022 7] | repo advent-of-code-2022, no_space_left_on_device parser computing dir sizes
+    MISSED: :elixir aoc04.exs | label [2021 4] | repo aoc2021, aoc04.exs; bingo boards
+    MISSED: :elixir lib/day_7.ex | label [2016 7] | day_7.ex IPv7 ABBA supernet/hypernet; no year in path
+    MISSED: :elixir apps/advent7a/lib/advent7a.ex | label [2023 7] | apps/advent7a camel cards hand/bid ranking; repo created 2023-12
+    MISSED: :ocaml solutions/aoc2019/s18.ml | label [2019 18] | solutions/aoc2019/s18.ml; keys/doors grid graph
+    MISSED: :zig 2017/src/11-01.zig | label [2017 11] | 2017/src/11-01.zig; hex grid n/ne/se direction reduction
+    MISSED: :zig 2017/src/16-02.zig | label [2017 16] | 2017/src/16-02.zig; dance moves s/x/p, 1e9 iterations
