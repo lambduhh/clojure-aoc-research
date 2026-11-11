@@ -1,3 +1,26 @@
+---
+type: Research
+title: "Database insights (exploratory)"
+description: "How far solvers get, build files, Clojure versions, feature adoption, AI files, editors, other ecosystems' deps, Datomic use. Not pre-registered."
+tags: [advent-of-code, results]
+created: 2026-11-11
+modified: 2026-11-11
+source: "analysis/db_insights.clj"
+ai_assisted: "Claude Opus 5.5 via Claude Code"
+session: 0a61cb0b
+tools: [babashka, clojure, Datomic Local]
+agents_skills: []
+review_maturity: L0 (AI-generated)
+review_note: "Script output, not yet human-reviewed. Check the verification doc before quoting."
+---
+
+# Database insights (exploratory)
+
+How far solvers get, build files, Clojure versions, feature adoption, AI files, editors, other ecosystems' deps, Datomic use. Not pre-registered.
+
+Produced by: analysis/db_insights.clj.
+
+```text
 == Q13 how far solvers get (included solution files; repo-years; 2015-2024 have 25 days)
   2015-2024 (25 days)
    lang      repo-years  median-days  median-last-day  reached-last-day  stopped-by-day-7
@@ -76,3 +99,4 @@
 
 == Datomic in AoC repos
    [[com.datomic/datomic-free 3] [com.datomic/peer 1]]
+```

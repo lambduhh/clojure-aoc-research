@@ -1,4 +1,6 @@
 {:paths ["src"]
+ ;; temper's OKF tools validate the docs/ bundle (lambduhh/temper, private).
+ :deps  {io.github.lambduhh/temper {:git/sha "2b77a4de31b7019d96546198365288b0c0f80045"}}
  :tasks
  {test    {:doc "Run the babashka tests"
            :extra-paths ["test"]
@@ -31,6 +33,17 @@
                        (shell "clojure -M:kondo")
                        (shell "clojure -M:core-vars")
                        (shell "clojure" "-M:load" "--fresh" "--note" note))}
+  docs:validate {:doc "Validate docs/ frontmatter (temper.okf.validate)"
+                 :requires ([temper.okf.validate])
+                 :task (apply temper.okf.validate/-main *command-line-args*)}
+  docs:links    {:doc "Check docs/ links and anchors (temper.okf.links)"
+                 :requires ([temper.okf.links])
+                 :task (apply temper.okf.links/-main *command-line-args*)}
+  docs:check    {:doc "Run every docs check; fails if any fails"
+                 :depends [docs:validate docs:links]}
+  results:wrap {:doc "Wrap stdin as docs/results/<name>.md with frontmatter. Flags: --name --title --description --source"
+                :requires ([research.report :as r])
+                :task (apply r/-main *command-line-args*)}
   extract-summary {:doc "Counts across all extracted repos"
                    :requires ([research.extract :as x])
                    :task (x/summary)}}}

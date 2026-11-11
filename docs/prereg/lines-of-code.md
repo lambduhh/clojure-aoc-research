@@ -1,4 +1,17 @@
-<!-- DRAFT: AI-drafted from decisions made with Jordan Miller on 2026-11-10; pending Jordan's review. -->
+---
+type: Pre-registration
+title: "Pre-registration: lines of code across languages (questions 11-13)"
+description: "Analysis plan for the cross-language lines-of-code comparison, committed before any comparison was computed, with dated amendments."
+tags: [advent-of-code]
+created: 2026-11-10
+modified: 2026-11-11
+ai_assisted: "Claude Opus 5.5 via Claude Code"
+session: 0a61cb0b
+tools: [babashka, clojure, Datomic Local, gh]
+agents_skills: []
+review_maturity: L1 (Human-directed)
+review_note: "Decisions are Jordan's; Claude drafted the text. Not yet read end to end by a human."
+---
 
 # Pre-registration: lines of code across languages (questions 11–13)
 
@@ -12,7 +25,7 @@ This file is committed **before** any cross-language line-count comparison is co
 
 ## Data
 
-- **Population:** AoC-named repos created 2015–2025 whose primary language is Clojure, Elixir, OCaml or Zig. They come from [programming-language-vitality](https://github.com/thiagooak/programming-language-vitality/tree/916e0f55bd44afe55382c9925f05cf3e243abfc8) at commit `916e0f5` ([`data/repos.edn`](../data/repos.edn)).
+- **Population:** AoC-named repos created 2015–2025 whose primary language is Clojure, Elixir, OCaml or Zig. They come from [programming-language-vitality](https://github.com/thiagooak/programming-language-vitality/tree/916e0f55bd44afe55382c9925f05cf3e243abfc8) at commit `916e0f5` ([`data/repos.edn`](../../data/repos.edn)).
 - **Unit:** a **solution**, meaning one repo's solution files for one puzzle `[year day]`, added together. Part 1 and part 2 in separate files count as one solution.
 - **Inclusion:**
   - `:file/role :solution`, which excludes `:config`;
