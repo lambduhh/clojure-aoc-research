@@ -3,10 +3,10 @@
   (:require [clojure.string :as str]))
 
 (def ^:private aoc-pattern
-  ;; "advent" anywhere; "aoc" at a word boundary (aoc2021, my-aoc, aoc_clj);
+  ;; "advent" anywhere except "adventure"; "aoc" at a word boundary (aoc2021, my-aoc, aoc_clj);
   ;; or camelCase "Aoc"/"AoC" (ZigAocTemplate). Rejects "aoc" inside words
   ;; such as kaocha, metaocaml, laocoon.
-  #"(?i:advent)|(?i:(?<![a-z])aoc)|(?i:aoc(?=[-_.0-9]|$))|Ao[cC](?=[A-Z0-9_.-]|$)|(?<=[a-z])Ao[cC]")
+  #"(?i:advent(?!ur))|(?i:(?<![a-z])aoc)|(?i:aoc(?=[-_.0-9]|$))|Ao[cC](?=[A-Z0-9_.-]|$)|(?<=[a-z])Ao[cC]")
 
 (defn repo-name
   "\"owner/name\" -> \"name\"."
