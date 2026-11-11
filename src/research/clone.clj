@@ -49,13 +49,15 @@
 
 (def ^:private git-env
   {"GIT_TERMINAL_PROMPT" "0"     ; never prompt for credentials
+   "GIT_ASKPASS"         "/usr/bin/false" ; ...and never run an askpass helper
+   "SSH_ASKPASS"         "/usr/bin/false"
    "GIT_LFS_SKIP_SMUDGE" "1"     ; don't download LFS blobs
    "GIT_CONFIG_NOSYSTEM" "1"})
 
 (def ^:private git-safety
   ;; No credential helpers, no hooks (including the user's global ones),
   ;; symlinks checked out as plain files so later stages can't escape the repo.
-  ["-c" "credential.helper=" "-c" "core.hooksPath=/dev/null"
+  ["-c" "credential.helper=" "-c" "core.askPass=/usr/bin/false" "-c" "core.hooksPath=/dev/null"
    "-c" "core.symlinks=false" "-c" "init.templateDir=" "-c" "protocol.file.allow=never"])
 
 (defn- git [dir & args]
