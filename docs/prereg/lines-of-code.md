@@ -9,8 +9,8 @@ ai_assisted: "Claude Opus 5.5 via Claude Code"
 session: 0a61cb0b
 tools: [babashka, clojure, Datomic Local, gh]
 agents_skills: []
-review_maturity: L2 (Human-reviewed)
-review_note: "Viewed by lambduhh in PR #4 on 2026-11-11."
+review_maturity: L1 (Human-directed)
+review_note: "Lowered to L1: at least 20% of words changed since the review at 1401385 (threshold 20%)."
 reviewed_at: 2026-11-11
 ---
 

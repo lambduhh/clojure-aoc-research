@@ -14,6 +14,7 @@ Repo lists come from Thiago Carvalho's [programming-language-vitality](https://g
 | 3b. Var references | `clojure -M:kondo` | Clojure only, via clj-kondo's static analysis: required namespaces and references to each var per file. Special forms, refers, imports and `(comment)` forms are excluded |
 | 3c. Core var versions | `clojure -M:core-vars` | `data/core-vars.edn`: when each core var was added |
 | 4. Load | `clojure -M:load --fresh` | Datomic Local on disk, one transaction per repo, each pointing at its run. `--fresh` rebuilds; loading into a populated database is refused |
+| 4b. cloc | `clojure -M:cloc` | Question 11's primary measure: `cloc` code lines for every included solution file, in `<cache>/cloc/counts.edn` (prereg amendment 4). Needs `cloc` on `$PATH` |
 | 5. Query | `research.queries` | Datalog, one query per research question |
 
 Run everything after cloning with `bb after-clone "<note>"`. Tests: `bb test` (babashka) and `bb test-jvm` (clj-kondo stage and loader).
