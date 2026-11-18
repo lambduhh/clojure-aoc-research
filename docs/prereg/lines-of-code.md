@@ -4,7 +4,7 @@ title: "Pre-registration: lines of code across languages (questions 11-13)"
 description: "Analysis plan for the cross-language lines-of-code comparison, committed before any comparison was computed, with dated amendments."
 tags: [advent-of-code]
 created: 2026-11-10
-modified: 2026-11-11
+modified: 2026-11-17
 ai_assisted: "Claude Opus 5.5 via Claude Code"
 session: 0a61cb0b
 tools: [babashka, clojure, Datomic Local, gh]
@@ -160,3 +160,34 @@ The review also made the pipeline's own count comparable across languages:
 - documentation is excluded in every language;
 - string-aware comment stripping for OCaml;
 - symlink placeholders are excluded.
+
+### Amendment 4 (2026-11-17, before any comparison): running `cloc`
+
+`cloc` 2.10 is now installed (Homebrew). Committed before any question 11 comparison is computed. The rules below were set after counting files by extension and testing `cloc` on sample files, but before computing any per-language line count.
+
+**How `cloc` is run** (`research.cloc`):
+- One run per batch of included files, given as a list file, with `--by-file --json --skip-uniqueness --force-lang=Clojure,bb`.
+- `--skip-uniqueness`: by default `cloc` silently drops files whose content duplicates another file in the same run. Identical solutions in different repos are separate solutions, so they must all be counted.
+- `--force-lang=Clojure,bb`: `cloc` reads `.bb` as BitBake by default (25 included Clojure files).
+
+**Which solutions are measured.** The inclusion rules above, plus:
+1. **A solution is dropped if any of its files has no `cloc` count**, rather than summing the files that do. Partial sums would undercount.
+   - This drops every solution containing a Livebook file (`.livemd`, 1,283 of 47,888 included Elixir files), because `cloc` doesn't recognise the format. This biases the Elixir sample only if Livebook solutions differ in length from the rest, which isn't tested.
+   - The number dropped is reported for each language.
+2. **Solutions with 0 `cloc` code lines are dropped.** They aren't solutions, and they would make `r` undefined.
+3. **The 2,000-line exclusion uses the `cloc` count** and is applied once. Every measure, primary and robustness, is then computed on the same set of solutions.
+4. No included file maps to more than one puzzle (checked 2026-11-17), so no file is split between puzzles.
+
+**Statistics, fixed now:**
+- **Bootstrap:** `java.util.Random` with seed 20261117. The percentile interval from 10,000 resamples of eligible puzzles.
+- **Equal-size minimum (amendment 2):** seed 20261118, 1,000 repeats, 10 solutions per language drawn without replacement.
+- **Wilcoxon signed-rank** on `log r` against 0, two-sided:
+  - zero differences are discarded (Wilcoxon's method);
+  - tied absolute values get average ranks;
+  - p uses the normal approximation, with tie-corrected variance and a continuity correction of 0.5.
+- **Cohen's d:** mean(`log r`) / sample SD(`log r`), using n − 1.
+- **The `log r` chart** is a text histogram, so it fits in a `docs/results/` file.
+
+**Robustness checks in this pass:** 1 (the pipeline's count) and 2 (Clojure without `(comment …)` forms).
+- **Not run:** 3 (tokens), because no tokenizer has been specified, and 4 (load check), because phase 2's load check hasn't been built.
+- Both are reported as not run. Neither is replaced.
