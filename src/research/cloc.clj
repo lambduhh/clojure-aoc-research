@@ -50,8 +50,8 @@
   (let [list-file (fs/create-temp-file {:prefix "cloc-list-" :suffix ".txt"})]
     (try
       (spit (str list-file) (str/join "\n" (map second batch)))
-      (let [{:keys [out exit err]} (p/shell {:out :string :err :string :continue true}
-                                            (into ["cloc" (str "--list-file=" list-file)] cloc-args))]
+      (let [{:keys [out exit err]} (apply p/shell {:out :string :err :string :continue true}
+                                          "cloc" (str "--list-file=" list-file) cloc-args)]
         (when-not (zero? exit)
           (throw (ex-info "cloc failed" {:exit exit :err err})))
         (let [by-path (if (str/blank? out) {} (json/read-str out))]
