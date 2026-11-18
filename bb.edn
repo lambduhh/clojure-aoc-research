@@ -9,8 +9,9 @@
                       [research.clone-test]
                       [research.puzzle-test]
                       [research.inventory-test]
-                      [research.deps-test])
-           :task (let [{:keys [fail error]} (t/run-tests 'research.names-test 'research.clone-test 'research.puzzle-test 'research.inventory-test 'research.deps-test)]
+                      [research.deps-test]
+                      [research.stats-test])
+           :task (let [{:keys [fail error]} (t/run-tests 'research.names-test 'research.clone-test 'research.puzzle-test 'research.inventory-test 'research.deps-test 'research.stats-test)]
                    (System/exit (if (zero? (+ fail error)) 0 1)))}
   collect {:doc "Download Thiago's pinned datasets and write data/repos.edn"
            :requires ([research.collect :as c])

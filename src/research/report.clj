@@ -10,7 +10,7 @@
 
 (defn document
   "Frontmatter + heading + description + the text in a fenced block."
-  [{:keys [name title description source today]} text]
+  [{:keys [name title description source today session]} text]
   (str "---\n"
        "type: Research\n"
        "title: " (yaml-str title) "\n"
